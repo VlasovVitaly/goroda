@@ -1,3 +1,6 @@
+# Local settings
+goroda/settings_local.py
+
 # Collected static files.
 /static/
 
