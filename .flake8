@@ -2,8 +2,9 @@
 max-line-length = 119
 
 exclude =
-    .git
+    .git,
     __pycache__,
     *.pyc,
     *.pyo,
     migrations,
+    manage.py
