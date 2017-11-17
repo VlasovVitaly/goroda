@@ -1,0 +1,17 @@
+# Collected static files.
+/static/
+
+# Dev-db
+db.sqlite3
+db.sqlite3-journal
+
+# Python compiled bytecode
+*.pyc
+__pycache__/*
+
+# Temp files
+*.sw?
+*~
+
+# gettext compiled translations
+*.mo
