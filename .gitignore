@@ -18,3 +18,7 @@ __pycache__/*
 
 # gettext compiled translations
 *.mo
+
+# Game app migrations
+game/migrations/*
+!game/migrations/__init__.py
