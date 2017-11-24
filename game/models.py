@@ -21,7 +21,7 @@ class City(models.Model):
     geotype = models.PositiveIntegerField(choices=TYPE_CHOICES, default=GEOTYPE_CITY)
 
     def __repr__(self):
-        return '<{}>: {} {}'.format(self.__class__.__name__, self.geotype, self.name)
+        return '<{}>:[{}] {}'.format(self.__class__.__name__, self.geotype, self.name)
 
     def __str__(self):
         return self.name
