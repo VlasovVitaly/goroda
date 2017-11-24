@@ -5,9 +5,11 @@ from django.contrib.auth.models import User
 class City(models.Model):
     """City name model."""
 
+    GEOTYPE_CITY = 1,
+    GEOTYPE_OTHER = 2,
     TYPE_CHOICES = (
-        (1, 'City'),
-        (2, 'Other place'),
+        (GEOTYPE_CITY, 'City'),
+        (GEOTYPE_OTHER, 'Other place'),
     )
 
     class Meta:
@@ -16,7 +18,7 @@ class City(models.Model):
         verbose_name_plural = 'City names'
 
     name = models.CharField(max_length=128, unique=True, db_index=True)
-    geotype = models.PositiveIntegerField(choices=TYPE_CHOICES)
+    geotype = models.PositiveIntegerField(choices=TYPE_CHOICES, default=GEOTYPE_CITY)
 
     def __repr__(self):
         return '<{}>: {} {}'.format(self.__class__.__name__, self.geotype, self.name)
