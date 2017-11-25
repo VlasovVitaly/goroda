@@ -88,4 +88,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'goroda', 'static')]
 
+LOGIN_URL = '/login/'
+LOGIN_REDIRECT_URL = '/'
+
 from .settings_local import *  # NOQA
