@@ -51,3 +51,16 @@ class Match(models.Model):
 
     def __str__(self):
         return 'Game: {} VS {}'.format(self.team1, self.team2)
+
+
+class Turn(models.Model):
+    match = models.ForeignKey(
+        Match, on_delete=models.CASCADE,
+        related_name='+', related_query_name='+'
+    )
+    city = models.CharField(max_length=128)
+    team = models.PositiveSmallIntegerField()
+    num = models.PositiveIntegerField()
+
+    def __str__(self):
+        return 'Turn #{}: Team {} -> {}'.format(self.num, self.team, self.city.name)
