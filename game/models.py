@@ -5,8 +5,8 @@ from django.contrib.auth.models import User
 class City(models.Model):
     """City name model."""
 
-    GEOTYPE_CITY = 1,
-    GEOTYPE_OTHER = 2,
+    GEOTYPE_CITY = 1
+    GEOTYPE_OTHER = 2
     TYPE_CHOICES = (
         (GEOTYPE_CITY, 'City'),
         (GEOTYPE_OTHER, 'Other place'),
