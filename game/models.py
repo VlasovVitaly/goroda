@@ -49,8 +49,11 @@ class Match(models.Model):
     exhaused_letters = models.CharField(max_length=32, blank=True, default='')
     turn_letter = models.CharField(max_length=1, blank=True)
 
+    def __repr__(self):
+        return '<{}>: {} [{}, {}]'.format(self.__class__.__name__, self.id, self.team1, self.team2)
+
     def __str__(self):
-        return 'Game: {} VS {}'.format(self.team1, self.team2)
+        return 'Match: {} VS {}'.format(self.team1, self.team2)
 
 
 class Turn(models.Model):
@@ -62,5 +65,8 @@ class Turn(models.Model):
     team = models.PositiveSmallIntegerField()
     num = models.PositiveIntegerField()
 
+    def __repr__(self):
+        return '<{}>: {}/{} -> {}'.format(self.__class__.__name__, self.match_id, self.num, self.city)
+
     def __str__(self):
-        return 'Turn #{}: Team {} -> {}'.format(self.num, self.team, self.city.name)
+        return 'Turn #{}: Team "{}" -> {}'.format(self.num, self.team, self.city.name)
