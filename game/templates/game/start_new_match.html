@@ -3,6 +3,25 @@
 {% block content %}
 <div class="container">
     <div class="col-md-8 col-md-offset-2">
+    <div class="well">
+        <h3 class="text-center">Start new match</h3>
+        <form id="start_new_match" method="POST">
+            <legend>Judge: {{ user.get_full_name|default:user.username }}</legend>
+            {% csrf_token %}
+            <div class="form-group">
+                {{ form.team1.label_tag }}
+                {{ form.team1 }}
+            </div>
+            <div class="form-group">
+                {{ form.team2.label_tag }}
+                {{ form.team2 }}
+            </div>
+            <hr>
+            <button autofocus type="submit" class="btn btn-primary">Start match</button>
+            <button type="reset" class="btn btn-default">Reset</button>
+            <a href={% url 'index' %} class="btn btn-default">Go back</a>
+        </form>
+    </div>
     </div>
 </div>
 {% endblock %}
