@@ -8,7 +8,7 @@ from .forms import StartNewMatchForm
 def start_page(request):
     context = {}
 
-    return render(request, 'game/start_page.html')
+    return render(request, 'game/start_page.html', context=context)
 
 
 @login_required
