@@ -42,7 +42,7 @@ class Match(models.Model):
     )
     finished = models.BooleanField(default=False)
     winner = models.PositiveIntegerField(null=True, blank=True)
-    current = models.PositiveIntegerField()
+    current = models.PositiveIntegerField(default=1)
     turns_count = models.PositiveIntegerField(default=0)
     started = models.DateTimeField(auto_now_add=True)
     ended = models.DateTimeField(null=True)
