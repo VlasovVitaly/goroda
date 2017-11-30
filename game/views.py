@@ -13,4 +13,4 @@ def start_page(request):
 
 @login_required
 def start_new_match(request):
-    pass
+    return render(request, 'game/start_new_match.html')
