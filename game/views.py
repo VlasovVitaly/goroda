@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseBadRequest
 
-from .forms import StartNewMatchForm
+from .forms import StartNewMatchForm, TurnForm
 from .models import Match
 
 
@@ -38,5 +38,6 @@ def match_detail(request, match_id):
 
     context['turns'] = match.turns.order_by('num').reverse()
     context['exhaused_letters'] = match.exhaused_letters  # TODO add allways exhaused letters here
+    context['turn_form'] = TurnForm()
 
     return render(request, 'game/match_detail.html', context=context)
