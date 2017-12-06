@@ -50,6 +50,15 @@ class Match(models.Model):
     exhaused_letters = models.CharField(max_length=32, blank=True, default='')
     turn_letter = models.CharField(max_length=1, blank=True)
 
+    def add_exhaused_letter(self, letter, commit=False):
+        if not letter or type(letter) != str:
+            return
+
+        self.exhaused_letters += letter.upper()
+
+        if commit:
+            self.save()
+
     def __repr__(self):
         return '<{}>: {} [{}, {}]'.format(self.__class__.__name__, self.id, self.team1, self.team2)
 
