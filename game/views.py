@@ -1,7 +1,9 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
+from django.http import HttpResponseBadRequest
 
 from .forms import StartNewMatchForm
+from .models import Match
 
 
 @login_required
@@ -28,5 +30,13 @@ def start_new_match(request):
 @login_required
 def match_detail(request, match_id):
     context = {}
+
+    context['match'] = match = get_object_or_404(Match, pk=match_id)
+
+    if request.user != match.judge:
+        return HttpResponseBadRequest("You are not a judge of this game.")  # TODO Remove or better message
+
+    context['match_turns'] = match.turns.order_by('num').reverse()
+    context['exhaused_letters'] = match.exhaused_letters  # TODO add allways exhaused letters here
 
     return render(request, 'game/match_detail.html', context=context)
