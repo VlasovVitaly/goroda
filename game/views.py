@@ -36,7 +36,7 @@ def match_detail(request, match_id):
     if request.user != match.judge:
         return HttpResponseBadRequest("You are not a judge of this game.")  # TODO Remove or better message
 
-    context['match_turns'] = match.turns.order_by('num').reverse()
+    context['turns'] = match.turns.order_by('num').reverse()
     context['exhaused_letters'] = match.exhaused_letters  # TODO add allways exhaused letters here
 
     return render(request, 'game/match_detail.html', context=context)

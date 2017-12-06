@@ -3,13 +3,35 @@
 {% block content %}
 <div class="container">
     <div class="row">
-        <div class="col-md-6 col-md-offset-3">{# TODO exhaused letters block #}</div>
+        <div class="col-md-6 col-md-offset-3">
+            {% spaceless %}
+            <h4>Exhaused letters:</h4>
+            <div>
+                {% for letter in exhaused_letters %}
+                    <label class="btn btn-danger">{{ letter }}</label>
+                {% endfor %}
+            </div>
+            {% endspaceless %}
+        </div>
     </div>
     <div class="row">
         <div class="col-md-6 col-md-offset-3">{# TODO make turn form #}</div>
     </div>
     <div class="row">
-        <div class="col-md-6 col-md-offset-3">{# TODO all turns block #}</div>
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title" align="center">{{ match.current_team_name }}</h3>
+                </div>
+                {% spaceless %}
+                <ul class="list-group" id="turns_list">
+                    {% for turn in turns %}
+                        <li class="list-group-item">{{ turn.city }}</li>
+                    {% endfor %}
+                </ul>
+                {% endspaceless %}
+            </div>
+        </div>
     </div>
 </div>
 {% endblock %}
