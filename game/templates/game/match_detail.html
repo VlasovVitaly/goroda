@@ -2,10 +2,17 @@
 {% block html_title %}Match detail{% endblock %}
 {% block content %}
 <div class="container">
-    <div class="col-md-8 col-md-offset-2">
-        <h1>Match detail</h1>
-        <h3>Team1: {{ match.team1 }}</h3>
-        <h3>Team2: {{ match.team2 }}</h3>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">{# TODO exhaused letters block #}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">{# TODO make turn form #}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">{# TODO all turns block #}</div>
     </div>
 </div>
+{% endblock %}
+{% block body_scripts %}
+    {{ block.super }}
 {% endblock %}
