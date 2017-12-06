@@ -50,6 +50,13 @@ class Match(models.Model):
     exhaused_letters = models.CharField(max_length=32, blank=True, default='')
     turn_letter = models.CharField(max_length=1, blank=True)
 
+    @property
+    def current_team_name(self):
+        if self.current_team == 1:
+            return self.team1
+        if self.current_team == 2:
+            return self.team2
+
     def add_exhaused_letter(self, letter, commit=False):
         if not letter or type(letter) != str:
             return
