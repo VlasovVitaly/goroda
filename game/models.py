@@ -69,4 +69,4 @@ class Turn(models.Model):
         return '<{}>: {}/{} -> {}'.format(self.__class__.__name__, self.match_id, self.num, self.city)
 
     def __str__(self):
-        return 'Turn #{}: Team "{}" -> {}'.format(self.num, self.team, self.city.name)
+        return 'Turn #{}: Team "{}" vs "{}"'.format(self.num, self.team, self.city)
