@@ -23,3 +23,10 @@ def start_new_match(request):
         # TODO redirect to match details
 
     return render(request, 'game/start_new_match.html', context=context)
+
+
+@login_required
+def match_detail(request, match_id):
+    context = {}
+
+    return render(request, 'game/match_detail.html', context=context)
