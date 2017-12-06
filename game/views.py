@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 
 from .forms import StartNewMatchForm
@@ -20,7 +20,7 @@ def start_new_match(request):
         match = start_form.save(commit=False)
         match.judge = request.user
         match.save()
-        # TODO redirect to match details
+        return redirect('game:detail', match.id)
 
     return render(request, 'game/start_new_match.html', context=context)
 
