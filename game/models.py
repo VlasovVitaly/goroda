@@ -59,7 +59,7 @@ class Match(models.Model):
 class Turn(models.Model):
     match = models.ForeignKey(
         Match, on_delete=models.CASCADE,
-        related_name='+', related_query_name='+'
+        related_name='turns', related_query_name='+'
     )
     city = models.CharField(max_length=128)
     team = models.PositiveSmallIntegerField()
