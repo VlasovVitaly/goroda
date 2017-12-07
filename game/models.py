@@ -2,6 +2,8 @@ from django.db import models
 from django.contrib.auth.models import User
 
 
+ALLWAYS_EXHAUSED = 'ЁЪЫЬ'
+
 class City(models.Model):
     """City name model."""
 
@@ -47,7 +49,7 @@ class Match(models.Model):
     turns_count = models.PositiveIntegerField(default=0)
     started = models.DateTimeField(auto_now_add=True)
     ended = models.DateTimeField(null=True)
-    exhaused_letters = models.CharField(max_length=32, blank=True, default='')
+    exhaused_letters = models.CharField(max_length=32, blank=True, default=ALLWAYS_EXHAUSED)
     turn_letter = models.CharField(max_length=1, blank=True)
 
     @property
