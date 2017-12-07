@@ -19,3 +19,10 @@ class StartNewMatchForm(forms.ModelForm):
             'team1': 'First team name',
             'team2': 'Second team name'
         }
+
+
+class TurnForm(forms.Form):
+    city = forms.CharField(
+        max_length=128, required=True, strip=True,
+        widget=forms.TextInput(attrs={'class': 'form-control', 'autofocus': True})
+    )

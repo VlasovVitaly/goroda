@@ -40,14 +40,31 @@ class Match(models.Model):
         User, on_delete=models.CASCADE,
         related_name='matches', related_query_name='match'
     )
+    current_team = models.PositiveIntegerField(default=1)
+    current_letter = models.CharField(max_length=1, null=True, default=None)
     finished = models.BooleanField(default=False)
     winner = models.PositiveIntegerField(null=True, blank=True)
-    current = models.PositiveIntegerField(default=1)
     turns_count = models.PositiveIntegerField(default=0)
     started = models.DateTimeField(auto_now_add=True)
     ended = models.DateTimeField(null=True)
     exhaused_letters = models.CharField(max_length=32, blank=True, default='')
     turn_letter = models.CharField(max_length=1, blank=True)
+
+    @property
+    def current_team_name(self):
+        if self.current_team == 1:
+            return self.team1
+        if self.current_team == 2:
+            return self.team2
+
+    def add_exhaused_letter(self, letter, commit=False):
+        if not letter or type(letter) != str:
+            return
+
+        self.exhaused_letters += letter.upper()
+
+        if commit:
+            self.save()
 
     def __repr__(self):
         return '<{}>: {} [{}, {}]'.format(self.__class__.__name__, self.id, self.team1, self.team2)
@@ -69,4 +86,4 @@ class Turn(models.Model):
         return '<{}>: {}/{} -> {}'.format(self.__class__.__name__, self.match_id, self.num, self.city)
 
     def __str__(self):
-        return 'Turn #{}: Team "{}" -> {}'.format(self.num, self.team, self.city.name)
+        return 'Turn #{}: Team "{}" vs "{}"'.format(self.num, self.team, self.city)

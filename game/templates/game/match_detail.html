@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% block html_title %}Match detail{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            {% spaceless %}
+            <h4>Exhaused letters:</h4>
+            <div>
+                {% for letter in exhaused_letters %}
+                    <label class="btn btn-danger">{{ letter }}</label>
+                {% endfor %}
+            </div>
+            {% endspaceless %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <form id="maketurn_form" method="POST">
+                {% csrf_token %}
+                {# TODO form errors #}
+                <div id="make_turn_input" class="input-group input-group-lg">
+                    {% if match.current_letter %}
+                    <span class="input-group-btn"><label id="current_letter" class="btn btn-success" type="button">{{ match.current_letter }}</label></span>
+                    {% endif %}
+                    {{ turn_form.city }}
+                    <span class="input-group-btn"><button class="btn btn-primary" type="submit">Answer</button></span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title text-center">{{ match.current_team_name }}</h3>
+                </div>
+                {% spaceless %}
+                <ul class="list-group" id="turns_list">
+                    {% for turn in turns %}
+                        <li class="list-group-item">{{ turn.city }}</li>
+                    {% endfor %}
+                </ul>
+                {% endspaceless %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block body_scripts %}
+    {{ block.super }}
+{% endblock %}
