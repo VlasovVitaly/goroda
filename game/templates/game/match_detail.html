@@ -15,13 +15,25 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6 col-md-offset-3">{# TODO make turn form #}</div>
+        <div class="col-md-6 col-md-offset-3">
+            <form id="maketurn_form" method="POST">
+                {% csrf_token %}
+                {# TODO form errors #}
+                <div id="make_turn_input" class="input-group input-group-lg">
+                    {% if match.current_letter %}
+                    <span class="input-group-btn"><label id="current_letter" class="btn btn-success" type="button">{{ match.current_letter }}</label></span>
+                    {% endif %}
+                    {{ turn_form.city }}
+                    <span class="input-group-btn"><button class="btn btn-primary" type="submit">Answer</button></span>
+                </div>
+            </form>
+        </div>
     </div>
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title" align="center">{{ match.current_team_name }}</h3>
+                    <h3 class="panel-title text-center">{{ match.current_team_name }}</h3>
                 </div>
                 {% spaceless %}
                 <ul class="list-group" id="turns_list">
