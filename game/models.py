@@ -30,24 +30,18 @@ class City(models.Model):
 
 
 class Match(models.Model):
-    team1 = models.CharField(
-        max_length=128,
-        default='Team 1'
-    )
-    team2 = models.CharField(
-        max_length=128,
-        default='Team 2'
-    )
+    team1 = models.CharField(max_length=128, default='Team 1')
+    team2 = models.CharField( max_length=128, default='Team 2')
     judge = models.ForeignKey(
         User, on_delete=models.CASCADE,
         related_name='matches', related_query_name='match'
     )
-    current_team = models.PositiveIntegerField(null=False, default=1)
+    current_team = models.PositiveIntegerField(default=1)
     current_letter = models.CharField(max_length=1, null=True, default=None)
-    finished = models.BooleanField(null=False, default=False)
+    finished = models.BooleanField(default=False)
     winner = models.PositiveIntegerField(null=True, blank=True)
-    turns_count = models.PositiveIntegerField(null=False, default=0)
-    started = models.DateTimeField(null=False, auto_now_add=True)
+    turns_count = models.PositiveIntegerField(default=0)
+    started = models.DateTimeField(auto_now_add=True)
     ended = models.DateTimeField(null=True)
     exhaused_letters = models.CharField(max_length=32, blank=True, default=ALLWAYS_EXHAUSED)
     turn_letter = models.CharField(max_length=1, blank=True)
