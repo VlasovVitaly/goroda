@@ -1,7 +1,7 @@
 from django import forms
 from django.forms import ValidationError
 
-from .models import Match, City
+from .models import Match, Turn, City
 
 
 class StartNewMatchForm(forms.ModelForm):
@@ -52,4 +52,15 @@ class TurnForm(forms.Form):
         if self.match.turns.filter(city__iexact=turn_city.name).exists():
             raise ValidationError('Already called', code='invalid')
 
-        return city
+        return turn_city.name
+
+    def clean(self):
+        if 'city' not in self.cleaned_data:
+            return self.cleaned_data
+
+        self.cleaned_data['turn'] = Turn(
+            match=self.match, city=self.cleaned_data['city'],
+            team=self.match.current_team, num=self.match.turns_count
+        )
+
+        return self.cleaned_data
