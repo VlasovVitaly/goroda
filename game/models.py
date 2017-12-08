@@ -50,22 +50,30 @@ class Match(models.Model):
     def current_team_name(self):
         return self.team1 if self.current_team == 1 else self.team2
 
-    def check_exhaused(self, letter, commit=False):
-        letter = letter.upper()
+    def make_turn(self, turn_word, commit=False):
+        self.current_team = 1 if self.current_team != 1 else 2
+        self.turns_count += 1
+
+        turn_word = turn_word.upper()
+        turn_letter = turn_word[0]
 
         casted_cities = self.turns.filter(city__istartswith=letter).values_list('city', flat=True)
 
-        available = City.objects.filter(name__istartswith=letter, geotype=City.GEOTYPE_CITY)
+        available = City.objects.filter(name__istartswith=turn_letter, geotype=City.GEOTYPE_CITY)
         available = available.exclude(name__in=casted_cities)
 
-        if commit is False:
-            return available.exists()
+        if not available.exists():
+            self.exhaused_letters += turn_letter
 
-        self.exhaused_letters += letter
-        self.save()
+        for letter in reversed(turn_word):
+            if letter not in self.exhaused_letters:
+                self.current_letter = letter
+                break
+        else:
+            pass  # TODO raise special Exception
 
-    def rotate_current_team(self):
-        self.current_team = 1 if self.current_team != 1 else 2
+        if commit is True:
+            self.save()
 
     def __repr__(self):
         return '<{}>: {} [{}, {}]'.format(self.__class__.__name__, self.id, self.team1, self.team2)

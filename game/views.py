@@ -43,12 +43,10 @@ def match_detail(request, match_id):
 
     if turn_form.is_valid():
         turn = turn_form.cleaned_data['turn']
-        city = turn_form.cleaned_data['city']
-        match.rotate_current_team()
-        match.turns_count += 1
-        # TODO Choose next letter.
+
         with transaction.atomic():
             turn.save()
-            match.check_exhaused(city[0], commit=True)
+            match.make_turn(turn.city)
+            match.save()
 
     return render(request, 'game/match_detail.html', context=context)
