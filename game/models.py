@@ -48,14 +48,10 @@ class Match(models.Model):
 
     @property
     def current_team_name(self):
-        if self.current_team == 1:
-            return self.team1
-        if self.current_team == 2:
-            return self.team2
+        return self.team1 if self.current_team == 1 else self.team2
 
-    @property
-    def next_team(self):
-        return 2 if self.current_team == 1 else 1
+    def rotate_current_team(self):
+        self.current_team = 1 if self.current_team != 1 else 2
 
     def add_exhaused_letter(self, letter, commit=False):
         if not letter or type(letter) != str:
