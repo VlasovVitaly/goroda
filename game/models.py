@@ -42,7 +42,7 @@ class Match(models.Model):
         User, on_delete=models.CASCADE,
         related_name='matches', related_query_name='match'
     )
-    current_team = models.PositiveIntegerField(default=1)
+    current_team = models.PositiveIntegerField(null=False, default=1)
     current_letter = models.CharField(max_length=1, null=True, default=None)
     finished = models.BooleanField(default=False)
     winner = models.PositiveIntegerField(null=True, blank=True)
