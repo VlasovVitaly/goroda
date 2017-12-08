@@ -26,3 +26,7 @@ class TurnForm(forms.Form):
         max_length=128, required=True, strip=True,
         widget=forms.TextInput(attrs={'class': 'form-control', 'autofocus': True})
     )
+
+    def __init__(self, match, *args, **kwargs):
+        self.match = match
+        super().__init__(*args, **kwargs)

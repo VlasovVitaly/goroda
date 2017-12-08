@@ -38,6 +38,6 @@ def match_detail(request, match_id):
 
     context['turns'] = match.turns.order_by('num').reverse()
     context['exhaused_letters'] = match.exhaused_letters  # TODO add allways exhaused letters here
-    context['turn_form'] = TurnForm()
+    context['turn_form'] = TurnForm(match)
 
     return render(request, 'game/match_detail.html', context=context)
