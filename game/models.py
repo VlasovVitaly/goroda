@@ -50,17 +50,22 @@ class Match(models.Model):
     def current_team_name(self):
         return self.team1 if self.current_team == 1 else self.team2
 
+    def check_exhaused(self, letter, commit=False):
+        letter = letter.upper()
+
+        casted_cities = self.turns.filter(city__istartswith=letter).values_list('city', flat=True)
+
+        available = City.objects.filter(name__istartswith=letter, geotype=City.GEOTYPE_CITY)
+        available = available.exclude(name__in=casted_cities)
+
+        if commit is False:
+            return available.exists()
+
+        self.exhaused_letters += letter
+        self.save()
+
     def rotate_current_team(self):
         self.current_team = 1 if self.current_team != 1 else 2
-
-    def add_exhaused_letter(self, letter, commit=False):
-        if not letter or type(letter) != str:
-            return
-
-        self.exhaused_letters += letter.upper()
-
-        if commit:
-            self.save()
 
     def __repr__(self):
         return '<{}>: {} [{}, {}]'.format(self.__class__.__name__, self.id, self.team1, self.team2)
