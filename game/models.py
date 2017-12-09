@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 
 ALLWAYS_EXHAUSED = 'ЁЪЫЬ'
 
+
 class City(models.Model):
     """City name model."""
 
@@ -31,7 +32,7 @@ class City(models.Model):
 
 class Match(models.Model):
     team1 = models.CharField(max_length=128, default='Team 1')
-    team2 = models.CharField( max_length=128, default='Team 2')
+    team2 = models.CharField(max_length=128, default='Team 2')
     judge = models.ForeignKey(
         User, on_delete=models.CASCADE,
         related_name='matches', related_query_name='match'
@@ -57,7 +58,7 @@ class Match(models.Model):
         turn_word = turn_word.upper()
         turn_letter = turn_word[0]
 
-        casted_cities = self.turns.filter(city__istartswith=letter).values_list('city', flat=True)
+        casted_cities = self.turns.filter(city__istartswith=turn_letter).values_list('city', flat=True)
 
         available = City.objects.filter(name__istartswith=turn_letter, geotype=City.GEOTYPE_CITY)
         available = available.exclude(name__in=casted_cities)
