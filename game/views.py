@@ -46,7 +46,10 @@ def match_detail(request, match_id):
 
         with transaction.atomic():
             turn.save()
-            match.make_turn(turn.city)
+            try:
+                match.make_turn(turn.city)
+            except Match.AllLettersExhaused:
+                pass  # TODO End of game.
             match.save()
 
     return render(request, 'game/match_detail.html', context=context)

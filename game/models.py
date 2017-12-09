@@ -47,6 +47,9 @@ class Match(models.Model):
     exhaused_letters = models.CharField(max_length=32, blank=True, default=ALLWAYS_EXHAUSED)
     turn_letter = models.CharField(max_length=1, blank=True)
 
+    class AllLettersExhaused(Exception):
+        pass
+
     @property
     def current_team_name(self):
         return self.team1 if self.current_team == 1 else self.team2
@@ -71,7 +74,7 @@ class Match(models.Model):
                 self.current_letter = letter
                 break
         else:
-            pass  # TODO raise special Exception
+            raise AllLettersExhaused()
 
         if commit is True:
             self.save()
