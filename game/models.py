@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 
 ALLWAYS_EXHAUSED = 'ЁЪЫЬ'
 
+
 class City(models.Model):
     """City name model."""
 
@@ -30,14 +31,8 @@ class City(models.Model):
 
 
 class Match(models.Model):
-    team1 = models.CharField(
-        max_length=128,
-        default='Team 1'
-    )
-    team2 = models.CharField(
-        max_length=128,
-        default='Team 2'
-    )
+    team1 = models.CharField(max_length=128, default='Team 1')
+    team2 = models.CharField(max_length=128, default='Team 2')
     judge = models.ForeignKey(
         User, on_delete=models.CASCADE,
         related_name='matches', related_query_name='match'
@@ -52,20 +47,36 @@ class Match(models.Model):
     exhaused_letters = models.CharField(max_length=32, blank=True, default=ALLWAYS_EXHAUSED)
     turn_letter = models.CharField(max_length=1, blank=True)
 
+    class AllLettersExhaused(Exception):
+        pass
+
     @property
     def current_team_name(self):
-        if self.current_team == 1:
-            return self.team1
-        if self.current_team == 2:
-            return self.team2
+        return self.team1 if self.current_team == 1 else self.team2
 
-    def add_exhaused_letter(self, letter, commit=False):
-        if not letter or type(letter) != str:
-            return
+    def make_turn(self, turn_word, commit=False):
+        self.current_team = 1 if self.current_team != 1 else 2
+        self.turns_count += 1
 
-        self.exhaused_letters += letter.upper()
+        turn_word = turn_word.upper()
+        turn_letter = turn_word[0]
 
-        if commit:
+        casted_cities = self.turns.filter(city__istartswith=turn_letter).values_list('city', flat=True)
+
+        available = City.objects.filter(name__istartswith=turn_letter, geotype=City.GEOTYPE_CITY)
+        available = available.exclude(name__in=casted_cities)
+
+        if not available.exists():
+            self.exhaused_letters += turn_letter
+
+        for letter in reversed(turn_word):
+            if letter not in self.exhaused_letters:
+                self.current_letter = letter
+                break
+        else:
+            raise AllLettersExhaused()
+
+        if commit is True:
             self.save()
 
     def __repr__(self):

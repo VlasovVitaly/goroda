@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseBadRequest
+from django.db import transaction
 
 from .forms import StartNewMatchForm, TurnForm
 from .models import Match
@@ -37,7 +38,18 @@ def match_detail(request, match_id):
         return HttpResponseBadRequest("You are not a judge of this game.")  # TODO Remove or better message
 
     context['turns'] = match.turns.order_by('num').reverse()
-    context['exhaused_letters'] = match.exhaused_letters  # TODO add allways exhaused letters here
-    context['turn_form'] = TurnForm()
+    context['exhaused_letters'] = match.exhaused_letters
+    context['turn_form'] = turn_form = TurnForm(match, data=request.POST or None)
+
+    if turn_form.is_valid():
+        turn = turn_form.cleaned_data['turn']
+
+        with transaction.atomic():
+            turn.save()
+            try:
+                match.make_turn(turn.city)
+            except Match.AllLettersExhaused:
+                pass  # TODO End of game.
+            match.save()
 
     return render(request, 'game/match_detail.html', context=context)
