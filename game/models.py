@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.utils import timezone
 
 
 ALLWAYS_EXHAUSED = 'ЁЪЫЬ'
@@ -10,6 +11,7 @@ class City(models.Model):
 
     GEOTYPE_CITY = 1
     GEOTYPE_OTHER = 2
+
     TYPE_CHOICES = (
         (GEOTYPE_CITY, 'City'),
         (GEOTYPE_OTHER, 'Other place'),
@@ -54,8 +56,12 @@ class Match(models.Model):
     def current_team_name(self):
         return self.team1 if self.current_team == 1 else self.team2
 
+    @property
+    def next_team(self):
+        return 1 if self.current_team != 1 else 2
+
     def make_turn(self, turn_word, commit=False):
-        self.current_team = 1 if self.current_team != 1 else 2
+        self.current_team = self.next_team
         self.turns_count += 1
 
         turn_word = turn_word.upper()
@@ -74,7 +80,16 @@ class Match(models.Model):
                 self.current_letter = letter
                 break
         else:
-            raise AllLettersExhaused()
+            # FIXME Exception text can be improved
+            raise self.AllLettersExhaused()
+
+        if commit is True:
+            self.save()
+
+    def end_match(self, commit=False):
+        self.finished = True
+        self.ended = timezone.now()
+        self.winner = self.next_team
 
         if commit is True:
             self.save()
