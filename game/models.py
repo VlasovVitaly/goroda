@@ -80,7 +80,8 @@ class Match(models.Model):
                 self.current_letter = letter
                 break
         else:
-            raise AllLettersExhaused()
+            # FIXME Exception text can be improved
+            raise self.AllLettersExhaused()
 
         if commit is True:
             self.save()
