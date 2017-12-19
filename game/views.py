@@ -2,6 +2,7 @@ from django.db import transaction
 from django.http import HttpResponseBadRequest
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
+from django.views.decorators.http import require_POST
 
 from .forms import StartNewMatchForm, TurnForm
 from .models import Match
@@ -53,3 +54,22 @@ def match_detail(request, match_id):
             match.save()
 
     return render(request, 'game/match_detail.html', context=context)
+
+
+@require_POST
+@login_required
+def end_match(request, match_id):
+    context = {}
+
+    context['match'] = match = get_object_or_404(Match, pk=match_id)
+
+    if request.user != match.judge:
+        return HttpResponseBadRequest("You are not a judge of this game.")  # TODO Remove or better message
+
+    match.end_match(commit=False)
+    match.save()
+
+    if request.is_ajax():
+        pass  # FIXME return Json answer
+
+    return redirect('game:detail', match_id=match.id)
