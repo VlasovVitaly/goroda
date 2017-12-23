@@ -1,29 +1,30 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
+from django.utils.translation import gettext_lazy as _
 
 
 ALLWAYS_EXHAUSED = 'ЁЪЫЬ'
 
 
 class City(models.Model):
-    """City name model."""
-
     GEOTYPE_CITY = 1
     GEOTYPE_OTHER = 2
 
     TYPE_CHOICES = (
-        (GEOTYPE_CITY, 'City'),
+        (GEOTYPE_CITY, _('City')),
         (GEOTYPE_OTHER, 'Other place'),
     )
 
     class Meta:
         default_permissions = ('add', )
-        verbose_name = 'City name'
-        verbose_name_plural = 'City names'
+        verbose_name = _('City')
+        verbose_name_plural = _('Cities')
 
-    name = models.CharField(max_length=128, unique=True, db_index=True)
-    geotype = models.PositiveIntegerField(choices=TYPE_CHOICES, default=GEOTYPE_CITY)
+    name = models.CharField(verbose_name=_('City name'), max_length=128, unique=True, db_index=True)
+    geotype = models.PositiveIntegerField(
+        verbose_name=_('Type of geo object'), choices=TYPE_CHOICES, default=GEOTYPE_CITY
+    )
 
     def __repr__(self):
         return '<{}>:[{}] {}'.format(self.__class__.__name__, self.geotype, self.name)
@@ -33,23 +34,32 @@ class City(models.Model):
 
 
 class Match(models.Model):
-    team1 = models.CharField(max_length=128, default='Team 1')
-    team2 = models.CharField(max_length=128, default='Team 2')
+    team1 = models.CharField(verbose_name=_('Team 1 name'), max_length=128, default='Team 1')
+    team2 = models.CharField(verbose_name=_('Team 2 name'), max_length=128, default='Team 2')
     judge = models.ForeignKey(
         User, on_delete=models.CASCADE,
+        verbose_name=_('Match judge'),
         related_name='matches', related_query_name='match'
     )
     current_team = models.PositiveIntegerField(default=1)
-    current_letter = models.CharField(max_length=1, null=True, default=None)
-    finished = models.BooleanField(default=False)
+    current_letter = models.CharField(verbose_name=_('Current letter'), max_length=1, null=True, default=None)
+    finished = models.BooleanField(verbose_name=_('Match finished'), default=False)
     winner = models.PositiveIntegerField(null=True, blank=True)
-    turns_count = models.PositiveIntegerField(default=0)
-    started = models.DateTimeField(auto_now_add=True)
-    ended = models.DateTimeField(null=True)
-    exhaused_letters = models.CharField(max_length=32, blank=True, default=ALLWAYS_EXHAUSED)
+    turns_count = models.PositiveIntegerField(verbose_name=_('Match turns'), default=0)
+    started = models.DateTimeField(verbose_name=_('Started time'), auto_now_add=True)
+    ended = models.DateTimeField(verbose_name=_('Ended time'), null=True)
+    exhaused_letters = models.CharField(
+        verbose_name=_('Match exhaused letters'), max_length=32, blank=True, default=ALLWAYS_EXHAUSED
+    )
     turn_letter = models.CharField(max_length=1, blank=True)
 
+    class Meta:
+        default_permissions = ()
+        verbose_name = _('Match')
+        verbose_name_plural = _('Matches')
+
     class AllLettersExhaused(Exception):
+        """All letters in current turn is exhaused"""
         pass
 
     @property
@@ -106,9 +116,14 @@ class Turn(models.Model):
         Match, on_delete=models.CASCADE,
         related_name='turns', related_query_name='+'
     )
-    city = models.CharField(max_length=128)
+    city = models.CharField(verbose_name=_('City name'), max_length=128)
     team = models.PositiveSmallIntegerField()
-    num = models.PositiveIntegerField()
+    num = models.PositiveIntegerField(verbose_name=_('Turn number'))
+
+    class Meta:
+        default_permissions = ()
+        verbose_name = _('Turn')
+        verbose_name_plural = _('Turns')
 
     def __repr__(self):
         return '<{}>: {}/{} -> {}'.format(self.__class__.__name__, self.match_id, self.num, self.city)

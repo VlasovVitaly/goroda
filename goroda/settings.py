@@ -74,15 +74,16 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Moscow'
+USE_TZ = True
 
+LANGUAGE_CODE = 'ru-ru'
 USE_I18N = True
-
 USE_L10N = True
 
-USE_TZ = True
+LOCALE_PATHS = [os.path.join(BASE_DIR, 'locales')]
+
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')

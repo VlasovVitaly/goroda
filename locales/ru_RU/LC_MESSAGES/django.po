@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-23 16:11+0300\n"
+"PO-Revision-Date: 2017-12-23 16:12+0300\n"
+"Last-Translator: Vitaly Vlasov <vnigtha@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+
+#: game/forms.py:21
+msgid "First team name"
+msgstr "Имя первой команды"
+
+#: game/forms.py:22
+msgid "Second team name"
+msgstr "Имя второй команды"
+
+#: game/forms.py:42
+msgid "Turn answer is not begin with current letter"
+msgstr "Ответ не начинается с буквы хода"
+
+#: game/forms.py:48
+#, python-format
+msgid "City %(city)s does not exists"
+msgstr "Город %(city)s не существует"
+
+#: game/forms.py:50
+msgid "Not ambiguous city name. Please try another"
+msgstr "Не очевидное название города. Попробуйте другое"
+
+#: game/forms.py:54
+msgid "Already called"
+msgstr "Уже называли"
+
+#: game/models.py:15 game/models.py:21
+msgid "City"
+msgstr "Город"
+
+#: game/models.py:22
+msgid "Cities"
+msgstr "Города"
+
+#: game/models.py:24 game/models.py:119
+msgid "City name"
+msgstr "Название города"
+
+#: game/models.py:26
+msgid "Type of geo object"
+msgstr "Географический тип объекта"
+
+#: game/models.py:37
+msgid "Team 1 name"
+msgstr "Название команды 1"
+
+#: game/models.py:38
+msgid "Team 2 name"
+msgstr "Название команды 2"
+
+#: game/models.py:41
+msgid "Match judge"
+msgstr "Судья матча"
+
+#: game/models.py:45
+msgid "Current letter"
+msgstr "Буква хода"
+
+#: game/models.py:46
+msgid "Match finished"
+msgstr "Матч закончен"
+
+#: game/models.py:48
+msgid "Match turns"
+msgstr "Ходы матча"
+
+#: game/models.py:49
+msgid "Started time"
+msgstr "Время начала"
+
+#: game/models.py:50
+msgid "Ended time"
+msgstr "Время окончания"
+
+#: game/models.py:52
+msgid "Match exhaused letters"
+msgstr "Исключенные буквы матча"
+
+#: game/models.py:58
+msgid "Match"
+msgstr "Матч"
+
+#: game/models.py:59
+msgid "Matches"
+msgstr "Матчи"
+
+#: game/models.py:121
+msgid "Turn number"
+msgstr "Номер хода"
+
+#: game/models.py:125
+msgid "Turn"
+msgstr "Ход"
+
+#: game/models.py:126
+msgid "Turns"
+msgstr "Ходы"
