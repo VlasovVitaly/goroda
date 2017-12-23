@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-23 15:17+0300\n"
+"POT-Creation-Date: 2017-12-23 16:11+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgstr ""
 msgid "Cities"
 msgstr ""
 
-#: game/models.py:24 game/models.py:114
+#: game/models.py:24 game/models.py:119
 msgid "City name"
 msgstr ""
 
@@ -94,6 +94,22 @@ msgstr ""
 msgid "Match exhaused letters"
 msgstr ""
 
-#: game/models.py:116
+#: game/models.py:58
+msgid "Match"
+msgstr ""
+
+#: game/models.py:59
+msgid "Matches"
+msgstr ""
+
+#: game/models.py:121
 msgid "Turn number"
+msgstr ""
+
+#: game/models.py:125
+msgid "Turn"
+msgstr ""
+
+#: game/models.py:126
+msgid "Turns"
 msgstr ""

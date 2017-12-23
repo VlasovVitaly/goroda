@@ -53,6 +53,11 @@ class Match(models.Model):
     )
     turn_letter = models.CharField(max_length=1, blank=True)
 
+    class Meta:
+        default_permissions = ()
+        verbose_name = _('Match')
+        verbose_name_plural = _('Matches')
+
     class AllLettersExhaused(Exception):
         """All letters in current turn is exhaused"""
         pass
@@ -114,6 +119,11 @@ class Turn(models.Model):
     city = models.CharField(verbose_name=_('City name'), max_length=128)
     team = models.PositiveSmallIntegerField()
     num = models.PositiveIntegerField(verbose_name=_('Turn number'))
+
+    class Meta:
+        default_permissions = ()
+        verbose_name = _('Turn')
+        verbose_name_plural = _('Turns')
 
     def __repr__(self):
         return '<{}>: {}/{} -> {}'.format(self.__class__.__name__, self.match_id, self.num, self.city)
