@@ -51,7 +51,6 @@ class Match(models.Model):
     exhaused_letters = models.CharField(
         verbose_name=_('Match exhaused letters'), max_length=32, blank=True, default=ALLWAYS_EXHAUSED
     )
-    turn_letter = models.CharField(max_length=1, blank=True)
 
     class Meta:
         default_permissions = ()
