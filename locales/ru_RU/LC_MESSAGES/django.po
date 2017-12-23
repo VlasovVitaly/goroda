@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-23 15:17+0300\n"
-"PO-Revision-Date: 2017-12-23 15:26+0300\n"
+"POT-Creation-Date: 2017-12-23 16:11+0300\n"
+"PO-Revision-Date: 2017-12-23 16:12+0300\n"
+"Last-Translator: Vitaly Vlasov <vnigtha@gmail.com>\n"
+"Language-Team: \n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Vitaly Vlasov <vnigtha@gmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.0.5\n"
 
 #: game/forms.py:21
@@ -50,7 +50,7 @@ msgstr "Город"
 msgid "Cities"
 msgstr "Города"
 
-#: game/models.py:24 game/models.py:114
+#: game/models.py:24 game/models.py:119
 msgid "City name"
 msgstr "Название города"
 
@@ -94,6 +94,22 @@ msgstr "Время окончания"
 msgid "Match exhaused letters"
 msgstr "Исключенные буквы матча"
 
-#: game/models.py:116
+#: game/models.py:58
+msgid "Match"
+msgstr "Матч"
+
+#: game/models.py:59
+msgid "Matches"
+msgstr "Матчи"
+
+#: game/models.py:121
 msgid "Turn number"
 msgstr "Номер хода"
+
+#: game/models.py:125
+msgid "Turn"
+msgstr "Ход"
+
+#: game/models.py:126
+msgid "Turns"
+msgstr "Ходы"
