@@ -2,7 +2,20 @@
 {% block html_title %}Start new game or view results{% endblock %}
 {% block content %}
 <div class="container">
-    <div class="col-md-8 col-md-offset-2" id="results">
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <a href="{% url 'game:start' %}" class="btn btn-primary">Start new game</a>
+        {% if matches %}
+        <h4>My games:</h4>
+        <ul class="list-group">
+        {% for m in matches %}
+            {% if m.finished %}<li class="list-group-item">{{ m }}</li>
+            {% else %}<li class="list-group-item">{{ m }}. Game is on! <a href="{% url 'game:detail' m.id %}">Continue</a></li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+        {% endif %}
     </div>
+</div>
 </div>
 {% endblock %}

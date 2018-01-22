@@ -12,6 +12,8 @@ from .models import Match
 def start_page(request):
     context = {}
 
+    context['matches'] = request.user.matches.all().order_by('finished', '-ended', '-started')
+
     return render(request, 'game/start_page.html', context=context)
 
 
