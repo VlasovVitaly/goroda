@@ -1,0 +1,8890 @@
+[
+{
+  "model": "game.city",
+  "pk": 1,
+  "fields": {
+    "name": "\u0410\u0431\u0430\u0437\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 2,
+  "fields": {
+    "name": "\u0410\u0431\u0430\u043a\u0430\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 3,
+  "fields": {
+    "name": "\u0410\u0431\u0434\u0443\u043b\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 4,
+  "fields": {
+    "name": "\u0410\u0431\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 5,
+  "fields": {
+    "name": "\u0410\u0433\u0438\u0434\u0435\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 6,
+  "fields": {
+    "name": "\u0410\u0433\u0440\u044b\u0437",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 7,
+  "fields": {
+    "name": "\u0410\u0434\u044b\u0433\u0435\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 8,
+  "fields": {
+    "name": "\u0410\u0437\u043d\u0430\u043a\u0430\u0435\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 9,
+  "fields": {
+    "name": "\u0410\u0437\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 10,
+  "fields": {
+    "name": "\u0410\u043a-\u0414\u043e\u0432\u0443\u0440\u0430\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 11,
+  "fields": {
+    "name": "\u0410\u043a\u0441\u0430\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 12,
+  "fields": {
+    "name": "\u0410\u043b\u0430\u0433\u0438\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 13,
+  "fields": {
+    "name": "\u0410\u043b\u0430\u043f\u0430\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 14,
+  "fields": {
+    "name": "\u0410\u043b\u0430\u0442\u044b\u0440\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 15,
+  "fields": {
+    "name": "\u0410\u043b\u0434\u0430\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 16,
+  "fields": {
+    "name": "\u0410\u043b\u0435\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 17,
+  "fields": {
+    "name": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 18,
+  "fields": {
+    "name": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 19,
+  "fields": {
+    "name": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0441\u043a-\u0421\u0430\u0445\u0430\u043b\u0438\u043d\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 20,
+  "fields": {
+    "name": "\u0410\u043b\u0435\u043a\u0441\u0435\u0435\u0432\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 21,
+  "fields": {
+    "name": "\u0410\u043b\u0435\u043a\u0441\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 22,
+  "fields": {
+    "name": "\u0410\u043b\u0437\u0430\u043c\u0430\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 23,
+  "fields": {
+    "name": "\u0410\u043b\u0443\u043f\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 24,
+  "fields": {
+    "name": "\u0410\u043b\u0443\u0448\u0442\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 25,
+  "fields": {
+    "name": "\u0410\u043b\u044c\u043c\u0435\u0442\u044c\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 26,
+  "fields": {
+    "name": "\u0410\u043c\u0443\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 27,
+  "fields": {
+    "name": "\u0410\u043d\u0430\u0434\u044b\u0440\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 28,
+  "fields": {
+    "name": "\u0410\u043d\u0430\u043f\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 29,
+  "fields": {
+    "name": "\u0410\u043d\u0433\u0430\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 30,
+  "fields": {
+    "name": "\u0410\u043d\u0434\u0440\u0435\u0430\u043f\u043e\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 31,
+  "fields": {
+    "name": "\u0410\u043d\u0436\u0435\u0440\u043e-\u0421\u0443\u0434\u0436\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 32,
+  "fields": {
+    "name": "\u0410\u043d\u0438\u0432\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 33,
+  "fields": {
+    "name": "\u0410\u043f\u0430\u0442\u0438\u0442\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 34,
+  "fields": {
+    "name": "\u0410\u043f\u0440\u0435\u043b\u0435\u0432\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 35,
+  "fields": {
+    "name": "\u0410\u043f\u0448\u0435\u0440\u043e\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 36,
+  "fields": {
+    "name": "\u0410\u0440\u0430\u043c\u0438\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 37,
+  "fields": {
+    "name": "\u0410\u0440\u0433\u0443\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 38,
+  "fields": {
+    "name": "\u0410\u0440\u0434\u0430\u0442\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 39,
+  "fields": {
+    "name": "\u0410\u0440\u0434\u043e\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 40,
+  "fields": {
+    "name": "\u0410\u0440\u0437\u0430\u043c\u0430\u0441",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 41,
+  "fields": {
+    "name": "\u0410\u0440\u043a\u0430\u0434\u0430\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 42,
+  "fields": {
+    "name": "\u0410\u0440\u043c\u0430\u0432\u0438\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 43,
+  "fields": {
+    "name": "\u0410\u0440\u043c\u044f\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 44,
+  "fields": {
+    "name": "\u0410\u0440\u043c\u044f\u043d\u0441\u044c\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 45,
+  "fields": {
+    "name": "\u0410\u0440\u0441\u0435\u043d\u044c\u0435\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 46,
+  "fields": {
+    "name": "\u0410\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 47,
+  "fields": {
+    "name": "\u0410\u0440\u0442\u0435\u043c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 48,
+  "fields": {
+    "name": "\u0410\u0440\u0442\u0435\u043c\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 49,
+  "fields": {
+    "name": "\u0410\u0440\u0442\u0435\u043c\u043e\u0432\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 50,
+  "fields": {
+    "name": "\u0410\u0440\u0445\u0430\u043d\u0433\u0435\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 51,
+  "fields": {
+    "name": "\u0410\u0441\u0431\u0435\u0441\u0442",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 52,
+  "fields": {
+    "name": "\u0410\u0441\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 53,
+  "fields": {
+    "name": "\u0410\u0441\u0442\u0440\u0430\u0445\u0430\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 54,
+  "fields": {
+    "name": "\u0410\u0442\u043a\u0430\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 55,
+  "fields": {
+    "name": "\u0410\u0445\u0442\u0443\u0431\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 56,
+  "fields": {
+    "name": "\u0410\u0447\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 57,
+  "fields": {
+    "name": "\u0410\u0448\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 58,
+  "fields": {
+    "name": "\u0411\u0430\u0431\u0430\u0435\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 59,
+  "fields": {
+    "name": "\u0411\u0430\u0431\u0443\u0448\u043a\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 60,
+  "fields": {
+    "name": "\u0411\u0430\u0432\u043b\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 61,
+  "fields": {
+    "name": "\u0411\u0430\u0433\u0440\u0430\u0442\u0438\u043e\u043d\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 62,
+  "fields": {
+    "name": "\u0411\u0430\u0439\u043a\u0430\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 63,
+  "fields": {
+    "name": "\u0411\u0430\u0439\u043a\u043e\u043d\u0443\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 64,
+  "fields": {
+    "name": "\u0411\u0430\u0439\u043c\u0430\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 65,
+  "fields": {
+    "name": "\u0411\u0430\u043a\u0430\u043b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 66,
+  "fields": {
+    "name": "\u0411\u0430\u043a\u0441\u0430\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 67,
+  "fields": {
+    "name": "\u0411\u0430\u043b\u0430\u0431\u0430\u043d\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 68,
+  "fields": {
+    "name": "\u0411\u0430\u043b\u0430\u043a\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 69,
+  "fields": {
+    "name": "\u0411\u0430\u043b\u0430\u0445\u043d\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 70,
+  "fields": {
+    "name": "\u0411\u0430\u043b\u0430\u0448\u0438\u0445\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 71,
+  "fields": {
+    "name": "\u0411\u0430\u043b\u0430\u0448\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 72,
+  "fields": {
+    "name": "\u0411\u0430\u043b\u0435\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 73,
+  "fields": {
+    "name": "\u0411\u0430\u043b\u0442\u0438\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 74,
+  "fields": {
+    "name": "\u0411\u0430\u0440\u0430\u0431\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 75,
+  "fields": {
+    "name": "\u0411\u0430\u0440\u043d\u0430\u0443\u043b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 76,
+  "fields": {
+    "name": "\u0411\u0430\u0440\u044b\u0448",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 77,
+  "fields": {
+    "name": "\u0411\u0430\u0442\u0430\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 78,
+  "fields": {
+    "name": "\u0411\u0430\u0445\u0447\u0438\u0441\u0430\u0440\u0430\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 79,
+  "fields": {
+    "name": "\u0411\u0435\u0434\u043d\u043e\u0434\u0435\u043c\u044c\u044f\u043d\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 80,
+  "fields": {
+    "name": "\u0411\u0435\u0436\u0435\u0446\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 81,
+  "fields": {
+    "name": "\u0411\u0435\u043b\u0430\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 82,
+  "fields": {
+    "name": "\u0411\u0435\u043b\u0433\u043e\u0440\u043e\u0434",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 83,
+  "fields": {
+    "name": "\u0411\u0435\u043b\u0435\u0431\u0435\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 84,
+  "fields": {
+    "name": "\u0411\u0435\u043b\u0435\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 85,
+  "fields": {
+    "name": "\u0411\u0435\u043b\u0438\u043d\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 86,
+  "fields": {
+    "name": "\u0411\u0435\u043b\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 87,
+  "fields": {
+    "name": "\u0411\u0435\u043b\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 88,
+  "fields": {
+    "name": "\u0411\u0435\u043b\u043e\u0437\u0435\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 89,
+  "fields": {
+    "name": "\u0411\u0435\u043b\u043e\u043a\u0443\u0440\u0438\u0445\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 90,
+  "fields": {
+    "name": "\u0411\u0435\u043b\u043e\u043c\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 91,
+  "fields": {
+    "name": "\u0411\u0435\u043b\u043e\u0440\u0435\u0446\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 92,
+  "fields": {
+    "name": "\u0411\u0435\u043b\u043e\u0440\u0435\u0447\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 93,
+  "fields": {
+    "name": "\u0411\u0435\u043b\u043e\u0443\u0441\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 94,
+  "fields": {
+    "name": "\u0411\u0435\u043b\u043e\u044f\u0440\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 95,
+  "fields": {
+    "name": "\u0411\u0435\u043b\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 96,
+  "fields": {
+    "name": "\u0411\u0435\u0440\u0434\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 97,
+  "fields": {
+    "name": "\u0411\u0435\u0440\u0435\u0437\u043d\u0438\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 98,
+  "fields": {
+    "name": "\u0411\u0435\u0440\u0435\u0437\u043e\u0432\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 99,
+  "fields": {
+    "name": "\u0411\u0435\u0441\u043b\u0430\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 100,
+  "fields": {
+    "name": "\u0411\u0438\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 101,
+  "fields": {
+    "name": "\u0411\u0438\u043a\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 102,
+  "fields": {
+    "name": "\u0411\u0438\u043b\u0438\u0431\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 103,
+  "fields": {
+    "name": "\u0411\u0438\u0440\u043e\u0431\u0438\u0434\u0436\u0430\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 104,
+  "fields": {
+    "name": "\u0411\u0438\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 105,
+  "fields": {
+    "name": "\u0411\u0438\u0440\u044e\u0441\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 106,
+  "fields": {
+    "name": "\u0411\u0438\u0440\u044e\u0447",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 107,
+  "fields": {
+    "name": "\u0411\u043b\u0430\u0433\u043e\u0432\u0435\u0449\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 108,
+  "fields": {
+    "name": "\u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 109,
+  "fields": {
+    "name": "\u0411\u043e\u0431\u0440\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 110,
+  "fields": {
+    "name": "\u0411\u043e\u0433\u0434\u0430\u043d\u043e\u0432\u0438\u0447",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 111,
+  "fields": {
+    "name": "\u0411\u043e\u0433\u043e\u0440\u043e\u0434\u0438\u0446\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 112,
+  "fields": {
+    "name": "\u0411\u043e\u0433\u043e\u0440\u043e\u0434\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 113,
+  "fields": {
+    "name": "\u0411\u043e\u0433\u043e\u0442\u043e\u043b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 114,
+  "fields": {
+    "name": "\u0411\u043e\u0433\u0443\u0447\u0430\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 115,
+  "fields": {
+    "name": "\u0411\u043e\u0434\u0430\u0439\u0431\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 116,
+  "fields": {
+    "name": "\u0411\u043e\u043a\u0441\u0438\u0442\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 117,
+  "fields": {
+    "name": "\u0411\u043e\u043b\u0433\u0430\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 118,
+  "fields": {
+    "name": "\u0411\u043e\u043b\u043e\u0433\u043e\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 119,
+  "fields": {
+    "name": "\u0411\u043e\u043b\u043e\u0442\u043d\u043e\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 120,
+  "fields": {
+    "name": "\u0411\u043e\u043b\u043e\u0445\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 121,
+  "fields": {
+    "name": "\u0411\u043e\u043b\u0445\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 122,
+  "fields": {
+    "name": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 123,
+  "fields": {
+    "name": "\u0411\u043e\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 124,
+  "fields": {
+    "name": "\u0411\u043e\u0440\u0437\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 125,
+  "fields": {
+    "name": "\u0411\u043e\u0440\u0438\u0441\u043e\u0433\u043b\u0435\u0431\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 126,
+  "fields": {
+    "name": "\u0411\u043e\u0440\u043e\u0432\u0438\u0447\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 127,
+  "fields": {
+    "name": "\u0411\u043e\u0440\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 128,
+  "fields": {
+    "name": "\u0411\u043e\u0440\u043e\u0434\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 129,
+  "fields": {
+    "name": "\u0411\u0440\u0430\u0442\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 130,
+  "fields": {
+    "name": "\u0411\u0440\u043e\u043d\u043d\u0438\u0446\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 131,
+  "fields": {
+    "name": "\u0411\u0440\u044f\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 132,
+  "fields": {
+    "name": "\u0411\u0443\u0433\u0443\u043b\u044c\u043c\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 133,
+  "fields": {
+    "name": "\u0411\u0443\u0433\u0443\u0440\u0443\u0441\u043b\u0430\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 134,
+  "fields": {
+    "name": "\u0411\u0443\u0434\u0435\u043d\u043d\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 135,
+  "fields": {
+    "name": "\u0411\u0443\u0437\u0443\u043b\u0443\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 136,
+  "fields": {
+    "name": "\u0411\u0443\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 137,
+  "fields": {
+    "name": "\u0411\u0443\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 138,
+  "fields": {
+    "name": "\u0411\u0443\u0439\u043d\u0430\u043a\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 139,
+  "fields": {
+    "name": "\u0411\u0443\u0442\u0443\u0440\u043b\u0438\u043d\u043e\u0432\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 140,
+  "fields": {
+    "name": "\u0412\u0430\u043b\u0434\u0430\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 141,
+  "fields": {
+    "name": "\u0412\u0430\u043b\u0443\u0439\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 142,
+  "fields": {
+    "name": "\u0412\u0435\u043b\u0438\u0436",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 143,
+  "fields": {
+    "name": "\u0412\u0435\u043b\u0438\u043a\u0438\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 144,
+  "fields": {
+    "name": "\u0412\u0435\u043b\u0438\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 145,
+  "fields": {
+    "name": "\u0412\u0435\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 146,
+  "fields": {
+    "name": "\u0412\u0435\u043d\u0435\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 147,
+  "fields": {
+    "name": "\u0412\u0435\u0440\u0435\u0449\u0430\u0433\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 148,
+  "fields": {
+    "name": "\u0412\u0435\u0440\u0435\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 149,
+  "fields": {
+    "name": "\u0412\u0435\u0440\u0445\u043d\u0435\u0443\u0440\u0430\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 150,
+  "fields": {
+    "name": "\u0412\u0435\u0440\u0445\u043d\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 151,
+  "fields": {
+    "name": "\u0412\u0435\u0440\u0445\u043d\u044f\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 152,
+  "fields": {
+    "name": "\u0412\u0435\u0440\u0445\u043e\u0442\u0443\u0440\u044c\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 153,
+  "fields": {
+    "name": "\u0412\u0435\u0440\u0445\u043e\u044f\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 154,
+  "fields": {
+    "name": "\u0412\u0435\u0441\u044c\u0435\u0433\u043e\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 155,
+  "fields": {
+    "name": "\u0412\u0435\u0442\u043b\u0443\u0433\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 156,
+  "fields": {
+    "name": "\u0412\u0438\u0434\u043d\u043e\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 157,
+  "fields": {
+    "name": "\u0412\u0438\u043b\u044e\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 158,
+  "fields": {
+    "name": "\u0412\u0438\u043b\u044e\u0447\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 159,
+  "fields": {
+    "name": "\u0412\u0438\u0445\u043e\u0440\u0435\u0432\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 160,
+  "fields": {
+    "name": "\u0412\u0438\u0447\u0443\u0433\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 161,
+  "fields": {
+    "name": "\u0412\u043b\u0430\u0434\u0438\u0432\u043e\u0441\u0442\u043e\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 162,
+  "fields": {
+    "name": "\u0412\u043b\u0430\u0434\u0438\u043a\u0430\u0432\u043a\u0430\u0437",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 163,
+  "fields": {
+    "name": "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 164,
+  "fields": {
+    "name": "\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 165,
+  "fields": {
+    "name": "\u0412\u043e\u043b\u0433\u043e\u0434\u043e\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 166,
+  "fields": {
+    "name": "\u0412\u043e\u043b\u0433\u043e\u0440\u0435\u0447\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 167,
+  "fields": {
+    "name": "\u0412\u043e\u043b\u0436\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 168,
+  "fields": {
+    "name": "\u0412\u043e\u043b\u0436\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 169,
+  "fields": {
+    "name": "\u0412\u043e\u043b\u043e\u0433\u0434\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 170,
+  "fields": {
+    "name": "\u0412\u043e\u043b\u043e\u0434\u0430\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 171,
+  "fields": {
+    "name": "\u0412\u043e\u043b\u043e\u043a\u043e\u043b\u0430\u043c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 172,
+  "fields": {
+    "name": "\u0412\u043e\u043b\u043e\u0441\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 173,
+  "fields": {
+    "name": "\u0412\u043e\u043b\u0445\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 174,
+  "fields": {
+    "name": "\u0412\u043e\u043b\u0447\u0430\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 175,
+  "fields": {
+    "name": "\u0412\u043e\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 176,
+  "fields": {
+    "name": "\u0412\u043e\u0440\u043a\u0443\u0442\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 177,
+  "fields": {
+    "name": "\u0412\u043e\u0440\u043e\u043d\u0435\u0436",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 178,
+  "fields": {
+    "name": "\u0412\u043e\u0440\u0441\u043c\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 179,
+  "fields": {
+    "name": "\u0412\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 180,
+  "fields": {
+    "name": "\u0412\u043e\u0442\u043a\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 181,
+  "fields": {
+    "name": "\u0412\u0441\u0435\u0432\u043e\u043b\u043e\u0436\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 182,
+  "fields": {
+    "name": "\u0412\u0443\u043a\u0442\u044b\u043b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 183,
+  "fields": {
+    "name": "\u0412\u044b\u0431\u043e\u0440\u0433",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 184,
+  "fields": {
+    "name": "\u0412\u044b\u043a\u0441\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 185,
+  "fields": {
+    "name": "\u0412\u044b\u0441\u043e\u043a\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 186,
+  "fields": {
+    "name": "\u0412\u044b\u0441\u043e\u0446\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 187,
+  "fields": {
+    "name": "\u0412\u044b\u0442\u0435\u0433\u0440\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 188,
+  "fields": {
+    "name": "\u0412\u044b\u0448\u043d\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 189,
+  "fields": {
+    "name": "\u0412\u044f\u0437\u0435\u043c\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 190,
+  "fields": {
+    "name": "\u0412\u044f\u0437\u043d\u0438\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 191,
+  "fields": {
+    "name": "\u0412\u044f\u0437\u044c\u043c\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 192,
+  "fields": {
+    "name": "\u0412\u044f\u0442\u0441\u043a\u0438\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 193,
+  "fields": {
+    "name": "\u0413\u0430\u0432\u0440\u0438\u043b\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 194,
+  "fields": {
+    "name": "\u0413\u0430\u0432\u0440\u0438\u043b\u043e\u0432-\u042f\u043c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 195,
+  "fields": {
+    "name": "\u0413\u0430\u0433\u0430\u0440\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 196,
+  "fields": {
+    "name": "\u0413\u0430\u0434\u0436\u0438\u0435\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 197,
+  "fields": {
+    "name": "\u0413\u0430\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 198,
+  "fields": {
+    "name": "\u0413\u0430\u043b\u0438\u0447",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 199,
+  "fields": {
+    "name": "\u0413\u0430\u0442\u0447\u0438\u043d\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 200,
+  "fields": {
+    "name": "\u0413\u0432\u0430\u0440\u0434\u0435\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 201,
+  "fields": {
+    "name": "\u0413\u0434\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 202,
+  "fields": {
+    "name": "\u0413\u0435\u043b\u0435\u043d\u0434\u0436\u0438\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 203,
+  "fields": {
+    "name": "\u0413\u0435\u043e\u0440\u0433\u0438\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 204,
+  "fields": {
+    "name": "\u0413\u043b\u0430\u0437\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 205,
+  "fields": {
+    "name": "\u0413\u043e\u043b\u0438\u0446\u044b\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 206,
+  "fields": {
+    "name": "\u0413\u043e\u0440\u0431\u0430\u0442\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 207,
+  "fields": {
+    "name": "\u0413\u043e\u0440\u043d\u043e-\u0410\u043b\u0442\u0430\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 208,
+  "fields": {
+    "name": "\u0413\u043e\u0440\u043d\u043e\u0437\u0430\u0432\u043e\u0434\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 209,
+  "fields": {
+    "name": "\u0413\u043e\u0440\u043d\u044f\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 210,
+  "fields": {
+    "name": "\u0413\u043e\u0440\u043e\u0434\u0435\u0446",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 211,
+  "fields": {
+    "name": "\u0413\u043e\u0440\u043e\u0434\u0438\u0449\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 212,
+  "fields": {
+    "name": "\u0413\u043e\u0440\u043e\u0434\u043e\u0432\u0438\u043a\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 213,
+  "fields": {
+    "name": "\u0413\u043e\u0440\u043e\u0434\u0441\u043a\u043e\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 214,
+  "fields": {
+    "name": "\u0413\u043e\u0440\u043e\u0434\u0441\u043a\u043e\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 215,
+  "fields": {
+    "name": "\u0413\u043e\u0440\u043e\u0445\u043e\u0432\u0435\u0446",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 216,
+  "fields": {
+    "name": "\u0413\u043e\u0440\u044c\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 217,
+  "fields": {
+    "name": "\u0413\u043e\u0440\u044f\u0447\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 218,
+  "fields": {
+    "name": "\u0413\u0440\u0430\u0439\u0432\u043e\u0440\u043e\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 219,
+  "fields": {
+    "name": "\u0413\u0440\u0435\u043c\u044f\u0447\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 220,
+  "fields": {
+    "name": "\u0413\u0440\u043e\u0437\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 221,
+  "fields": {
+    "name": "\u0413\u0440\u044f\u0437\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 222,
+  "fields": {
+    "name": "\u0413\u0440\u044f\u0437\u043e\u0432\u0435\u0446",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 223,
+  "fields": {
+    "name": "\u0413\u0443\u0431\u0430\u0445\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 224,
+  "fields": {
+    "name": "\u0413\u0443\u0431\u043a\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 225,
+  "fields": {
+    "name": "\u0413\u0443\u0431\u043a\u0438\u043d\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 226,
+  "fields": {
+    "name": "\u0413\u0443\u0434\u0435\u0440\u043c\u0435\u0441",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 227,
+  "fields": {
+    "name": "\u0413\u0443\u043a\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 228,
+  "fields": {
+    "name": "\u0413\u0443\u043b\u044c\u043a\u0435\u0432\u0438\u0447\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 229,
+  "fields": {
+    "name": "\u0413\u0443\u0440\u044c\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 230,
+  "fields": {
+    "name": "\u0413\u0443\u0441\u0435\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 231,
+  "fields": {
+    "name": "\u0413\u0443\u0441\u0438\u043d\u043e\u043e\u0437\u0435\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 232,
+  "fields": {
+    "name": "\u0413\u0443\u0441\u044c-\u0425\u0440\u0443\u0441\u0442\u0430\u043b\u044c\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 233,
+  "fields": {
+    "name": "\u0414\u0430\u0432\u043b\u0435\u043a\u0430\u043d\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 234,
+  "fields": {
+    "name": "\u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d\u0441\u043a\u0438\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 235,
+  "fields": {
+    "name": "\u0414\u0430\u043b\u043c\u0430\u0442\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 236,
+  "fields": {
+    "name": "\u0414\u0430\u043b\u044c\u043d\u0435\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 237,
+  "fields": {
+    "name": "\u0414\u0430\u043b\u044c\u043d\u0435\u0440\u0435\u0447\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 238,
+  "fields": {
+    "name": "\u0414\u0430\u043d\u0438\u043b\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 239,
+  "fields": {
+    "name": "\u0414\u0430\u043d\u043a\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 240,
+  "fields": {
+    "name": "\u0414\u0435\u0433\u0442\u044f\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 241,
+  "fields": {
+    "name": "\u0414\u0435\u0434\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 242,
+  "fields": {
+    "name": "\u0414\u0435\u043c\u0438\u0434\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 243,
+  "fields": {
+    "name": "\u0414\u0435\u0440\u0431\u0435\u043d\u0442",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 244,
+  "fields": {
+    "name": "\u0414\u0435\u0441\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 245,
+  "fields": {
+    "name": "\u0414\u0436\u0430\u043d\u043a\u043e\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 246,
+  "fields": {
+    "name": "\u0414\u0437\u0435\u0440\u0436\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 247,
+  "fields": {
+    "name": "\u0414\u0437\u0435\u0440\u0436\u0438\u043d\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 248,
+  "fields": {
+    "name": "\u0414\u0438\u0432\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 249,
+  "fields": {
+    "name": "\u0414\u0438\u0433\u043e\u0440\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 250,
+  "fields": {
+    "name": "\u0414\u0438\u043c\u0438\u0442\u0440\u043e\u0432\u0433\u0440\u0430\u0434",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 251,
+  "fields": {
+    "name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0435\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 252,
+  "fields": {
+    "name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0435\u0432-\u041b\u044c\u0433\u043e\u0432\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 253,
+  "fields": {
+    "name": "\u0414\u043c\u0438\u0442\u0440\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 254,
+  "fields": {
+    "name": "\u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 255,
+  "fields": {
+    "name": "\u0414\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 256,
+  "fields": {
+    "name": "\u0414\u043e\u0431\u0440\u044f\u043d\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 257,
+  "fields": {
+    "name": "\u0414\u043e\u043b\u0433\u043e\u043f\u0440\u0443\u0434\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 258,
+  "fields": {
+    "name": "\u0414\u043e\u043b\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 259,
+  "fields": {
+    "name": "\u0414\u043e\u043c\u043e\u0434\u0435\u0434\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 260,
+  "fields": {
+    "name": "\u0414\u043e\u043d\u0435\u0446\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 261,
+  "fields": {
+    "name": "\u0414\u043e\u043d\u0441\u043a\u043e\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 262,
+  "fields": {
+    "name": "\u0414\u043e\u0440\u043e\u0433\u043e\u0431\u0443\u0436",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 263,
+  "fields": {
+    "name": "\u0414\u0440\u0435\u0437\u043d\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 264,
+  "fields": {
+    "name": "\u0414\u0443\u0431\u043d\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 265,
+  "fields": {
+    "name": "\u0414\u0443\u0431\u043e\u0432\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 266,
+  "fields": {
+    "name": "\u0414\u0443\u0434\u0438\u043d\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 267,
+  "fields": {
+    "name": "\u0414\u0443\u0445\u043e\u0432\u0449\u0438\u043d\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 268,
+  "fields": {
+    "name": "\u0414\u044e\u0440\u0442\u044e\u043b\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 269,
+  "fields": {
+    "name": "\u0414\u044f\u0442\u044c\u043a\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 270,
+  "fields": {
+    "name": "\u0415\u0432\u043f\u0430\u0442\u043e\u0440\u0438\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 271,
+  "fields": {
+    "name": "\u0415\u0433\u043e\u0440\u044c\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 272,
+  "fields": {
+    "name": "\u0415\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 273,
+  "fields": {
+    "name": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 274,
+  "fields": {
+    "name": "\u0415\u043b\u0430\u0431\u0443\u0433\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 275,
+  "fields": {
+    "name": "\u0415\u043b\u0435\u0446",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 276,
+  "fields": {
+    "name": "\u0415\u043b\u0438\u0437\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 277,
+  "fields": {
+    "name": "\u0415\u043b\u044c\u043d\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 278,
+  "fields": {
+    "name": "\u0415\u043c\u0430\u043d\u0436\u0435\u043b\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 279,
+  "fields": {
+    "name": "\u0415\u043c\u0432\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 280,
+  "fields": {
+    "name": "\u0415\u043d\u0438\u0441\u0435\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 281,
+  "fields": {
+    "name": "\u0415\u0440\u043c\u043e\u043b\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 282,
+  "fields": {
+    "name": "\u0415\u0440\u0448\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 283,
+  "fields": {
+    "name": "\u0415\u0441\u0441\u0435\u043d\u0442\u0443\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 284,
+  "fields": {
+    "name": "\u0415\u0444\u0440\u0435\u043c\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 285,
+  "fields": {
+    "name": "\u0416\u0435\u043b\u0435\u0437\u043d\u043e\u0432\u043e\u0434\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 286,
+  "fields": {
+    "name": "\u0416\u0435\u043b\u0435\u0437\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 287,
+  "fields": {
+    "name": "\u0416\u0435\u043b\u0435\u0437\u043d\u043e\u0433\u043e\u0440\u0441\u043a-\u0418\u043b\u0438\u043c\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 288,
+  "fields": {
+    "name": "\u0416\u0435\u043b\u0435\u0437\u043d\u043e\u0434\u043e\u0440\u043e\u0436\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 289,
+  "fields": {
+    "name": "\u0416\u0435\u0440\u0434\u0435\u0432\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 290,
+  "fields": {
+    "name": "\u0416\u0438\u0433\u0443\u043b\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 291,
+  "fields": {
+    "name": "\u0416\u0438\u0437\u0434\u0440\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 292,
+  "fields": {
+    "name": "\u0416\u0438\u0440\u043d\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 293,
+  "fields": {
+    "name": "\u0416\u0443\u043a\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 294,
+  "fields": {
+    "name": "\u0416\u0443\u043a\u043e\u0432\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 295,
+  "fields": {
+    "name": "\u0416\u0443\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 296,
+  "fields": {
+    "name": "\u0417\u0430\u0432\u0438\u0442\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 297,
+  "fields": {
+    "name": "\u0417\u0430\u0432\u043e\u0434\u043e\u0443\u043a\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 298,
+  "fields": {
+    "name": "\u0417\u0430\u0432\u043e\u043b\u0436\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 299,
+  "fields": {
+    "name": "\u0417\u0430\u0432\u043e\u043b\u0436\u044c\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 300,
+  "fields": {
+    "name": "\u0417\u0430\u0434\u043e\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 301,
+  "fields": {
+    "name": "\u0417\u0430\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 302,
+  "fields": {
+    "name": "\u0417\u0430\u043a\u0430\u043c\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 303,
+  "fields": {
+    "name": "\u0417\u0430\u043e\u0437\u0435\u0440\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 304,
+  "fields": {
+    "name": "\u0417\u0430\u043e\u0437\u0435\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 305,
+  "fields": {
+    "name": "\u0417\u0430\u043f\u0430\u0434\u043d\u0430\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 306,
+  "fields": {
+    "name": "\u0417\u0430\u043f\u043e\u043b\u044f\u0440\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 307,
+  "fields": {
+    "name": "\u0417\u0430\u0440\u0430\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 308,
+  "fields": {
+    "name": "\u0417\u0430\u0440\u0435\u0447\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 309,
+  "fields": {
+    "name": "\u0417\u0430\u0440\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 310,
+  "fields": {
+    "name": "\u0417\u0432\u0435\u043d\u0438\u0433\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 311,
+  "fields": {
+    "name": "\u0417\u0432\u0435\u043d\u0438\u0433\u043e\u0440\u043e\u0434",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 312,
+  "fields": {
+    "name": "\u0417\u0432\u0435\u0440\u0435\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 313,
+  "fields": {
+    "name": "\u0417\u0435\u043b\u0435\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 314,
+  "fields": {
+    "name": "\u0417\u0435\u043b\u0435\u043d\u043e\u0433\u0440\u0430\u0434",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 315,
+  "fields": {
+    "name": "\u0417\u0435\u043b\u0435\u043d\u043e\u0433\u0440\u0430\u0434\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 316,
+  "fields": {
+    "name": "\u0417\u0435\u043b\u0435\u043d\u043e\u0434\u043e\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 317,
+  "fields": {
+    "name": "\u0417\u0435\u043b\u0435\u043d\u043e\u043a\u0443\u043c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 318,
+  "fields": {
+    "name": "\u0417\u0435\u0440\u043d\u043e\u0433\u0440\u0430\u0434",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 319,
+  "fields": {
+    "name": "\u0417\u0435\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 320,
+  "fields": {
+    "name": "\u0417\u0438\u043c\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 321,
+  "fields": {
+    "name": "\u0417\u043b\u0430\u0442\u043e\u0443\u0441\u0442",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 322,
+  "fields": {
+    "name": "\u0417\u043b\u044b\u043d\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 323,
+  "fields": {
+    "name": "\u0417\u043c\u0435\u0438\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 324,
+  "fields": {
+    "name": "\u0417\u043d\u0430\u043c\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 325,
+  "fields": {
+    "name": "\u0417\u0443\u0431\u0446\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 326,
+  "fields": {
+    "name": "\u0417\u0443\u0435\u0432\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 327,
+  "fields": {
+    "name": "\u0418\u0432\u0430\u043d\u0433\u043e\u0440\u043e\u0434",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 328,
+  "fields": {
+    "name": "\u0418\u0432\u0430\u043d\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 329,
+  "fields": {
+    "name": "\u0418\u0432\u0430\u043d\u0442\u0435\u0435\u0432\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 330,
+  "fields": {
+    "name": "\u0418\u0432\u0434\u0435\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 331,
+  "fields": {
+    "name": "\u0418\u0433\u0430\u0440\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 332,
+  "fields": {
+    "name": "\u0418\u0436\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 333,
+  "fields": {
+    "name": "\u0418\u0437\u0431\u0435\u0440\u0431\u0430\u0448",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 334,
+  "fields": {
+    "name": "\u0418\u0437\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 335,
+  "fields": {
+    "name": "\u0418\u043b\u0430\u043d\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 336,
+  "fields": {
+    "name": "\u0418\u043d\u0437\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 337,
+  "fields": {
+    "name": "\u0418\u043d\u043a\u0435\u0440\u043c\u0430\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 338,
+  "fields": {
+    "name": "\u0418\u043d\u043d\u043e\u043f\u043e\u043b\u0438\u0441",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 339,
+  "fields": {
+    "name": "\u0418\u043d\u0441\u0430\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 340,
+  "fields": {
+    "name": "\u0418\u043d\u0442\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 341,
+  "fields": {
+    "name": "\u0418\u043f\u0430\u0442\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 342,
+  "fields": {
+    "name": "\u0418\u0440\u0431\u0438\u0442",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 343,
+  "fields": {
+    "name": "\u0418\u0440\u043a\u0443\u0442\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 344,
+  "fields": {
+    "name": "\u0418\u0441\u0438\u043b\u044c\u043a\u0443\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 345,
+  "fields": {
+    "name": "\u0418\u0441\u043a\u0438\u0442\u0438\u043c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 346,
+  "fields": {
+    "name": "\u0418\u0441\u0442\u0440\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 347,
+  "fields": {
+    "name": "\u0418\u0448\u0438\u043c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 348,
+  "fields": {
+    "name": "\u0418\u0448\u0438\u043c\u0431\u0430\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 349,
+  "fields": {
+    "name": "\u0419\u043e\u0448\u043a\u0430\u0440-\u041e\u043b\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 350,
+  "fields": {
+    "name": "\u041a\u0430\u0434\u043d\u0438\u043a\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 351,
+  "fields": {
+    "name": "\u041a\u0430\u0437\u0430\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 352,
+  "fields": {
+    "name": "\u041a\u0430\u0439\u0435\u0440\u043a\u0430\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 353,
+  "fields": {
+    "name": "\u041a\u0430\u043b\u0430\u0447",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 354,
+  "fields": {
+    "name": "\u041a\u0430\u043b\u0430\u0447-\u043d\u0430-\u0414\u043e\u043d\u0443",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 355,
+  "fields": {
+    "name": "\u041a\u0430\u043b\u0430\u0447\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 356,
+  "fields": {
+    "name": "\u041a\u0430\u043b\u0438\u043d\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 357,
+  "fields": {
+    "name": "\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 358,
+  "fields": {
+    "name": "\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 359,
+  "fields": {
+    "name": "\u041a\u0430\u043b\u0442\u0430\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 360,
+  "fields": {
+    "name": "\u041a\u0430\u043b\u0443\u0433\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 361,
+  "fields": {
+    "name": "\u041a\u0430\u043b\u044f\u0437\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 362,
+  "fields": {
+    "name": "\u041a\u0430\u043c\u0431\u0430\u0440\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 363,
+  "fields": {
+    "name": "\u041a\u0430\u043c\u0435\u043d\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 364,
+  "fields": {
+    "name": "\u041a\u0430\u043c\u0435\u043d\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 365,
+  "fields": {
+    "name": "\u041a\u0430\u043c\u0435\u043d\u0441\u043a-\u0423\u0440\u0430\u043b\u044c\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 366,
+  "fields": {
+    "name": "\u041a\u0430\u043c\u0435\u043d\u0441\u043a-\u0428\u0430\u0445\u0442\u0438\u043d\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 367,
+  "fields": {
+    "name": "\u041a\u0430\u043c\u0435\u043d\u044c-\u043d\u0430-\u041e\u0431\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 368,
+  "fields": {
+    "name": "\u041a\u0430\u043c\u0435\u0448\u043a\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 369,
+  "fields": {
+    "name": "\u041a\u0430\u043c\u044b\u0437\u044f\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 370,
+  "fields": {
+    "name": "\u041a\u0430\u043c\u044b\u0448\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 371,
+  "fields": {
+    "name": "\u041a\u0430\u043c\u044b\u0448\u043b\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 372,
+  "fields": {
+    "name": "\u041a\u0430\u043d\u0430\u0448",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 373,
+  "fields": {
+    "name": "\u041a\u0430\u043d\u0434\u0430\u043b\u0430\u043a\u0448\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 374,
+  "fields": {
+    "name": "\u041a\u0430\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 375,
+  "fields": {
+    "name": "\u041a\u0430\u0440\u0430\u0431\u0430\u043d\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 376,
+  "fields": {
+    "name": "\u041a\u0430\u0440\u0430\u0431\u0430\u0448",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 377,
+  "fields": {
+    "name": "\u041a\u0430\u0440\u0430\u0431\u0443\u043b\u0430\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 378,
+  "fields": {
+    "name": "\u041a\u0430\u0440\u0430\u0441\u0443\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 379,
+  "fields": {
+    "name": "\u041a\u0430\u0440\u0430\u0447\u0430\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 380,
+  "fields": {
+    "name": "\u041a\u0430\u0440\u0430\u0447\u0435\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 381,
+  "fields": {
+    "name": "\u041a\u0430\u0440\u0433\u0430\u0442",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 382,
+  "fields": {
+    "name": "\u041a\u0430\u0440\u0433\u043e\u043f\u043e\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 383,
+  "fields": {
+    "name": "\u041a\u0430\u0440\u043f\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 384,
+  "fields": {
+    "name": "\u041a\u0430\u0440\u0442\u0430\u043b\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 385,
+  "fields": {
+    "name": "\u041a\u0430\u0441\u0438\u043c\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 386,
+  "fields": {
+    "name": "\u041a\u0430\u0441\u043b\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 387,
+  "fields": {
+    "name": "\u041a\u0430\u0441\u043f\u0438\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 388,
+  "fields": {
+    "name": "\u041a\u0430\u0442\u0430\u0432-\u0418\u0432\u0430\u043d\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 389,
+  "fields": {
+    "name": "\u041a\u0430\u0442\u0430\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 390,
+  "fields": {
+    "name": "\u041a\u0430\u0447\u043a\u0430\u043d\u0430\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 391,
+  "fields": {
+    "name": "\u041a\u0430\u0448\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 392,
+  "fields": {
+    "name": "\u041a\u0430\u0448\u0438\u0440\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 393,
+  "fields": {
+    "name": "\u041a\u0435\u0434\u0440\u043e\u0432\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 394,
+  "fields": {
+    "name": "\u041a\u0435\u043c\u0435\u0440\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 395,
+  "fields": {
+    "name": "\u041a\u0435\u043c\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 396,
+  "fields": {
+    "name": "\u041a\u0435\u0440\u0447\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 397,
+  "fields": {
+    "name": "\u041a\u0438\u0437\u0435\u043b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 398,
+  "fields": {
+    "name": "\u041a\u0438\u0437\u0438\u043b\u044e\u0440\u0442",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 399,
+  "fields": {
+    "name": "\u041a\u0438\u0437\u043b\u044f\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 400,
+  "fields": {
+    "name": "\u041a\u0438\u043c\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 401,
+  "fields": {
+    "name": "\u041a\u0438\u043c\u0440\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 402,
+  "fields": {
+    "name": "\u041a\u0438\u043d\u0433\u0438\u0441\u0435\u043f\u043f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 403,
+  "fields": {
+    "name": "\u041a\u0438\u043d\u0435\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 404,
+  "fields": {
+    "name": "\u041a\u0438\u043d\u0435\u0448\u043c\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 405,
+  "fields": {
+    "name": "\u041a\u0438\u0440\u0435\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 406,
+  "fields": {
+    "name": "\u041a\u0438\u0440\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 407,
+  "fields": {
+    "name": "\u041a\u0438\u0440\u0436\u0430\u0447",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 408,
+  "fields": {
+    "name": "\u041a\u0438\u0440\u0438\u043b\u043b\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 409,
+  "fields": {
+    "name": "\u041a\u0438\u0440\u0438\u0448\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 410,
+  "fields": {
+    "name": "\u041a\u0438\u0440\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 411,
+  "fields": {
+    "name": "\u041a\u0438\u0440\u043e\u0432\u0433\u0440\u0430\u0434",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 412,
+  "fields": {
+    "name": "\u041a\u0438\u0440\u043e\u0432\u043e-\u0427\u0435\u043f\u0435\u0446\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 413,
+  "fields": {
+    "name": "\u041a\u0438\u0440\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 414,
+  "fields": {
+    "name": "\u041a\u0438\u0440\u0441",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 415,
+  "fields": {
+    "name": "\u041a\u0438\u0440\u0441\u0430\u043d\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 416,
+  "fields": {
+    "name": "\u041a\u0438\u0441\u0435\u043b\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 417,
+  "fields": {
+    "name": "\u041a\u0438\u0441\u043b\u043e\u0432\u043e\u0434\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 418,
+  "fields": {
+    "name": "\u041a\u043b\u0438\u043c\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 419,
+  "fields": {
+    "name": "\u041a\u043b\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 420,
+  "fields": {
+    "name": "\u041a\u043b\u0438\u043d\u0446\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 421,
+  "fields": {
+    "name": "\u041a\u043d\u044f\u0433\u0438\u043d\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 422,
+  "fields": {
+    "name": "\u041a\u043e\u0432\u0434\u043e\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 423,
+  "fields": {
+    "name": "\u041a\u043e\u0432\u0440\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 424,
+  "fields": {
+    "name": "\u041a\u043e\u0432\u044b\u043b\u043a\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 425,
+  "fields": {
+    "name": "\u041a\u043e\u0433\u0430\u043b\u044b\u043c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 426,
+  "fields": {
+    "name": "\u041a\u043e\u0434\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 427,
+  "fields": {
+    "name": "\u041a\u043e\u0437\u0435\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 428,
+  "fields": {
+    "name": "\u041a\u043e\u0437\u043b\u043e\u0432\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 429,
+  "fields": {
+    "name": "\u041a\u043e\u0437\u044c\u043c\u043e\u0434\u0435\u043c\u044c\u044f\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 430,
+  "fields": {
+    "name": "\u041a\u043e\u043b\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 431,
+  "fields": {
+    "name": "\u041a\u043e\u043b\u043e\u0433\u0440\u0438\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 432,
+  "fields": {
+    "name": "\u041a\u043e\u043b\u043e\u043c\u043d\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 433,
+  "fields": {
+    "name": "\u041a\u043e\u043b\u043f\u0430\u0448\u0435\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 434,
+  "fields": {
+    "name": "\u041a\u043e\u043b\u043f\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 435,
+  "fields": {
+    "name": "\u041a\u043e\u043b\u044c\u0447\u0443\u0433\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 436,
+  "fields": {
+    "name": "\u041a\u043e\u043c\u043c\u0443\u043d\u0430\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 437,
+  "fields": {
+    "name": "\u041a\u043e\u043c\u0441\u043e\u043c\u043e\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 438,
+  "fields": {
+    "name": "\u041a\u043e\u043c\u0441\u043e\u043c\u043e\u043b\u044c\u0441\u043a-\u043d\u0430-\u0410\u043c\u0443\u0440\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 439,
+  "fields": {
+    "name": "\u041a\u043e\u043d\u0430\u043a\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 440,
+  "fields": {
+    "name": "\u041a\u043e\u043d\u0434\u043e\u043f\u043e\u0433\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 441,
+  "fields": {
+    "name": "\u041a\u043e\u043d\u0434\u0440\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 442,
+  "fields": {
+    "name": "\u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 443,
+  "fields": {
+    "name": "\u041a\u043e\u043f\u0435\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 444,
+  "fields": {
+    "name": "\u041a\u043e\u0440\u0430\u0431\u043b\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 445,
+  "fields": {
+    "name": "\u041a\u043e\u0440\u0435\u043d\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 446,
+  "fields": {
+    "name": "\u041a\u043e\u0440\u043a\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 447,
+  "fields": {
+    "name": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 448,
+  "fields": {
+    "name": "\u041a\u043e\u0440\u043e\u0447\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 449,
+  "fields": {
+    "name": "\u041a\u043e\u0440\u0441\u0430\u043a\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 450,
+  "fields": {
+    "name": "\u041a\u043e\u0440\u044f\u0436\u043c\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 451,
+  "fields": {
+    "name": "\u041a\u043e\u0441\u0442\u0435\u0440\u0435\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 452,
+  "fields": {
+    "name": "\u041a\u043e\u0441\u0442\u043e\u043c\u0443\u043a\u0448\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 453,
+  "fields": {
+    "name": "\u041a\u043e\u0441\u0442\u0440\u043e\u043c\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 454,
+  "fields": {
+    "name": "\u041a\u043e\u0442\u0435\u043b\u044c\u043d\u0438\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 455,
+  "fields": {
+    "name": "\u041a\u043e\u0442\u0435\u043b\u044c\u043d\u0438\u043a\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 456,
+  "fields": {
+    "name": "\u041a\u043e\u0442\u0435\u043b\u044c\u043d\u0438\u0447",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 457,
+  "fields": {
+    "name": "\u041a\u043e\u0442\u043b\u0430\u0441",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 458,
+  "fields": {
+    "name": "\u041a\u043e\u0442\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 459,
+  "fields": {
+    "name": "\u041a\u043e\u0442\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 460,
+  "fields": {
+    "name": "\u041a\u043e\u0445\u043c\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 461,
+  "fields": {
+    "name": "\u041a\u0440\u0430\u0441\u0430\u0432\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 462,
+  "fields": {
+    "name": "\u041a\u0440\u0430\u0441\u043d\u043e\u0430\u0440\u043c\u0435\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 463,
+  "fields": {
+    "name": "\u041a\u0440\u0430\u0441\u043d\u043e\u0432\u0438\u0448\u0435\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 464,
+  "fields": {
+    "name": "\u041a\u0440\u0430\u0441\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 465,
+  "fields": {
+    "name": "\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 466,
+  "fields": {
+    "name": "\u041a\u0440\u0430\u0441\u043d\u043e\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 467,
+  "fields": {
+    "name": "\u041a\u0440\u0430\u0441\u043d\u043e\u0437\u0430\u0432\u043e\u0434\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 468,
+  "fields": {
+    "name": "\u041a\u0440\u0430\u0441\u043d\u043e\u0437\u043d\u0430\u043c\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 469,
+  "fields": {
+    "name": "\u041a\u0440\u0430\u0441\u043d\u043e\u043a\u0430\u043c\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 470,
+  "fields": {
+    "name": "\u041a\u0440\u0430\u0441\u043d\u043e\u043a\u0430\u043c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 471,
+  "fields": {
+    "name": "\u041a\u0440\u0430\u0441\u043d\u043e\u043f\u0435\u0440\u0435\u043a\u043e\u043f\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 472,
+  "fields": {
+    "name": "\u041a\u0440\u0430\u0441\u043d\u043e\u0441\u043b\u043e\u0431\u043e\u0434\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 473,
+  "fields": {
+    "name": "\u041a\u0440\u0430\u0441\u043d\u043e\u0442\u0443\u0440\u044c\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 474,
+  "fields": {
+    "name": "\u041a\u0440\u0430\u0441\u043d\u043e\u0443\u0440\u0430\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 475,
+  "fields": {
+    "name": "\u041a\u0440\u0430\u0441\u043d\u043e\u0443\u0444\u0438\u043c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 476,
+  "fields": {
+    "name": "\u041a\u0440\u0430\u0441\u043d\u043e\u044f\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 477,
+  "fields": {
+    "name": "\u041a\u0440\u0430\u0441\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 478,
+  "fields": {
+    "name": "\u041a\u0440\u0435\u043c\u0435\u043d\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 479,
+  "fields": {
+    "name": "\u041a\u0440\u043e\u043d\u0448\u0442\u0430\u0434\u0442",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 480,
+  "fields": {
+    "name": "\u041a\u0440\u043e\u043f\u043e\u0442\u043a\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 481,
+  "fields": {
+    "name": "\u041a\u0440\u044b\u043c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 482,
+  "fields": {
+    "name": "\u041a\u0441\u0442\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 483,
+  "fields": {
+    "name": "\u041a\u0443\u0431\u0438\u043d\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 484,
+  "fields": {
+    "name": "\u041a\u0443\u0432\u0430\u043d\u0434\u044b\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 485,
+  "fields": {
+    "name": "\u041a\u0443\u0432\u0448\u0438\u043d\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 486,
+  "fields": {
+    "name": "\u041a\u0443\u0434\u044b\u043c\u043a\u0430\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 487,
+  "fields": {
+    "name": "\u041a\u0443\u0437\u043d\u0435\u0446\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 488,
+  "fields": {
+    "name": "\u041a\u0443\u0439\u0431\u044b\u0448\u0435\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 489,
+  "fields": {
+    "name": "\u041a\u0443\u043b\u0435\u0431\u0430\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 490,
+  "fields": {
+    "name": "\u041a\u0443\u043c\u0435\u0440\u0442\u0430\u0443",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 491,
+  "fields": {
+    "name": "\u041a\u0443\u043d\u0433\u0443\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 492,
+  "fields": {
+    "name": "\u041a\u0443\u043f\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 493,
+  "fields": {
+    "name": "\u041a\u0443\u0440\u0433\u0430\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 494,
+  "fields": {
+    "name": "\u041a\u0443\u0440\u0433\u0430\u043d\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 495,
+  "fields": {
+    "name": "\u041a\u0443\u0440\u0438\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 496,
+  "fields": {
+    "name": "\u041a\u0443\u0440\u043b\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 497,
+  "fields": {
+    "name": "\u041a\u0443\u0440\u043e\u0432\u0441\u043a\u043e\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 498,
+  "fields": {
+    "name": "\u041a\u0443\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 499,
+  "fields": {
+    "name": "\u041a\u0443\u0440\u0442\u0430\u043c\u044b\u0448",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 500,
+  "fields": {
+    "name": "\u041a\u0443\u0440\u0447\u0430\u0442\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 501,
+  "fields": {
+    "name": "\u041a\u0443\u0441\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 502,
+  "fields": {
+    "name": "\u041a\u0443\u0448\u0432\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 503,
+  "fields": {
+    "name": "\u041a\u044b\u0437\u044b\u043b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 504,
+  "fields": {
+    "name": "\u041a\u044b\u0448\u0442\u044b\u043c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 505,
+  "fields": {
+    "name": "\u041a\u044f\u0445\u0442\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 506,
+  "fields": {
+    "name": "\u041b\u0430\u0431\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 507,
+  "fields": {
+    "name": "\u041b\u0430\u0431\u044b\u0442\u043d\u0430\u043d\u0433\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 508,
+  "fields": {
+    "name": "\u041b\u0430\u0433\u0430\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 509,
+  "fields": {
+    "name": "\u041b\u0430\u0434\u0443\u0448\u043a\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 510,
+  "fields": {
+    "name": "\u041b\u0430\u0438\u0448\u0435\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 511,
+  "fields": {
+    "name": "\u041b\u0430\u043a\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 512,
+  "fields": {
+    "name": "\u041b\u0430\u043d\u0433\u0435\u043f\u0430\u0441",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 513,
+  "fields": {
+    "name": "\u041b\u0430\u0445\u0434\u0435\u043d\u043f\u043e\u0445\u044c\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 514,
+  "fields": {
+    "name": "\u041b\u0435\u0431\u0435\u0434\u044f\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 515,
+  "fields": {
+    "name": "\u041b\u0435\u043d\u0438\u043d\u0433\u0440\u0430\u0434",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 516,
+  "fields": {
+    "name": "\u041b\u0435\u043d\u0438\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 517,
+  "fields": {
+    "name": "\u041b\u0435\u043d\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 518,
+  "fields": {
+    "name": "\u041b\u0435\u043d\u0438\u043d\u0441\u043a-\u041a\u0443\u0437\u043d\u0435\u0446\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 519,
+  "fields": {
+    "name": "\u041b\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 520,
+  "fields": {
+    "name": "\u041b\u0435\u0440\u043c\u043e\u043d\u0442\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 521,
+  "fields": {
+    "name": "\u041b\u0435\u0441\u043d\u043e\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 522,
+  "fields": {
+    "name": "\u041b\u0435\u0441\u043e\u0437\u0430\u0432\u043e\u0434\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 523,
+  "fields": {
+    "name": "\u041b\u0435\u0441\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 524,
+  "fields": {
+    "name": "\u041b\u0438\u0432\u043d\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 525,
+  "fields": {
+    "name": "\u041b\u0438\u043a\u0438\u043d\u043e-\u0414\u0443\u043b\u0435\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 526,
+  "fields": {
+    "name": "\u041b\u0438\u043f\u0435\u0446\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 527,
+  "fields": {
+    "name": "\u041b\u0438\u043f\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 528,
+  "fields": {
+    "name": "\u041b\u0438\u0441\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 529,
+  "fields": {
+    "name": "\u041b\u0438\u0445\u043e\u0441\u043b\u0430\u0432\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 530,
+  "fields": {
+    "name": "\u041b\u043e\u0431\u043d\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 531,
+  "fields": {
+    "name": "\u041b\u043e\u0434\u0435\u0439\u043d\u043e\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 532,
+  "fields": {
+    "name": "\u041b\u043e\u043c\u043e\u043d\u043e\u0441\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 533,
+  "fields": {
+    "name": "\u041b\u043e\u0441\u0438\u043d\u043e-\u041f\u0435\u0442\u0440\u043e\u0432\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 534,
+  "fields": {
+    "name": "\u041b\u0443\u0433\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 535,
+  "fields": {
+    "name": "\u041b\u0443\u0437\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 536,
+  "fields": {
+    "name": "\u041b\u0443\u043a\u043e\u044f\u043d\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 537,
+  "fields": {
+    "name": "\u041b\u0443\u0445\u043e\u0432\u0438\u0446\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 538,
+  "fields": {
+    "name": "\u041b\u044b\u0441\u043a\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 539,
+  "fields": {
+    "name": "\u041b\u044b\u0441\u044c\u0432\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 540,
+  "fields": {
+    "name": "\u041b\u044b\u0442\u043a\u0430\u0440\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 541,
+  "fields": {
+    "name": "\u041b\u044c\u0433\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 542,
+  "fields": {
+    "name": "\u041b\u044e\u0431\u0430\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 543,
+  "fields": {
+    "name": "\u041b\u044e\u0431\u0435\u0440\u0446\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 544,
+  "fields": {
+    "name": "\u041b\u044e\u0431\u0438\u043c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 545,
+  "fields": {
+    "name": "\u041b\u044e\u0434\u0438\u043d\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 546,
+  "fields": {
+    "name": "\u041b\u044f\u043d\u0442\u043e\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 547,
+  "fields": {
+    "name": "\u041c\u0430\u0433\u0430\u0434\u0430\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 548,
+  "fields": {
+    "name": "\u041c\u0430\u0433\u0430\u0441",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 549,
+  "fields": {
+    "name": "\u041c\u0430\u0433\u043d\u0438\u0442\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 550,
+  "fields": {
+    "name": "\u041c\u0430\u0439\u043a\u043e\u043f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 551,
+  "fields": {
+    "name": "\u041c\u0430\u0439\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 552,
+  "fields": {
+    "name": "\u041c\u0430\u043a\u0430\u0440\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 553,
+  "fields": {
+    "name": "\u041c\u0430\u043a\u0430\u0440\u044c\u0435\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 554,
+  "fields": {
+    "name": "\u041c\u0430\u043a\u0443\u0448\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 555,
+  "fields": {
+    "name": "\u041c\u0430\u043b\u0430\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 556,
+  "fields": {
+    "name": "\u041c\u0430\u043b\u0433\u043e\u0431\u0435\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 557,
+  "fields": {
+    "name": "\u041c\u0430\u043b\u043c\u044b\u0436",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 558,
+  "fields": {
+    "name": "\u041c\u0430\u043b\u043e\u0430\u0440\u0445\u0430\u043d\u0433\u0435\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 559,
+  "fields": {
+    "name": "\u041c\u0430\u043b\u043e\u044f\u0440\u043e\u0441\u043b\u0430\u0432\u0435\u0446",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 560,
+  "fields": {
+    "name": "\u041c\u0430\u043c\u0430\u0434\u044b\u0448",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 561,
+  "fields": {
+    "name": "\u041c\u0430\u043c\u043e\u043d\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 562,
+  "fields": {
+    "name": "\u041c\u0430\u043d\u0442\u0443\u0440\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 563,
+  "fields": {
+    "name": "\u041c\u0430\u0440\u0438\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 564,
+  "fields": {
+    "name": "\u041c\u0430\u0440\u0438\u0438\u043d\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 565,
+  "fields": {
+    "name": "\u041c\u0430\u0440\u043a\u0441",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 566,
+  "fields": {
+    "name": "\u041c\u0430\u0445\u0430\u0447\u043a\u0430\u043b\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 567,
+  "fields": {
+    "name": "\u041c\u0433\u043b\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 568,
+  "fields": {
+    "name": "\u041c\u0435\u0433\u0438\u043e\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 569,
+  "fields": {
+    "name": "\u041c\u0435\u0434\u0432\u0435\u0436\u044c\u0435\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 570,
+  "fields": {
+    "name": "\u041c\u0435\u0434\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 571,
+  "fields": {
+    "name": "\u041c\u0435\u0434\u044b\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 572,
+  "fields": {
+    "name": "\u041c\u0435\u0436\u0433\u043e\u0440\u044c\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 573,
+  "fields": {
+    "name": "\u041c\u0435\u0436\u0434\u0443\u0440\u0435\u0447\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 574,
+  "fields": {
+    "name": "\u041c\u0435\u0437\u0435\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 575,
+  "fields": {
+    "name": "\u041c\u0435\u043b\u0435\u043d\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 576,
+  "fields": {
+    "name": "\u041c\u0435\u043b\u0435\u0443\u0437",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 577,
+  "fields": {
+    "name": "\u041c\u0435\u043d\u0434\u0435\u043b\u0435\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 578,
+  "fields": {
+    "name": "\u041c\u0435\u043d\u0437\u0435\u043b\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 579,
+  "fields": {
+    "name": "\u041c\u0435\u0449\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 580,
+  "fields": {
+    "name": "\u041c\u0438\u0430\u0441\u0441",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 581,
+  "fields": {
+    "name": "\u041c\u0438\u043a\u0443\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 582,
+  "fields": {
+    "name": "\u041c\u0438\u043b\u043b\u0435\u0440\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 583,
+  "fields": {
+    "name": "\u041c\u0438\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 584,
+  "fields": {
+    "name": "\u041c\u0438\u043d\u0443\u0441\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 585,
+  "fields": {
+    "name": "\u041c\u0438\u043d\u044c\u044f\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 586,
+  "fields": {
+    "name": "\u041c\u0438\u0440\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 587,
+  "fields": {
+    "name": "\u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 588,
+  "fields": {
+    "name": "\u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 589,
+  "fields": {
+    "name": "\u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 590,
+  "fields": {
+    "name": "\u041c\u0438\u0447\u0443\u0440\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 591,
+  "fields": {
+    "name": "\u041c\u043e\u0433\u043e\u0447\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 592,
+  "fields": {
+    "name": "\u041c\u043e\u0436\u0430\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 593,
+  "fields": {
+    "name": "\u041c\u043e\u0436\u0433\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 594,
+  "fields": {
+    "name": "\u041c\u043e\u0437\u0434\u043e\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 595,
+  "fields": {
+    "name": "\u041c\u043e\u043d\u0447\u0435\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 596,
+  "fields": {
+    "name": "\u041c\u043e\u0440\u043e\u0437\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 597,
+  "fields": {
+    "name": "\u041c\u043e\u0440\u0448\u0430\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 598,
+  "fields": {
+    "name": "\u041c\u043e\u0441\u0430\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 599,
+  "fields": {
+    "name": "\u041c\u043e\u0441\u043a\u0432\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 600,
+  "fields": {
+    "name": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 601,
+  "fields": {
+    "name": "\u041c\u0443\u0440\u0430\u0432\u043b\u0435\u043d\u043a\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 602,
+  "fields": {
+    "name": "\u041c\u0443\u0440\u0430\u0448\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 603,
+  "fields": {
+    "name": "\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 604,
+  "fields": {
+    "name": "\u041c\u0443\u0440\u043e\u043c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 605,
+  "fields": {
+    "name": "\u041c\u0446\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 606,
+  "fields": {
+    "name": "\u041c\u044b\u0441\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 607,
+  "fields": {
+    "name": "\u041c\u044b\u0442\u0438\u0449\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 608,
+  "fields": {
+    "name": "\u041c\u044b\u0448\u043a\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 609,
+  "fields": {
+    "name": "\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u044b\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 610,
+  "fields": {
+    "name": "\u041d\u0430\u0432\u0430\u0448\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 611,
+  "fields": {
+    "name": "\u041d\u0430\u0432\u043e\u043b\u043e\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 612,
+  "fields": {
+    "name": "\u041d\u0430\u0434\u044b\u043c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 613,
+  "fields": {
+    "name": "\u041d\u0430\u0437\u0430\u0440\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 614,
+  "fields": {
+    "name": "\u041d\u0430\u0437\u0440\u0430\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 615,
+  "fields": {
+    "name": "\u041d\u0430\u0437\u044b\u0432\u0430\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 616,
+  "fields": {
+    "name": "\u041d\u0430\u043b\u044c\u0447\u0438\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 617,
+  "fields": {
+    "name": "\u041d\u0430\u0440\u0438\u043c\u0430\u043d\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 618,
+  "fields": {
+    "name": "\u041d\u0430\u0440\u043e-\u0424\u043e\u043c\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 619,
+  "fields": {
+    "name": "\u041d\u0430\u0440\u0442\u043a\u0430\u043b\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 620,
+  "fields": {
+    "name": "\u041d\u0430\u0440\u044c\u044f\u043d-\u041c\u0430\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 621,
+  "fields": {
+    "name": "\u041d\u0430\u0445\u043e\u0434\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 622,
+  "fields": {
+    "name": "\u041d\u0435\u0432\u0435\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 623,
+  "fields": {
+    "name": "\u041d\u0435\u0432\u0435\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 624,
+  "fields": {
+    "name": "\u041d\u0435\u0432\u0438\u043d\u043d\u043e\u043c\u044b\u0441\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 625,
+  "fields": {
+    "name": "\u041d\u0435\u0432\u044c\u044f\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 626,
+  "fields": {
+    "name": "\u041d\u0435\u043b\u0438\u0434\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 627,
+  "fields": {
+    "name": "\u041d\u0435\u043c\u0430\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 628,
+  "fields": {
+    "name": "\u041d\u0435\u0440\u0435\u0445\u0442\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 629,
+  "fields": {
+    "name": "\u041d\u0435\u0440\u0447\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 630,
+  "fields": {
+    "name": "\u041d\u0435\u0440\u044e\u043d\u0433\u0440\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 631,
+  "fields": {
+    "name": "\u041d\u0435\u0441\u0442\u0435\u0440\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 632,
+  "fields": {
+    "name": "\u041d\u0435\u0444\u0442\u0435\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 633,
+  "fields": {
+    "name": "\u041d\u0435\u0444\u0442\u0435\u043a\u0430\u043c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 634,
+  "fields": {
+    "name": "\u041d\u0435\u0444\u0442\u0435\u043a\u0443\u043c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 635,
+  "fields": {
+    "name": "\u041d\u0435\u0444\u0442\u0435\u044e\u0433\u0430\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 636,
+  "fields": {
+    "name": "\u041d\u0435\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 637,
+  "fields": {
+    "name": "\u041d\u0438\u0436\u043d\u0435\u0432\u0430\u0440\u0442\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 638,
+  "fields": {
+    "name": "\u041d\u0438\u0436\u043d\u0435\u043a\u0430\u043c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 639,
+  "fields": {
+    "name": "\u041d\u0438\u0436\u043d\u0435\u0443\u0434\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 640,
+  "fields": {
+    "name": "\u041d\u0438\u0436\u043d\u0438\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 641,
+  "fields": {
+    "name": "\u041d\u0438\u0436\u043d\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 642,
+  "fields": {
+    "name": "\u041d\u0438\u0436\u043d\u044f\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 643,
+  "fields": {
+    "name": "\u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 644,
+  "fields": {
+    "name": "\u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432\u0441\u043a-\u043d\u0430-\u0410\u043c\u0443\u0440\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 645,
+  "fields": {
+    "name": "\u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 646,
+  "fields": {
+    "name": "\u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a\u043e\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 647,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u0430\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 648,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0430\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 649,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0430\u043b\u0442\u0430\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 650,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0430\u043d\u043d\u0438\u043d\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 651,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0432\u043e\u0440\u043e\u043d\u0435\u0436",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 652,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0434\u0432\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 653,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0437\u044b\u0431\u043a\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 654,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u043a\u0443\u0431\u0430\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 655,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u043a\u0443\u0437\u043d\u0435\u0446\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 656,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u043a\u0443\u0439\u0431\u044b\u0448\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 657,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u043c\u0438\u0447\u0443\u0440\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 658,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u043c\u043e\u0441\u043a\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 659,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u043f\u0430\u0432\u043b\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 660,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0440\u0436\u0435\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 661,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 662,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 663,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0441\u0438\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 664,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0441\u043e\u043a\u043e\u043b\u044c\u043d\u0438\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 665,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0442\u0440\u043e\u0438\u0446\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 666,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0443\u0437\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 667,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0443\u043b\u044c\u044f\u043d\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 668,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0443\u0440\u0430\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 669,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0445\u043e\u043f\u0435\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 670,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0447\u0435\u0431\u043e\u043a\u0441\u0430\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 671,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0447\u0435\u0440\u043a\u0430\u0441\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 672,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u043e\u0448\u0430\u0445\u0442\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 673,
+  "fields": {
+    "name": "\u041d\u043e\u0432\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 674,
+  "fields": {
+    "name": "\u041d\u043e\u0433\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 675,
+  "fields": {
+    "name": "\u041d\u043e\u043b\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 676,
+  "fields": {
+    "name": "\u041d\u043e\u0440\u0438\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 677,
+  "fields": {
+    "name": "\u041d\u043e\u044f\u0431\u0440\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 678,
+  "fields": {
+    "name": "\u041d\u0443\u0440\u043b\u0430\u0442",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 679,
+  "fields": {
+    "name": "\u041d\u044b\u0442\u0432\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 680,
+  "fields": {
+    "name": "\u041d\u044e\u0440\u0431\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 681,
+  "fields": {
+    "name": "\u041d\u044f\u0433\u0430\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 682,
+  "fields": {
+    "name": "\u041d\u044f\u0437\u0435\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 683,
+  "fields": {
+    "name": "\u041d\u044f\u043d\u0434\u043e\u043c\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 684,
+  "fields": {
+    "name": "\u041e\u0431\u043b\u0443\u0447\u044c\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 685,
+  "fields": {
+    "name": "\u041e\u0431\u043d\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 686,
+  "fields": {
+    "name": "\u041e\u0431\u043e\u044f\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 687,
+  "fields": {
+    "name": "\u041e\u0431\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 688,
+  "fields": {
+    "name": "\u041e\u0434\u0438\u043d\u0446\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 689,
+  "fields": {
+    "name": "\u041e\u0436\u0435\u0440\u0435\u043b\u044c\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 690,
+  "fields": {
+    "name": "\u041e\u0437\u0435\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 691,
+  "fields": {
+    "name": "\u041e\u0437\u0435\u0440\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 692,
+  "fields": {
+    "name": "\u041e\u043a\u0442\u044f\u0431\u0440\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 693,
+  "fields": {
+    "name": "\u041e\u043a\u0442\u044f\u0431\u0440\u044c\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 694,
+  "fields": {
+    "name": "\u041e\u043a\u0443\u043b\u043e\u0432\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 695,
+  "fields": {
+    "name": "\u041e\u043b\u0435\u043a\u043c\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 696,
+  "fields": {
+    "name": "\u041e\u043b\u0435\u043d\u0435\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 697,
+  "fields": {
+    "name": "\u041e\u043b\u043e\u043d\u0435\u0446",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 698,
+  "fields": {
+    "name": "\u041e\u043c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 699,
+  "fields": {
+    "name": "\u041e\u043c\u0443\u0442\u043d\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 700,
+  "fields": {
+    "name": "\u041e\u043d\u0435\u0433\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 701,
+  "fields": {
+    "name": "\u041e\u043f\u043e\u0447\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 702,
+  "fields": {
+    "name": "\u041e\u0440\u0435\u043b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 703,
+  "fields": {
+    "name": "\u041e\u0440\u0435\u043d\u0431\u0443\u0440\u0433",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 704,
+  "fields": {
+    "name": "\u041e\u0440\u0435\u0445\u043e\u0432\u043e-\u0417\u0443\u0435\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 705,
+  "fields": {
+    "name": "\u041e\u0440\u043b\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 706,
+  "fields": {
+    "name": "\u041e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 707,
+  "fields": {
+    "name": "\u041e\u0440\u0451\u043b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 708,
+  "fields": {
+    "name": "\u041e\u0441\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 709,
+  "fields": {
+    "name": "\u041e\u0441\u0438\u043d\u043d\u0438\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 710,
+  "fields": {
+    "name": "\u041e\u0441\u0442\u0430\u0448\u043a\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 711,
+  "fields": {
+    "name": "\u041e\u0441\u0442\u0440\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 712,
+  "fields": {
+    "name": "\u041e\u0441\u0442\u0440\u043e\u0432\u043d\u043e\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 713,
+  "fields": {
+    "name": "\u041e\u0441\u0442\u0440\u043e\u0433\u043e\u0436\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 714,
+  "fields": {
+    "name": "\u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 715,
+  "fields": {
+    "name": "\u041e\u0442\u0440\u0430\u0434\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 716,
+  "fields": {
+    "name": "\u041e\u0445\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 717,
+  "fields": {
+    "name": "\u041e\u0445\u0430\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 718,
+  "fields": {
+    "name": "\u041e\u0447\u0435\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 719,
+  "fields": {
+    "name": "\u041f\u0430\u0432\u043b\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 720,
+  "fields": {
+    "name": "\u041f\u0430\u0432\u043b\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 721,
+  "fields": {
+    "name": "\u041f\u0430\u0432\u043b\u043e\u0432\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 722,
+  "fields": {
+    "name": "\u041f\u0430\u043b\u043b\u0430\u0441\u043e\u0432\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 723,
+  "fields": {
+    "name": "\u041f\u0430\u0440\u0442\u0438\u0437\u0430\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 724,
+  "fields": {
+    "name": "\u041f\u0435\u0432\u0435\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 725,
+  "fields": {
+    "name": "\u041f\u0435\u043d\u0437\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 726,
+  "fields": {
+    "name": "\u041f\u0435\u0440\u0432\u043e\u043c\u0430\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 727,
+  "fields": {
+    "name": "\u041f\u0435\u0440\u0432\u043e\u0443\u0440\u0430\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 728,
+  "fields": {
+    "name": "\u041f\u0435\u0440\u0435\u0432\u043e\u0437",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 729,
+  "fields": {
+    "name": "\u041f\u0435\u0440\u0435\u0441\u0432\u0435\u0442",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 730,
+  "fields": {
+    "name": "\u041f\u0435\u0440\u0435\u0441\u043b\u0430\u0432\u043b\u044c-\u0417\u0430\u043b\u0435\u0441\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 731,
+  "fields": {
+    "name": "\u041f\u0435\u0440\u043c\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 732,
+  "fields": {
+    "name": "\u041f\u0435\u0441\u0442\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 733,
+  "fields": {
+    "name": "\u041f\u0435\u0442\u0435\u0440\u0433\u043e\u0444",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 734,
+  "fields": {
+    "name": "\u041f\u0435\u0442\u0440\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 735,
+  "fields": {
+    "name": "\u041f\u0435\u0442\u0440\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 736,
+  "fields": {
+    "name": "\u041f\u0435\u0442\u0440\u043e\u0432\u0441\u043a-\u0417\u0430\u0431\u0430\u0439\u043a\u0430\u043b\u044c\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 737,
+  "fields": {
+    "name": "\u041f\u0435\u0442\u0440\u043e\u0434\u0432\u043e\u0440\u0435\u0446",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 738,
+  "fields": {
+    "name": "\u041f\u0435\u0442\u0440\u043e\u0437\u0430\u0432\u043e\u0434\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 739,
+  "fields": {
+    "name": "\u041f\u0435\u0442\u0440\u043e\u043f\u0430\u0432\u043b\u043e\u0432\u0441\u043a-\u041a\u0430\u043c\u0447\u0430\u0442\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 740,
+  "fields": {
+    "name": "\u041f\u0435\u0442\u0443\u0445\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 741,
+  "fields": {
+    "name": "\u041f\u0435\u0442\u0443\u0448\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 742,
+  "fields": {
+    "name": "\u041f\u0435\u0447\u043e\u0440\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 743,
+  "fields": {
+    "name": "\u041f\u0435\u0447\u043e\u0440\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 744,
+  "fields": {
+    "name": "\u041f\u0438\u043a\u0430\u043b\u0435\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 745,
+  "fields": {
+    "name": "\u041f\u0438\u043e\u043d\u0435\u0440\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 746,
+  "fields": {
+    "name": "\u041f\u0438\u0442\u043a\u044f\u0440\u0430\u043d\u0442\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 747,
+  "fields": {
+    "name": "\u041f\u043b\u0430\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 748,
+  "fields": {
+    "name": "\u041f\u043b\u0430\u0441\u0442",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 749,
+  "fields": {
+    "name": "\u041f\u043b\u0435\u0441",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 750,
+  "fields": {
+    "name": "\u041f\u043e\u0432\u043e\u0440\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 751,
+  "fields": {
+    "name": "\u041f\u043e\u0434\u0433\u043e\u0440\u043d\u043e\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 752,
+  "fields": {
+    "name": "\u041f\u043e\u0434\u043e\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 753,
+  "fields": {
+    "name": "\u041f\u043e\u0434\u043f\u043e\u0440\u043e\u0436\u044c\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 754,
+  "fields": {
+    "name": "\u041f\u043e\u043a\u0430\u0447\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 755,
+  "fields": {
+    "name": "\u041f\u043e\u043a\u0440\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 756,
+  "fields": {
+    "name": "\u041f\u043e\u043a\u0440\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 757,
+  "fields": {
+    "name": "\u041f\u043e\u043b\u0435\u0432\u0441\u043a\u043e\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 758,
+  "fields": {
+    "name": "\u041f\u043e\u043b\u0435\u0441\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 759,
+  "fields": {
+    "name": "\u041f\u043e\u043b\u044b\u0441\u0430\u0435\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 760,
+  "fields": {
+    "name": "\u041f\u043e\u043b\u044f\u0440\u043d\u044b\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 761,
+  "fields": {
+    "name": "\u041f\u043e\u043b\u044f\u0440\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 762,
+  "fields": {
+    "name": "\u041f\u043e\u0440\u043e\u043d\u0430\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 763,
+  "fields": {
+    "name": "\u041f\u043e\u0440\u0445\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 764,
+  "fields": {
+    "name": "\u041f\u043e\u0445\u0432\u0438\u0441\u0442\u043d\u0435\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 765,
+  "fields": {
+    "name": "\u041f\u043e\u0447\u0435\u043f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 766,
+  "fields": {
+    "name": "\u041f\u043e\u0447\u0438\u043d\u043e\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 767,
+  "fields": {
+    "name": "\u041f\u043e\u0448\u0435\u0445\u043e\u043d\u044c\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 768,
+  "fields": {
+    "name": "\u041f\u0440\u0430\u0432\u0434\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 769,
+  "fields": {
+    "name": "\u041f\u0440\u0438\u0432\u043e\u043b\u0436\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 770,
+  "fields": {
+    "name": "\u041f\u0440\u0438\u043c\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 771,
+  "fields": {
+    "name": "\u041f\u0440\u0438\u043c\u043e\u0440\u0441\u043a\u043e-\u0410\u0445\u0442\u0430\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 772,
+  "fields": {
+    "name": "\u041f\u0440\u0438\u043e\u0437\u0435\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 773,
+  "fields": {
+    "name": "\u041f\u0440\u043e\u043a\u043e\u043f\u044c\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 774,
+  "fields": {
+    "name": "\u041f\u0440\u043e\u043b\u0435\u0442\u0430\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 775,
+  "fields": {
+    "name": "\u041f\u0440\u043e\u0442\u0432\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 776,
+  "fields": {
+    "name": "\u041f\u0440\u043e\u0445\u043b\u0430\u0434\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 777,
+  "fields": {
+    "name": "\u041f\u0441\u043a\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 778,
+  "fields": {
+    "name": "\u041f\u0443\u0433\u0430\u0447\u0435\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 779,
+  "fields": {
+    "name": "\u041f\u0443\u0434\u043e\u0436",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 780,
+  "fields": {
+    "name": "\u041f\u0443\u0441\u0442\u043e\u0448\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 781,
+  "fields": {
+    "name": "\u041f\u0443\u0447\u0435\u0436",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 782,
+  "fields": {
+    "name": "\u041f\u0443\u0448\u043a\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 783,
+  "fields": {
+    "name": "\u041f\u0443\u0448\u043a\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 784,
+  "fields": {
+    "name": "\u041f\u0443\u0449\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 785,
+  "fields": {
+    "name": "\u041f\u044b\u0442\u0430\u043b\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 786,
+  "fields": {
+    "name": "\u041f\u044b\u0442\u044c-\u042f\u0445",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 787,
+  "fields": {
+    "name": "\u041f\u044f\u0442\u0438\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 788,
+  "fields": {
+    "name": "\u0420\u0430\u0434\u0443\u0436\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 789,
+  "fields": {
+    "name": "\u0420\u0430\u0439\u0447\u0438\u0445\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 790,
+  "fields": {
+    "name": "\u0420\u0430\u043c\u0435\u043d\u0441\u043a\u043e\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 791,
+  "fields": {
+    "name": "\u0420\u0430\u0441\u0441\u043a\u0430\u0437\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 792,
+  "fields": {
+    "name": "\u0420\u0435\u0432\u0434\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 793,
+  "fields": {
+    "name": "\u0420\u0435\u0436",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 794,
+  "fields": {
+    "name": "\u0420\u0435\u0443\u0442\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 795,
+  "fields": {
+    "name": "\u0420\u0436\u0435\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 796,
+  "fields": {
+    "name": "\u0420\u043e\u0434\u043d\u0438\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 797,
+  "fields": {
+    "name": "\u0420\u043e\u0441\u043b\u0430\u0432\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 798,
+  "fields": {
+    "name": "\u0420\u043e\u0441\u0441\u043e\u0448\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 799,
+  "fields": {
+    "name": "\u0420\u043e\u0441\u0442\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 800,
+  "fields": {
+    "name": "\u0420\u043e\u0441\u0442\u043e\u0432-\u043d\u0430-\u0414\u043e\u043d\u0443",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 801,
+  "fields": {
+    "name": "\u0420\u043e\u0448\u0430\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 802,
+  "fields": {
+    "name": "\u0420\u0442\u0438\u0449\u0435\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 803,
+  "fields": {
+    "name": "\u0420\u0443\u0431\u0446\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 804,
+  "fields": {
+    "name": "\u0420\u0443\u0434\u043d\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 805,
+  "fields": {
+    "name": "\u0420\u0443\u0437\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 806,
+  "fields": {
+    "name": "\u0420\u0443\u0437\u0430\u0435\u0432\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 807,
+  "fields": {
+    "name": "\u0420\u044b\u0431\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 808,
+  "fields": {
+    "name": "\u0420\u044b\u0431\u043d\u043e\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 809,
+  "fields": {
+    "name": "\u0420\u044b\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 810,
+  "fields": {
+    "name": "\u0420\u044f\u0436\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 811,
+  "fields": {
+    "name": "\u0420\u044f\u0437\u0430\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 812,
+  "fields": {
+    "name": "\u0421\u0430\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 813,
+  "fields": {
+    "name": "\u0421\u0430\u043b\u0430\u0432\u0430\u0442",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 814,
+  "fields": {
+    "name": "\u0421\u0430\u043b\u0430\u0438\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 815,
+  "fields": {
+    "name": "\u0421\u0430\u043b\u0435\u0445\u0430\u0440\u0434",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 816,
+  "fields": {
+    "name": "\u0421\u0430\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 817,
+  "fields": {
+    "name": "\u0421\u0430\u043c\u0430\u0440\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 818,
+  "fields": {
+    "name": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 819,
+  "fields": {
+    "name": "\u0421\u0430\u0440\u0430\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 820,
+  "fields": {
+    "name": "\u0421\u0430\u0440\u0430\u043f\u0443\u043b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 821,
+  "fields": {
+    "name": "\u0421\u0430\u0440\u0430\u0442\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 822,
+  "fields": {
+    "name": "\u0421\u0430\u0440\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 823,
+  "fields": {
+    "name": "\u0421\u0430\u0441\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 824,
+  "fields": {
+    "name": "\u0421\u0430\u0442\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 825,
+  "fields": {
+    "name": "\u0421\u0430\u0444\u043e\u043d\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 826,
+  "fields": {
+    "name": "\u0421\u0430\u044f\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 827,
+  "fields": {
+    "name": "\u0421\u0430\u044f\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 828,
+  "fields": {
+    "name": "\u0421\u0432\u0435\u0440\u0434\u043b\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 829,
+  "fields": {
+    "name": "\u0421\u0432\u0435\u0442\u043b\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 830,
+  "fields": {
+    "name": "\u0421\u0432\u0435\u0442\u043b\u043e\u0433\u0440\u0430\u0434",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 831,
+  "fields": {
+    "name": "\u0421\u0432\u0435\u0442\u043b\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 832,
+  "fields": {
+    "name": "\u0421\u0432\u0435\u0442\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 833,
+  "fields": {
+    "name": "\u0421\u0432\u0438\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 834,
+  "fields": {
+    "name": "\u0421\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 835,
+  "fields": {
+    "name": "\u0421\u0435\u0431\u0435\u0436",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 836,
+  "fields": {
+    "name": "\u0421\u0435\u0432\u0430\u0441\u0442\u043e\u043f\u043e\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 837,
+  "fields": {
+    "name": "\u0421\u0435\u0432\u0435\u0440\u043e-\u041a\u0443\u0440\u0438\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 838,
+  "fields": {
+    "name": "\u0421\u0435\u0432\u0435\u0440\u043e\u0431\u0430\u0439\u043a\u0430\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 839,
+  "fields": {
+    "name": "\u0421\u0435\u0432\u0435\u0440\u043e\u0434\u0432\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 840,
+  "fields": {
+    "name": "\u0421\u0435\u0432\u0435\u0440\u043e\u043c\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 841,
+  "fields": {
+    "name": "\u0421\u0435\u0432\u0435\u0440\u043e\u0443\u0440\u0430\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 842,
+  "fields": {
+    "name": "\u0421\u0435\u0432\u0435\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 843,
+  "fields": {
+    "name": "\u0421\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 844,
+  "fields": {
+    "name": "\u0421\u0435\u0433\u0435\u0436\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 845,
+  "fields": {
+    "name": "\u0421\u0435\u043b\u044c\u0446\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 846,
+  "fields": {
+    "name": "\u0421\u0435\u043c\u0435\u043d\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 847,
+  "fields": {
+    "name": "\u0421\u0435\u043c\u0438\u043a\u0430\u0440\u0430\u043a\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 848,
+  "fields": {
+    "name": "\u0421\u0435\u043c\u0438\u043b\u0443\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 849,
+  "fields": {
+    "name": "\u0421\u0435\u043d\u0433\u0438\u043b\u0435\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 850,
+  "fields": {
+    "name": "\u0421\u0435\u0440\u0430\u0444\u0438\u043c\u043e\u0432\u0438\u0447",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 851,
+  "fields": {
+    "name": "\u0421\u0435\u0440\u0433\u0430\u0447",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 852,
+  "fields": {
+    "name": "\u0421\u0435\u0440\u0433\u0438\u0435\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 853,
+  "fields": {
+    "name": "\u0421\u0435\u0440\u0434\u043e\u0431\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 854,
+  "fields": {
+    "name": "\u0421\u0435\u0440\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 855,
+  "fields": {
+    "name": "\u0421\u0435\u0440\u043f\u0443\u0445\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 856,
+  "fields": {
+    "name": "\u0421\u0435\u0440\u0442\u043e\u043b\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 857,
+  "fields": {
+    "name": "\u0421\u0435\u0441\u0442\u0440\u043e\u0440\u0435\u0446\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 858,
+  "fields": {
+    "name": "\u0421\u0438\u0431\u0430\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 859,
+  "fields": {
+    "name": "\u0421\u0438\u043c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 860,
+  "fields": {
+    "name": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 861,
+  "fields": {
+    "name": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 862,
+  "fields": {
+    "name": "\u0421\u043a\u043e\u043f\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 863,
+  "fields": {
+    "name": "\u0421\u043b\u0430\u0432\u0433\u043e\u0440\u043e\u0434",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 864,
+  "fields": {
+    "name": "\u0421\u043b\u0430\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 865,
+  "fields": {
+    "name": "\u0421\u043b\u0430\u0432\u044f\u043d\u0441\u043a-\u043d\u0430-\u041a\u0443\u0431\u0430\u043d\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 866,
+  "fields": {
+    "name": "\u0421\u043b\u0430\u043d\u0446\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 867,
+  "fields": {
+    "name": "\u0421\u043b\u043e\u0431\u043e\u0434\u0441\u043a\u043e\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 868,
+  "fields": {
+    "name": "\u0421\u043b\u044e\u0434\u044f\u043d\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 869,
+  "fields": {
+    "name": "\u0421\u043c\u043e\u043b\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 870,
+  "fields": {
+    "name": "\u0421\u043d\u0435\u0433\u0438\u0440\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 871,
+  "fields": {
+    "name": "\u0421\u043d\u0435\u0436\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 872,
+  "fields": {
+    "name": "\u0421\u043d\u0435\u0436\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 873,
+  "fields": {
+    "name": "\u0421\u043e\u0431\u0438\u043d\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 874,
+  "fields": {
+    "name": "\u0421\u043e\u0432\u0435\u0442\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 875,
+  "fields": {
+    "name": "\u0421\u043e\u0432\u0435\u0442\u0441\u043a\u0430\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 876,
+  "fields": {
+    "name": "\u0421\u043e\u0432\u0435\u0442\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 877,
+  "fields": {
+    "name": "\u0421\u043e\u043a\u043e\u043b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 878,
+  "fields": {
+    "name": "\u0421\u043e\u043a\u043e\u043b\u044c\u043d\u0438\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 879,
+  "fields": {
+    "name": "\u0421\u043e\u043b\u0438\u0433\u0430\u043b\u0438\u0447",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 880,
+  "fields": {
+    "name": "\u0421\u043e\u043b\u0438\u043a\u0430\u043c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 881,
+  "fields": {
+    "name": "\u0421\u043e\u043b\u043d\u0435\u0447\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 882,
+  "fields": {
+    "name": "\u0421\u043e\u043b\u044c-\u0418\u043b\u0435\u0446\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 883,
+  "fields": {
+    "name": "\u0421\u043e\u043b\u044c\u0432\u044b\u0447\u0435\u0433\u043e\u0434\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 884,
+  "fields": {
+    "name": "\u0421\u043e\u043b\u044c\u0446\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 885,
+  "fields": {
+    "name": "\u0421\u043e\u0440\u043e\u0447\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 886,
+  "fields": {
+    "name": "\u0421\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 887,
+  "fields": {
+    "name": "\u0421\u043e\u0440\u0442\u0430\u0432\u0430\u043b\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 888,
+  "fields": {
+    "name": "\u0421\u043e\u0441\u0435\u043d\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 889,
+  "fields": {
+    "name": "\u0421\u043e\u0441\u043d\u043e\u0432\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 890,
+  "fields": {
+    "name": "\u0421\u043e\u0441\u043d\u043e\u0432\u043e\u0431\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 891,
+  "fields": {
+    "name": "\u0421\u043e\u0441\u043d\u043e\u0432\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 892,
+  "fields": {
+    "name": "\u0421\u043e\u0441\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 893,
+  "fields": {
+    "name": "\u0421\u043e\u0447\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 894,
+  "fields": {
+    "name": "\u0421\u043f\u0430\u0441-\u0414\u0435\u043c\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 895,
+  "fields": {
+    "name": "\u0421\u043f\u0430\u0441-\u041a\u043b\u0435\u043f\u0438\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 896,
+  "fields": {
+    "name": "\u0421\u043f\u0430\u0441\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 897,
+  "fields": {
+    "name": "\u0421\u043f\u0430\u0441\u0441\u043a-\u0414\u0430\u043b\u044c\u043d\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 898,
+  "fields": {
+    "name": "\u0421\u043f\u0430\u0441\u0441\u043a-\u0420\u044f\u0437\u0430\u043d\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 899,
+  "fields": {
+    "name": "\u0421\u0440\u0435\u0434\u043d\u0435\u043a\u043e\u043b\u044b\u043c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 900,
+  "fields": {
+    "name": "\u0421\u0440\u0435\u0434\u043d\u0435\u0443\u0440\u0430\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 901,
+  "fields": {
+    "name": "\u0421\u0440\u0435\u0442\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 902,
+  "fields": {
+    "name": "\u0421\u0442\u0430\u0432\u0440\u043e\u043f\u043e\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 903,
+  "fields": {
+    "name": "\u0421\u0442\u0430\u0440\u0430\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 904,
+  "fields": {
+    "name": "\u0421\u0442\u0430\u0440\u0438\u0446\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 905,
+  "fields": {
+    "name": "\u0421\u0442\u0430\u0440\u043e\u0434\u0443\u0431",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 906,
+  "fields": {
+    "name": "\u0421\u0442\u0430\u0440\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 907,
+  "fields": {
+    "name": "\u0421\u0442\u0435\u0440\u043b\u0438\u0442\u0430\u043c\u0430\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 908,
+  "fields": {
+    "name": "\u0421\u0442\u0440\u0435\u0436\u0435\u0432\u043e\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 909,
+  "fields": {
+    "name": "\u0421\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 910,
+  "fields": {
+    "name": "\u0421\u0442\u0440\u0443\u043d\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 911,
+  "fields": {
+    "name": "\u0421\u0442\u0443\u043f\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 912,
+  "fields": {
+    "name": "\u0421\u0443\u0432\u043e\u0440\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 913,
+  "fields": {
+    "name": "\u0421\u0443\u0434\u0430\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 914,
+  "fields": {
+    "name": "\u0421\u0443\u0434\u0436\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 915,
+  "fields": {
+    "name": "\u0421\u0443\u0434\u043e\u0433\u0434\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 916,
+  "fields": {
+    "name": "\u0421\u0443\u0437\u0434\u0430\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 917,
+  "fields": {
+    "name": "\u0421\u0443\u043e\u044f\u0440\u0432\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 918,
+  "fields": {
+    "name": "\u0421\u0443\u0440\u0430\u0436",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 919,
+  "fields": {
+    "name": "\u0421\u0443\u0440\u0433\u0443\u0442",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 920,
+  "fields": {
+    "name": "\u0421\u0443\u0440\u043e\u0432\u0438\u043a\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 921,
+  "fields": {
+    "name": "\u0421\u0443\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 922,
+  "fields": {
+    "name": "\u0421\u0443\u0441\u0443\u043c\u0430\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 923,
+  "fields": {
+    "name": "\u0421\u0443\u0445\u0438\u043d\u0438\u0447\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 924,
+  "fields": {
+    "name": "\u0421\u0443\u0445\u043e\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 925,
+  "fields": {
+    "name": "\u0421\u0445\u043e\u0434\u043d\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 926,
+  "fields": {
+    "name": "\u0421\u044b\u0437\u0440\u0430\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 927,
+  "fields": {
+    "name": "\u0421\u044b\u043a\u0442\u044b\u0432\u043a\u0430\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 928,
+  "fields": {
+    "name": "\u0421\u044b\u0441\u0435\u0440\u0442\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 929,
+  "fields": {
+    "name": "\u0421\u044b\u0447\u0435\u0432\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 930,
+  "fields": {
+    "name": "\u0421\u044f\u0441\u044c\u0441\u0442\u0440\u043e\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 931,
+  "fields": {
+    "name": "\u0422\u0430\u0432\u0434\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 932,
+  "fields": {
+    "name": "\u0422\u0430\u0433\u0430\u043d\u0440\u043e\u0433",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 933,
+  "fields": {
+    "name": "\u0422\u0430\u0439\u0433\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 934,
+  "fields": {
+    "name": "\u0422\u0430\u0439\u0448\u0435\u0442",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 935,
+  "fields": {
+    "name": "\u0422\u0430\u043b\u0434\u043e\u043c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 936,
+  "fields": {
+    "name": "\u0422\u0430\u043b\u0438\u0446\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 937,
+  "fields": {
+    "name": "\u0422\u0430\u043b\u043d\u0430\u0445",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 938,
+  "fields": {
+    "name": "\u0422\u0430\u043c\u0431\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 939,
+  "fields": {
+    "name": "\u0422\u0430\u0440\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 940,
+  "fields": {
+    "name": "\u0422\u0430\u0440\u043a\u043e-\u0421\u0430\u043b\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 941,
+  "fields": {
+    "name": "\u0422\u0430\u0440\u0443\u0441\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 942,
+  "fields": {
+    "name": "\u0422\u0430\u0442\u0430\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 943,
+  "fields": {
+    "name": "\u0422\u0430\u0448\u0442\u0430\u0433\u043e\u043b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 944,
+  "fields": {
+    "name": "\u0422\u0432\u0435\u0440\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 945,
+  "fields": {
+    "name": "\u0422\u0435\u0431\u0435\u0440\u0434\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 946,
+  "fields": {
+    "name": "\u0422\u0435\u0439\u043a\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 947,
+  "fields": {
+    "name": "\u0422\u0435\u043c\u043d\u0438\u043a\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 948,
+  "fields": {
+    "name": "\u0422\u0435\u043c\u0440\u044e\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 949,
+  "fields": {
+    "name": "\u0422\u0435\u0440\u0435\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 950,
+  "fields": {
+    "name": "\u0422\u0435\u0442\u044e\u0448\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 951,
+  "fields": {
+    "name": "\u0422\u0438\u043c\u0430\u0448\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 952,
+  "fields": {
+    "name": "\u0422\u0438\u0445\u0432\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 953,
+  "fields": {
+    "name": "\u0422\u0438\u0445\u043e\u0440\u0435\u0446\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 954,
+  "fields": {
+    "name": "\u0422\u043e\u0431\u043e\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 955,
+  "fields": {
+    "name": "\u0422\u043e\u0433\u0443\u0447\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 956,
+  "fields": {
+    "name": "\u0422\u043e\u043b\u044c\u044f\u0442\u0442\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 957,
+  "fields": {
+    "name": "\u0422\u043e\u043c\u0430\u0440\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 958,
+  "fields": {
+    "name": "\u0422\u043e\u043c\u043c\u043e\u0442",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 959,
+  "fields": {
+    "name": "\u0422\u043e\u043c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 960,
+  "fields": {
+    "name": "\u0422\u043e\u043f\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 961,
+  "fields": {
+    "name": "\u0422\u043e\u0440\u0436\u043e\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 962,
+  "fields": {
+    "name": "\u0422\u043e\u0440\u043e\u043f\u0435\u0446",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 963,
+  "fields": {
+    "name": "\u0422\u043e\u0441\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 964,
+  "fields": {
+    "name": "\u0422\u043e\u0442\u044c\u043c\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 965,
+  "fields": {
+    "name": "\u0422\u0440\u0435\u0445\u0433\u043e\u0440\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 966,
+  "fields": {
+    "name": "\u0422\u0440\u043e\u0438\u0446\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 967,
+  "fields": {
+    "name": "\u0422\u0440\u0443\u0431\u0447\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 968,
+  "fields": {
+    "name": "\u0422\u0443\u0430\u043f\u0441\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 969,
+  "fields": {
+    "name": "\u0422\u0443\u0439\u043c\u0430\u0437\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 970,
+  "fields": {
+    "name": "\u0422\u0443\u043b\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 971,
+  "fields": {
+    "name": "\u0422\u0443\u043b\u0443\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 972,
+  "fields": {
+    "name": "\u0422\u0443\u0440\u0430\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 973,
+  "fields": {
+    "name": "\u0422\u0443\u0440\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 974,
+  "fields": {
+    "name": "\u0422\u0443\u0442\u0430\u0435\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 975,
+  "fields": {
+    "name": "\u0422\u044b\u043d\u0434\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 976,
+  "fields": {
+    "name": "\u0422\u044b\u0440\u043d\u044b\u0430\u0443\u0437",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 977,
+  "fields": {
+    "name": "\u0422\u044e\u043a\u0430\u043b\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 978,
+  "fields": {
+    "name": "\u0422\u044e\u043c\u0435\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 979,
+  "fields": {
+    "name": "\u0423\u0432\u0430\u0440\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 980,
+  "fields": {
+    "name": "\u0423\u0433\u043b\u0435\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 981,
+  "fields": {
+    "name": "\u0423\u0433\u043b\u0438\u0447",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 982,
+  "fields": {
+    "name": "\u0423\u0434\u0430\u0447\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 983,
+  "fields": {
+    "name": "\u0423\u0434\u043e\u043c\u043b\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 984,
+  "fields": {
+    "name": "\u0423\u0436\u0443\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 985,
+  "fields": {
+    "name": "\u0423\u0437\u043b\u043e\u0432\u0430\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 986,
+  "fields": {
+    "name": "\u0423\u043b\u0430\u043d-\u0423\u0434\u044d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 987,
+  "fields": {
+    "name": "\u0423\u043b\u044c\u044f\u043d\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 988,
+  "fields": {
+    "name": "\u0423\u043d\u0435\u0447\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 989,
+  "fields": {
+    "name": "\u0423\u0440\u0430\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 990,
+  "fields": {
+    "name": "\u0423\u0440\u0435\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 991,
+  "fields": {
+    "name": "\u0423\u0440\u0436\u0443\u043c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 992,
+  "fields": {
+    "name": "\u0423\u0440\u0443\u0441-\u041c\u0430\u0440\u0442\u0430\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 993,
+  "fields": {
+    "name": "\u0423\u0440\u044e\u043f\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 994,
+  "fields": {
+    "name": "\u0423\u0441\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 995,
+  "fields": {
+    "name": "\u0423\u0441\u043c\u0430\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 996,
+  "fields": {
+    "name": "\u0423\u0441\u043e\u043b\u044c\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 997,
+  "fields": {
+    "name": "\u0423\u0441\u043e\u043b\u044c\u0435-\u0421\u0438\u0431\u0438\u0440\u0441\u043a\u043e\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 998,
+  "fields": {
+    "name": "\u0423\u0441\u0441\u0443\u0440\u0438\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 999,
+  "fields": {
+    "name": "\u0423\u0441\u0442\u044c-\u0414\u0436\u0435\u0433\u0443\u0442\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1000,
+  "fields": {
+    "name": "\u0423\u0441\u0442\u044c-\u0418\u043b\u0438\u043c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1001,
+  "fields": {
+    "name": "\u0423\u0441\u0442\u044c-\u041a\u0430\u0442\u0430\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1002,
+  "fields": {
+    "name": "\u0423\u0441\u0442\u044c-\u041a\u0443\u0442",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1003,
+  "fields": {
+    "name": "\u0423\u0441\u0442\u044c-\u041b\u0430\u0431\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1004,
+  "fields": {
+    "name": "\u0423\u0441\u0442\u044e\u0436\u043d\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1005,
+  "fields": {
+    "name": "\u0423\u0444\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1006,
+  "fields": {
+    "name": "\u0423\u0445\u0442\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1007,
+  "fields": {
+    "name": "\u0423\u0447\u0430\u043b\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1008,
+  "fields": {
+    "name": "\u0423\u044f\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1009,
+  "fields": {
+    "name": "\u0424\u0430\u0442\u0435\u0436",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1010,
+  "fields": {
+    "name": "\u0424\u0435\u043e\u0434\u043e\u0441\u0438\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1011,
+  "fields": {
+    "name": "\u0424\u043e\u043a\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1012,
+  "fields": {
+    "name": "\u0424\u0440\u043e\u043b\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1013,
+  "fields": {
+    "name": "\u0424\u0440\u044f\u0437\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1014,
+  "fields": {
+    "name": "\u0424\u0443\u0440\u043c\u0430\u043d\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1015,
+  "fields": {
+    "name": "\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1016,
+  "fields": {
+    "name": "\u0425\u0430\u0434\u044b\u0436\u0435\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1017,
+  "fields": {
+    "name": "\u0425\u0430\u043b\u0442\u0443\u0440\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1018,
+  "fields": {
+    "name": "\u0425\u0430\u043d\u0442\u044b-\u041c\u0430\u043d\u0441\u0438\u0439\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1019,
+  "fields": {
+    "name": "\u0425\u0430\u0440\u0430\u0431\u0430\u043b\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1020,
+  "fields": {
+    "name": "\u0425\u0430\u0440\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1021,
+  "fields": {
+    "name": "\u0425\u0430\u0441\u0430\u0432\u044e\u0440\u0442",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1022,
+  "fields": {
+    "name": "\u0425\u0432\u0430\u043b\u044b\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1023,
+  "fields": {
+    "name": "\u0425\u0438\u043b\u043e\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1024,
+  "fields": {
+    "name": "\u0425\u0438\u043c\u043a\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1025,
+  "fields": {
+    "name": "\u0425\u043e\u043b\u043c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1026,
+  "fields": {
+    "name": "\u0425\u043e\u043b\u043c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1027,
+  "fields": {
+    "name": "\u0425\u043e\u0442\u044c\u043a\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1028,
+  "fields": {
+    "name": "\u0426\u0438\u0432\u0438\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1029,
+  "fields": {
+    "name": "\u0426\u0438\u043c\u043b\u044f\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1030,
+  "fields": {
+    "name": "\u0427\u0430\u0434\u0430\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1031,
+  "fields": {
+    "name": "\u0427\u0430\u0439\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1032,
+  "fields": {
+    "name": "\u0427\u0430\u043f\u0430\u0435\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1033,
+  "fields": {
+    "name": "\u0427\u0430\u043f\u043b\u044b\u0433\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1034,
+  "fields": {
+    "name": "\u0427\u0435\u0431\u0430\u0440\u043a\u0443\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1035,
+  "fields": {
+    "name": "\u0427\u0435\u0431\u043e\u043a\u0441\u0430\u0440\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1036,
+  "fields": {
+    "name": "\u0427\u0435\u0433\u0435\u043c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1037,
+  "fields": {
+    "name": "\u0427\u0435\u043a\u0430\u043b\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1038,
+  "fields": {
+    "name": "\u0427\u0435\u043b\u044f\u0431\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1039,
+  "fields": {
+    "name": "\u0427\u0435\u0440\u0434\u044b\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1040,
+  "fields": {
+    "name": "\u0427\u0435\u0440\u0435\u043c\u0445\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1041,
+  "fields": {
+    "name": "\u0427\u0435\u0440\u0435\u043f\u0430\u043d\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1042,
+  "fields": {
+    "name": "\u0427\u0435\u0440\u0435\u043f\u043e\u0432\u0435\u0446",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1043,
+  "fields": {
+    "name": "\u0427\u0435\u0440\u043a\u0435\u0441\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1044,
+  "fields": {
+    "name": "\u0427\u0435\u0440\u043c\u043e\u0437",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1045,
+  "fields": {
+    "name": "\u0427\u0435\u0440\u043d\u043e\u0433\u043e\u043b\u043e\u0432\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1046,
+  "fields": {
+    "name": "\u0427\u0435\u0440\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1047,
+  "fields": {
+    "name": "\u0427\u0435\u0440\u043d\u0443\u0448\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1048,
+  "fields": {
+    "name": "\u0427\u0435\u0440\u043d\u044f\u0445\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1049,
+  "fields": {
+    "name": "\u0427\u0435\u0445\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1050,
+  "fields": {
+    "name": "\u0427\u0438\u0441\u0442\u043e\u043f\u043e\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1051,
+  "fields": {
+    "name": "\u0427\u0438\u0442\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1052,
+  "fields": {
+    "name": "\u0427\u043a\u0430\u043b\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1053,
+  "fields": {
+    "name": "\u0427\u0443\u0434\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1054,
+  "fields": {
+    "name": "\u0427\u0443\u043b\u044b\u043c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1055,
+  "fields": {
+    "name": "\u0427\u0443\u0441\u043e\u0432\u043e\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1056,
+  "fields": {
+    "name": "\u0427\u0443\u0445\u043b\u043e\u043c\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1057,
+  "fields": {
+    "name": "\u0428\u0430\u0433\u043e\u043d\u0430\u0440",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1058,
+  "fields": {
+    "name": "\u0428\u0430\u0434\u0440\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1059,
+  "fields": {
+    "name": "\u0428\u0430\u043b\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1060,
+  "fields": {
+    "name": "\u0428\u0430\u0440\u044b\u043f\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1061,
+  "fields": {
+    "name": "\u0428\u0430\u0440\u044c\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1062,
+  "fields": {
+    "name": "\u0428\u0430\u0442\u0443\u0440\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1063,
+  "fields": {
+    "name": "\u0428\u0430\u0445\u0442\u0435\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1064,
+  "fields": {
+    "name": "\u0428\u0430\u0445\u0442\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1065,
+  "fields": {
+    "name": "\u0428\u0430\u0445\u0443\u043d\u044c\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1066,
+  "fields": {
+    "name": "\u0428\u0430\u0446\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1067,
+  "fields": {
+    "name": "\u0428\u0435\u0431\u0435\u043a\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1068,
+  "fields": {
+    "name": "\u0428\u0435\u043b\u0435\u0445\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1069,
+  "fields": {
+    "name": "\u0428\u0435\u043d\u043a\u0443\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1070,
+  "fields": {
+    "name": "\u0428\u0438\u043b\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1071,
+  "fields": {
+    "name": "\u0428\u0438\u043c\u0430\u043d\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1072,
+  "fields": {
+    "name": "\u0428\u0438\u0445\u0430\u043d\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1073,
+  "fields": {
+    "name": "\u0428\u043b\u0438\u0441\u0441\u0435\u043b\u044c\u0431\u0443\u0440\u0433",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1074,
+  "fields": {
+    "name": "\u0428\u0443\u043c\u0435\u0440\u043b\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1075,
+  "fields": {
+    "name": "\u0428\u0443\u043c\u0438\u0445\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1076,
+  "fields": {
+    "name": "\u0428\u0443\u044f",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1077,
+  "fields": {
+    "name": "\u0429\u0435\u043a\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1078,
+  "fields": {
+    "name": "\u0429\u0435\u043b\u043a\u0438\u043d\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1079,
+  "fields": {
+    "name": "\u0429\u0435\u043b\u043a\u043e\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1080,
+  "fields": {
+    "name": "\u0429\u0435\u0440\u0431\u0438\u043d\u043a\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1081,
+  "fields": {
+    "name": "\u0429\u0438\u0433\u0440\u044b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1082,
+  "fields": {
+    "name": "\u0429\u0443\u0447\u044c\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1083,
+  "fields": {
+    "name": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1084,
+  "fields": {
+    "name": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u0441\u0442\u0430\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1085,
+  "fields": {
+    "name": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u0443\u0433\u043b\u0438",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1086,
+  "fields": {
+    "name": "\u042d\u043b\u0438\u0441\u0442\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1087,
+  "fields": {
+    "name": "\u042d\u043d\u0433\u0435\u043b\u044c\u0441",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1088,
+  "fields": {
+    "name": "\u042d\u0440\u0442\u0438\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1089,
+  "fields": {
+    "name": "\u042e\u0431\u0438\u043b\u0435\u0439\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1090,
+  "fields": {
+    "name": "\u042e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1091,
+  "fields": {
+    "name": "\u042e\u0436\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1092,
+  "fields": {
+    "name": "\u042e\u0436\u043d\u043e-\u0421\u0430\u0445\u0430\u043b\u0438\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1093,
+  "fields": {
+    "name": "\u042e\u0436\u043d\u043e-\u0421\u0443\u0445\u043e\u043a\u0443\u043c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1094,
+  "fields": {
+    "name": "\u042e\u0436\u043d\u043e\u0443\u0440\u0430\u043b\u044c\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1095,
+  "fields": {
+    "name": "\u042e\u0440\u0433\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1096,
+  "fields": {
+    "name": "\u042e\u0440\u044c\u0435\u0432-\u041f\u043e\u043b\u044c\u0441\u043a\u0438\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1097,
+  "fields": {
+    "name": "\u042e\u0440\u044c\u0435\u0432\u0435\u0446",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1098,
+  "fields": {
+    "name": "\u042e\u0440\u044e\u0437\u0430\u043d\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1099,
+  "fields": {
+    "name": "\u042e\u0445\u043d\u043e\u0432",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1100,
+  "fields": {
+    "name": "\u042f\u0434\u0440\u0438\u043d",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1101,
+  "fields": {
+    "name": "\u042f\u043a\u0443\u0442\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1102,
+  "fields": {
+    "name": "\u042f\u043b\u0442\u0430",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1103,
+  "fields": {
+    "name": "\u042f\u043b\u0443\u0442\u043e\u0440\u043e\u0432\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1104,
+  "fields": {
+    "name": "\u042f\u043d\u0430\u0443\u043b",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1105,
+  "fields": {
+    "name": "\u042f\u0440\u0430\u043d\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1106,
+  "fields": {
+    "name": "\u042f\u0440\u043e\u0432\u043e\u0435",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1107,
+  "fields": {
+    "name": "\u042f\u0440\u043e\u0441\u043b\u0430\u0432\u043b\u044c",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1108,
+  "fields": {
+    "name": "\u042f\u0440\u0446\u0435\u0432\u043e",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1109,
+  "fields": {
+    "name": "\u042f\u0441\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1110,
+  "fields": {
+    "name": "\u042f\u0441\u043d\u044b\u0439",
+    "geotype": 1
+  }
+},
+{
+  "model": "game.city",
+  "pk": 1111,
+  "fields": {
+    "name": "\u042f\u0445\u0440\u043e\u043c\u0430",
+    "geotype": 1
+  }
+}
+]
