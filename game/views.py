@@ -72,4 +72,4 @@ def end_match(request, match_id):
     if request.is_ajax():
         pass  # FIXME return Json answer
 
-    return redirect('game:detail', match_id=match.id)
+    return redirect(match)
