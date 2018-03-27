@@ -10,12 +10,8 @@ class StartNewMatchForm(forms.ModelForm):
         model = Match
         fields = ('team1', 'team2')
         widgets = {
-            'team1': forms.TextInput(
-                attrs={'class': 'form-control'}
-            ),
-            'team2': forms.TextInput(
-                attrs={'class': 'form-control'}
-            )
+            'team1': forms.TextInput(attrs={'class': 'form-control'}),
+            'team2': forms.TextInput(attrs={'class': 'form-control'})
         }
         labels = {
             'team1': _('First team name'),
