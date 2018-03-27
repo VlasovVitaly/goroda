@@ -24,7 +24,7 @@ def start_new_match(request):
 
     if start_form.is_valid():
         match = start_form.save(commit=True)
-        return redirect('game:detail', match.id)
+        return redirect(match)
 
     return render(request, 'game/start_new_match.html', context=context)
 
@@ -72,4 +72,4 @@ def end_match(request, match_id):
     if request.is_ajax():
         pass  # FIXME return Json answer
 
-    return redirect('game:detail', match_id=match.id)
+    return redirect(match)

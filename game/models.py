@@ -1,7 +1,8 @@
 from django.db import models
-from django.contrib.auth.models import User
+from django.urls import reverse
 from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
+from django.contrib.auth.models import User
 
 
 ALLWAYS_EXHAUSED = 'ЁЪЫЬ'
@@ -68,6 +69,9 @@ class Match(models.Model):
     @property
     def next_team(self):
         return 1 if self.current_team != 1 else 2
+
+    def get_absolute_url(self):
+        return reverse('game:detail', args=[str(self.id)])
 
     def make_turn(self, turn_word, commit=False):
         self.current_team = self.next_team

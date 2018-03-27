@@ -13,7 +13,7 @@
                 <ul class="list-group">
                 {% for m in matches %}
                     {% if m.finished %}<li class="list-group-item">{{ m }}.</li>
-                    {% else %}<li class="list-group-item">{{ m }}. Game is on! <a href="{% url 'game:detail' m.id %}">Continue</a></li>
+                    {% else %}<li class="list-group-item">{{ m }}. Game is on! <a href="{{ m.get_absolute_url }}">Continue</a></li>
                     {% endif %}
                 {% endfor %}
                 </ul>
