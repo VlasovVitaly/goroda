@@ -24,7 +24,7 @@ def start_new_match(request):
 
     if start_form.is_valid():
         match = start_form.save(commit=True)
-        return redirect('game:detail', match.id)
+        return redirect(match)
 
     return render(request, 'game/start_new_match.html', context=context)
 
