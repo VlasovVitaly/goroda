@@ -2,20 +2,25 @@
 {% block html_title %}Start new game or view results{% endblock %}
 {% block content %}
 <div class="container">
-<div class="row">
-    <div class="col-md-8 col-md-offset-2">
-        <a href="{% url 'game:start' %}" class="btn btn-primary">Start new game</a>
-        {% if matches %}
-        <h4>My games:</h4>
-        <ul class="list-group">
-        {% for m in matches %}
-            {% if m.finished %}<li class="list-group-item">{{ m }}</li>
-            {% else %}<li class="list-group-item">{{ m }}. Game is on! <a href="{% url 'game:detail' m.id %}">Continue</a></li>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h4>Hello, {{ user.get_full_name|default:user }}</h4>
+            <a href="{% url 'game:start' %}" class="btn btn-primary"><i class="fa fa-play">&nbsp;</i>Start new match</a>
+            <button class="btn btn-default"><i class="fa fa-book">&nbsp;</i>Rules</button>
+            <hr>
+            <h3 class="text-center">Your match history:</h3>
+            {% if matches %}
+                <ul class="list-group">
+                {% for m in matches %}
+                    {% if m.finished %}<li class="list-group-item">{{ m }}.</li>
+                    {% else %}<li class="list-group-item">{{ m }}. Game is on! <a href="{% url 'game:detail' m.id %}">Continue</a></li>
+                    {% endif %}
+                {% endfor %}
+                </ul>
+            {% else %}
+                <ul class="list-group"><li class="list-group-item text-center">Nothing was found. But you can <a href="{% url 'game:start' %}">start new one</a></li></ul>
             {% endif %}
-        {% endfor %}
-        </ul>
-        {% endif %}
+        </div>
     </div>
-</div>
 </div>
 {% endblock %}

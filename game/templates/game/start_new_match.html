@@ -4,9 +4,8 @@
 <div class="container">
     <div class="col-md-8 col-md-offset-2">
     <div class="well">
-        <h3 class="text-center">Start new match</h3>
+        <h3 class="text-center">Start new match as jugde</h3>
         <form id="start_new_match" method="POST">
-            <legend>Judge: {{ user.get_full_name|default:user.username }}</legend>
             {% csrf_token %}
             <div class="form-group">
                 {{ form.team1.label_tag }}
