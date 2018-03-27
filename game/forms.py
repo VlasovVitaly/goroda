@@ -10,17 +10,27 @@ class StartNewMatchForm(forms.ModelForm):
         model = Match
         fields = ('team1', 'team2')
         widgets = {
-            'team1': forms.TextInput(
-                attrs={'class': 'form-control'}
-            ),
-            'team2': forms.TextInput(
-                attrs={'class': 'form-control'}
-            )
+            'team1': forms.TextInput(attrs={'class': 'form-control'}),
+            'team2': forms.TextInput(attrs={'class': 'form-control'})
         }
         labels = {
             'team1': _('First team name'),
             'team2': _('Second team name')
         }
+
+    def __init__(self, user, *args, **kwargs):
+        self.user = user
+        super().__init__(*args, **kwargs)
+
+    def save(self, commit=True):
+        match = super().save(commit=False)
+        match.judge = self.user
+
+        if commit is True:
+            match.save()
+            self.save_m2m()
+
+        return match
 
 
 class TurnForm(forms.Form):
