@@ -26,7 +26,7 @@
                     {{ turn_form.city }}
                     <span class="input-group-btn"><button class="btn btn-primary" type="submit">Answer</button></span>
                 </div>
-                {% if turn_form.city.errors %}{% for err in turn_form.city.errors %}<p class="text-danger">{{ err }}</p>{% endfor %}{% endif %}
+                {% if turn_form.city.errors %}{% for err in turn_form.city.errors %}<p class="form-error-text text-danger">{{ err }}</p>{% endfor %}{% endif %}
             </form>
         </div>
     </div>
