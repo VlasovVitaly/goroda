@@ -53,9 +53,8 @@ class TurnForm(forms.Form):
 
         try:
             turn_city = City.objects.get(name__iexact=city, geotype=City.GEOTYPE_CITY)
-            del city  # Don't need this. Using City model name.
         except City.DoesNotExist:
-            raise ValidationError(_('City %(city)s does not exists'), code='invalid', params={'city': city})
+            raise ValidationError(_('City with name "%(city)s" does not exists'), code='invalid', params={'city': city})
         except City.MultipleObjectsReturned as err:
             raise ValidationError(_('Not ambiguous city name. Please try another'), code='lookup_fail')
             # TODO Serious error. write log / send email
