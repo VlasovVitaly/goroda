@@ -1,9 +1,9 @@
 from django.db import transaction
-from django.http import HttpResponseBadRequest
-from django.shortcuts import render, redirect, get_object_or_404
+from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.http import require_POST
 
+from .decorators import match_judge_required
 from .forms import StartNewMatchForm, TurnForm
 from .models import Match
 
@@ -29,21 +29,19 @@ def start_new_match(request):
     return render(request, 'game/start_new_match.html', context=context)
 
 
-@login_required
-def match_detail(request, match_id):
-    context = {}
+@match_judge_required
+def match_detail(request, match):
 
-    context['match'] = match = get_object_or_404(Match, pk=match_id)
+    context = {
+        'match': match,
+        'turns': match.turns.order_by('num').reverse(),
+        'exhaused_letters': match.exhaused_letters,
+        'turn_form': TurnForm(match, data=request.POST or None),
+    }
 
-    if request.user != match.judge:
-        return HttpResponseBadRequest("You are not a judge of this game.")  # TODO Remove or better message
-
-    context['turns'] = match.turns.order_by('num').reverse()
-    context['exhaused_letters'] = match.exhaused_letters
-    context['turn_form'] = turn_form = TurnForm(match, data=request.POST or None)
-
-    if turn_form.is_valid():
-        turn = turn_form.cleaned_data['turn']
+    form = context['turn_form']
+    if form.is_valid():
+        turn = form.cleaned_data['turn']
 
         with transaction.atomic():
             turn.save()
@@ -57,15 +55,8 @@ def match_detail(request, match_id):
 
 
 @require_POST
-@login_required
-def end_match(request, match_id):
-    context = {}
-
-    context['match'] = match = get_object_or_404(Match, pk=match_id)
-
-    if request.user != match.judge:
-        return HttpResponseBadRequest("You are not a judge of this game.")  # TODO Remove or better message
-
+@match_judge_required
+def end_match(request, match):
     match.end_match(commit=False)
     match.save()
 
