@@ -18,7 +18,7 @@
         <div class="col-md-6 col-md-offset-3">
             <form id="maketurn_form" method="POST">
                 {% csrf_token %}
-                {# TODO form errors #}
+                {% if turn_form.non_field_errors %}<p class="text-danger">{{ turn_form.non_field_errors }}</p>{% endif %}
                 <div id="make_turn_input" class="input-group input-group-lg">
                     {% if match.current_letter %}
                     <span class="input-group-btn"><label id="current_letter" class="btn btn-success" type="button">{{ match.current_letter }}</label></span>
@@ -26,9 +26,11 @@
                     {{ turn_form.city }}
                     <span class="input-group-btn"><button class="btn btn-primary" type="submit">Answer</button></span>
                 </div>
+                {% if turn_form.city.errors %}{% for err in turn_form.city.errors %}<p class="text-danger">{{ err }}</p>{% endfor %}{% endif %}
             </form>
         </div>
     </div>
+    <br><br>
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
             <div class="panel panel-default">
@@ -39,6 +41,8 @@
                 <ul class="list-group" id="turns_list">
                     {% for turn in turns %}
                         <li class="list-group-item">{{ turn.city }}</li>
+                    {% empty %}
+                        <li class="list-group-item">&nbsp;</li>
                     {% endfor %}
                 </ul>
                 {% endspaceless %}
