@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-23 16:11+0300\n"
+"POT-Creation-Date: 2018-03-28 16:32+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,80 +17,80 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: game/forms.py:21
+#: game/forms.py:17
 msgid "First team name"
 msgstr ""
 
-#: game/forms.py:22
+#: game/forms.py:18
 msgid "Second team name"
 msgstr ""
 
-#: game/forms.py:42
+#: game/forms.py:52
 msgid "Turn answer is not begin with current letter"
 msgstr ""
 
-#: game/forms.py:48
+#: game/forms.py:58
 #, python-format
-msgid "City %(city)s does not exists"
+msgid "City with name \"%(city)s\" does not exists"
 msgstr ""
 
-#: game/forms.py:50
+#: game/forms.py:60
 msgid "Not ambiguous city name. Please try another"
 msgstr ""
 
-#: game/forms.py:54
+#: game/forms.py:64
 msgid "Already called"
 msgstr ""
 
-#: game/models.py:15 game/models.py:21
+#: game/models.py:16 game/models.py:22
 msgid "City"
 msgstr ""
 
-#: game/models.py:22
+#: game/models.py:23
 msgid "Cities"
 msgstr ""
 
-#: game/models.py:24 game/models.py:119
+#: game/models.py:25 game/models.py:122
 msgid "City name"
 msgstr ""
 
-#: game/models.py:26
+#: game/models.py:27
 msgid "Type of geo object"
 msgstr ""
 
-#: game/models.py:37
+#: game/models.py:38
 msgid "Team 1 name"
 msgstr ""
 
-#: game/models.py:38
+#: game/models.py:39
 msgid "Team 2 name"
 msgstr ""
 
-#: game/models.py:41
+#: game/models.py:42
 msgid "Match judge"
 msgstr ""
 
-#: game/models.py:45
+#: game/models.py:46
 msgid "Current letter"
 msgstr ""
 
-#: game/models.py:46
+#: game/models.py:47
 msgid "Match finished"
 msgstr ""
 
-#: game/models.py:48
+#: game/models.py:49
 msgid "Match turns"
 msgstr ""
 
-#: game/models.py:49
+#: game/models.py:50
 msgid "Started time"
 msgstr ""
 
-#: game/models.py:50
+#: game/models.py:51
 msgid "Ended time"
 msgstr ""
 
-#: game/models.py:52
+#: game/models.py:53
 msgid "Match exhaused letters"
 msgstr ""
 
@@ -102,14 +102,14 @@ msgstr ""
 msgid "Matches"
 msgstr ""
 
-#: game/models.py:121
+#: game/models.py:124
 msgid "Turn number"
 msgstr ""
 
-#: game/models.py:125
+#: game/models.py:128
 msgid "Turn"
 msgstr ""
 
-#: game/models.py:126
+#: game/models.py:129
 msgid "Turns"
 msgstr ""
