@@ -29,21 +29,22 @@ def start_new_match(request):
     return render(request, 'game/start_new_match.html', context=context)
 
 
-@login_required
-def match_detail(request, match_id):
-    context = {}
+from .decorators import match_judge_required
 
-    context['match'] = match = get_object_or_404(Match, pk=match_id)
 
-    if request.user != match.judge:
-        return HttpResponseBadRequest("You are not a judge of this game.")  # TODO Remove or better message
+@match_judge_required
+def match_detail(request, match):
 
-    context['turns'] = match.turns.order_by('num').reverse()
-    context['exhaused_letters'] = match.exhaused_letters
-    context['turn_form'] = turn_form = TurnForm(match, data=request.POST or None)
+    context = {
+        'match': match,
+        'turns': match.turns.order_by('num').reverse(),
+        'exhaused_letters': match.exhaused_letters,
+        'turn_form': TurnForm(match, data=request.POST or None),
+    }
 
-    if turn_form.is_valid():
-        turn = turn_form.cleaned_data['turn']
+    form = context['turn_form']
+    if form.is_valid():
+        turn = form.cleaned_data['turn']
 
         with transaction.atomic():
             turn.save()
@@ -57,15 +58,8 @@ def match_detail(request, match_id):
 
 
 @require_POST
-@login_required
-def end_match(request, match_id):
-    context = {}
-
-    context['match'] = match = get_object_or_404(Match, pk=match_id)
-
-    if request.user != match.judge:
-        return HttpResponseBadRequest("You are not a judge of this game.")  # TODO Remove or better message
-
+@match_judge_required
+def end_match(request, match):
     match.end_match(commit=False)
     match.save()
 
