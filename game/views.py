@@ -1,9 +1,9 @@
 from django.db import transaction
-from django.http import HttpResponseBadRequest
-from django.shortcuts import render, redirect, get_object_or_404
+from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.http import require_POST
 
+from .decorators import match_judge_required
 from .forms import StartNewMatchForm, TurnForm
 from .models import Match
 
@@ -27,9 +27,6 @@ def start_new_match(request):
         return redirect(match)
 
     return render(request, 'game/start_new_match.html', context=context)
-
-
-from .decorators import match_judge_required
 
 
 @match_judge_required
