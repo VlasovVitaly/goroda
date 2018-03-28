@@ -35,7 +35,6 @@ def match_detail(request, match):
     context = {
         'match': match,
         'turns': match.turns.order_by('num').reverse(),
-        'exhaused_letters': match.exhaused_letters,
         'turn_form': TurnForm(match, data=request.POST or None),
     }
 

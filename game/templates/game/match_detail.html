@@ -7,7 +7,7 @@
             {% spaceless %}
             <h4>Exhaused letters:</h4>
             <div>
-                {% for letter in exhaused_letters %}
+                {% for letter in match.exhaused_letters %}
                     <label class="btn btn-danger">{{ letter }}</label>
                 {% endfor %}
             </div>
@@ -20,9 +20,9 @@
                 {% csrf_token %}
                 {% if turn_form.non_field_errors %}<p class="text-danger">{{ turn_form.non_field_errors }}</p>{% endif %}
                 <div id="make_turn_input" class="input-group input-group-lg">
-                    {% if match.current_letter %}
-                    <span class="input-group-btn"><label id="current_letter" class="btn btn-success" type="button">{{ match.current_letter }}</label></span>
-                    {% endif %}
+                    <span class="input-group-btn">
+                        <label id="current_letter" class="btn btn-success" type="button">{{ match.current_letter | default:'...' }}</label>
+                    </span>
                     {{ turn_form.city }}
                     <span class="input-group-btn"><button class="btn btn-primary" type="submit">Answer</button></span>
                 </div>
