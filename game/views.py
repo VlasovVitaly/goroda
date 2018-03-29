@@ -31,7 +31,6 @@ def start_new_match(request):
 
 @match_judge_required
 def match_detail(request, match):
-
     context = {
         'match': match,
         'turns': match.turns.order_by('num').reverse(),

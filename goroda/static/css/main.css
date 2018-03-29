@@ -1,5 +1,19 @@
 /* Main CSS */
 
+#current-letter {
+    cursor: default;
+}
+
+div.match-detail-row {
+    margin-top: 15px;
+}
+
+.letter-btn-label {
+    cursor: default;
+    margin: 0px 3px 5px 0px;
+    width: 35px;
+}
+
 .form-error-text {
     margin: 10px 0px 0px 15px;
 }

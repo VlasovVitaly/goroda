@@ -2,26 +2,24 @@
 {% block html_title %}Match detail{% endblock %}
 {% block content %}
 <div class="container">
-    <div class="row">
+    <div class="row match-detail-row">
         <div class="col-md-6 col-md-offset-3">
             {% spaceless %}
-            <h4>Exhaused letters:</h4>
-            <div>
-                {% for letter in match.exhaused_letters %}
-                    <label class="btn btn-danger">{{ letter }}</label>
-                {% endfor %}
+            <label>Exhaused letters:</label>
+            <div id="exhaused-letters-block">
+                {% for letter in match.exhaused_letters %}<label class="btn btn-danger letter-btn-label">{{ letter }}</label>{% endfor %}
             </div>
             {% endspaceless %}
         </div>
     </div>
-    <div class="row">
+    <div class="row match-detail-row">
         <div class="col-md-6 col-md-offset-3">
             <form id="maketurn_form" method="POST">
                 {% csrf_token %}
                 {% if turn_form.non_field_errors %}<p class="text-danger">{{ turn_form.non_field_errors }}</p>{% endif %}
                 <div id="make_turn_input" class="input-group input-group-lg">
                     <span class="input-group-btn">
-                        <label id="current_letter" class="btn btn-success" type="button">{{ match.current_letter | default:'...' }}</label>
+                        <label id="current-letter" class="btn btn-success" type="button">{{ match.current_letter | default:'...' }}</label>
                     </span>
                     {{ turn_form.city }}
                     <span class="input-group-btn"><button class="btn btn-primary" type="submit">Answer</button></span>
@@ -30,8 +28,7 @@
             </form>
         </div>
     </div>
-    <br><br>
-    <div class="row">
+    <div class="row match-detail-row">
         <div class="col-md-6 col-md-offset-3">
             <div class="panel panel-default">
                 <div class="panel-heading">
