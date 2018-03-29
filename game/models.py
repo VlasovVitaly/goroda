@@ -1,4 +1,5 @@
 from django.db import models
+from django.conf import settings
 from django.urls import reverse
 from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
@@ -98,6 +99,17 @@ class Match(models.Model):
 
         if commit is True:
             self.save()
+
+    def turn_hints(self):
+        if not settings.DEBUG:
+            return list()
+
+        played = self.turns.filter(city__istartswith=self.current_letter).values_list('city', flat=True)
+
+        turns = City.objects.filter(name__istartswith=self.current_letter, geotype=City.GEOTYPE_CITY)
+        turns = turns.exclude(name__in=played).values_list('name', flat=True)
+
+        return turns
 
     def end_match(self, commit=False):
         self.finished = True
