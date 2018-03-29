@@ -100,7 +100,7 @@ class Match(models.Model):
         if commit is True:
             self.save()
 
-    def turn_hints(self):
+    def turn_hints(self, max_hints=5):
         if not settings.DEBUG:
             return list()
 
@@ -109,7 +109,7 @@ class Match(models.Model):
         turns = City.objects.filter(name__istartswith=self.current_letter, geotype=City.GEOTYPE_CITY)
         turns = turns.exclude(name__in=played).values_list('name', flat=True)
 
-        return turns
+        return turns[:max_hints] if max_hints else turns
 
     def end_match(self, commit=False):
         self.finished = True
