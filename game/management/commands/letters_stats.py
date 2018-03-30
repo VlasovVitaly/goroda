@@ -6,7 +6,7 @@ from game.models import City
 
 
 class Command(BaseCommand):
-    help = 'Display all lettest statistics'
+    help = 'Display all city name starting letters statistics'
 
     def add_arguments(self, parser):
         pass
