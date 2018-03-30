@@ -21,4 +21,4 @@ class Command(BaseCommand):
             letter_counters[city[0].upper()] += 1
 
         for letter in sorted(letter_counters.keys()):
-            self.stdout.write('{}: {}\n'.format(letter, letter_counters[letter]))
+            self.stdout.write('{:^3}: {:>3}\n'.format(letter, letter_counters[letter]))
