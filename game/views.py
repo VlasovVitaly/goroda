@@ -48,6 +48,7 @@ def match_detail(request, match):
             except Match.AllLettersExhaused:
                 pass  # TODO End of game.
             match.save()
+        context['turn_form'] = TurnForm(None)
 
     return render(request, 'game/match_detail.html', context=context)
 
