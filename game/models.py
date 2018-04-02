@@ -104,6 +104,8 @@ class Match(models.Model):
         if not settings.DEBUG:
             return list()
 
+        self.refresh_from_db()
+
         played = self.turns.filter(city__istartswith=self.current_letter).values_list('city', flat=True)
 
         turns = City.objects.filter(name__istartswith=self.current_letter, geotype=City.GEOTYPE_CITY)
