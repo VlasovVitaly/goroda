@@ -53,11 +53,10 @@ def match_detail(request, match):
     return render(request, 'game/match_detail.html', context=context)
 
 
-@require_POST
+#@require_POST
 @match_judge_required
 def end_match(request, match):
-    match.end_match(commit=False)
-    match.save()
+    match.end_match()
 
     if request.is_ajax():
         pass  # FIXME return Json answer

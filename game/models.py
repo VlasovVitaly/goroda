@@ -113,13 +113,12 @@ class Match(models.Model):
 
         return turns[:max_hints] if max_hints else turns
 
-    def end_match(self, commit=False):
+    def end_match(self):
         self.finished = True
         self.ended = timezone.now()
         self.winner = self.next_team
 
-        if commit is True:
-            self.save()
+        self.save(update_fields=('finished', 'ended', 'winner'))
 
     def __repr__(self):
         return '<{}>: {} [{}, {}]'.format(self.__class__.__name__, self.id, self.team1, self.team2)
