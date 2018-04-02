@@ -36,7 +36,7 @@ class StartNewMatchForm(forms.ModelForm):
 class TurnForm(forms.Form):
     city = forms.CharField(
         max_length=128, required=True, strip=True,
-        widget=forms.TextInput(attrs={'class': 'form-control', 'autofocus': True})
+        widget=forms.TextInput(attrs={'class': 'form-control', 'autofocus': True, 'autocomplete': 'off'})
     )
 
     def __init__(self, match, *args, **kwargs):
