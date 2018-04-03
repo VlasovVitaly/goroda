@@ -5,12 +5,21 @@ from .models import City
 
 
 class CityModelTest(TestCase):
-    def testUnique(self):
-        """All city names must be unique."""
-        first = City(name='TEST_NAME')
-        first.save()
+    @classmethod
+    def setUpClass(cls):
+        super().setUpClass()
 
-        second = City(name='TEST_NAME')
-        self.assertRaises(ValidationError, second.full_clean)
+        cls.test_city_name = 'test_city'
+        cls.test_city = City.objects.create(name=cls.test_city_name, geotype=City.GEOTYPE_CITY)
 
-        first.delete()
+    @classmethod
+    def tearDownClass(cls):
+        super().tearDownClass()
+        cls.test_city.delete()
+
+    def testUniqueName(self):
+        test_city = City(name=self.test_city_name, geotype=City.GEOTYPE_CITY)
+        test_other = City(name=self.test_city_name, geotype=City.GEOTYPE_OTHER)
+
+        self.assertRaises(ValidationError, test_city.full_clean)
+        self.assertRaises(ValidationError, test_other.full_clean)
