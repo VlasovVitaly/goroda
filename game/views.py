@@ -58,7 +58,4 @@ def match_detail(request, match):
 def end_match(request, match):
     match.end_match()
 
-    if request.is_ajax():
-        pass  # FIXME return Json answer
-
     return redirect(match)
