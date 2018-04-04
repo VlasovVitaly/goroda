@@ -47,6 +47,7 @@ def match_detail(request, match):
             try:
                 match.make_turn(turn.city)
             except Match.AllLettersExhaused:
+                match.end()
                 pass  # TODO End of game.
             match.save()
         context['turn_form'] = TurnForm(None)
@@ -57,6 +58,6 @@ def match_detail(request, match):
 #@require_POST
 @match_judge_required
 def end_match(request, match):
-    match.end_match()
+    match.end()
 
     return redirect(match)

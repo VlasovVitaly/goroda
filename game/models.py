@@ -113,7 +113,7 @@ class Match(models.Model):
 
         return turns[:max_hints] if max_hints else turns
 
-    def end_match(self):
+    def end(self):
         self.finished = True
         self.ended = timezone.now()
         self.winner = self.next_team
