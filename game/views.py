@@ -10,17 +10,18 @@ from .models import Match
 
 @login_required
 def start_page(request):
-    context = {}
-
-    context['matches'] = request.user.matches.all().order_by('finished', '-ended', '-started')
+    context = {
+        'matches': request.user.matches.order_by('finished', '-ended', '-started')
+    }
 
     return render(request, 'game/index.html', context=context)
 
 
 @login_required
 def start_new_match(request):
-    context = {}
-    context['form'] = start_form = StartNewMatchForm(request.user, request.POST or None)
+    context = {
+        'form': start_form = StartNewMatchForm(request.user, request.POST or None)
+    }
 
     if start_form.is_valid():
         match = start_form.save(commit=True)
