@@ -14,7 +14,7 @@ def start_page(request):
 
     context['matches'] = request.user.matches.all().order_by('finished', '-ended', '-started')
 
-    return render(request, 'game/start_page.html', context=context)
+    return render(request, 'game/index.html', context=context)
 
 
 @login_required
