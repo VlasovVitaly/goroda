@@ -20,8 +20,9 @@ def start_page(request):
 @login_required
 def start_new_match(request):
     context = {
-        'form': start_form = StartNewMatchForm(request.user, request.POST or None)
+        'form': StartNewMatchForm(request.user, request.POST or None)
     }
+    start_form = context['form']
 
     if start_form.is_valid():
         match = start_form.save(commit=True)
@@ -55,7 +56,6 @@ def match_detail(request, match):
     return render(request, 'game/match_detail.html', context=context)
 
 
-#@require_POST
 @match_judge_required
 def end_match(request, match):
     match.end()
