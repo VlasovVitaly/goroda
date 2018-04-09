@@ -13,7 +13,7 @@
             <button class="btn btn-default"><i class="fa fa-book">&nbsp;</i>{% trans 'Rules' %}</button>
             <hr>
             <ul class="list-group">
-                {% for match in matches2 %}
+                {% for match in matches %}
                     {% if match.finished %}
                         <li class="list-group-item">{{ match }}.</li>
                     {% else %}
