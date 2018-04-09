@@ -1,19 +1,22 @@
 {% extends 'base.html' %}
-{% block html_title %}Start new game or view results{% endblock %}
+
+{% load i18n %}
+
+{% block html_title %}{% trans 'Start new game or view results' %}{% endblock %}
+
 {% block content %}
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h4>Hello, {{ user.get_full_name|default:user }}</h4>
-            <a href="{% url 'game:start' %}" class="btn btn-primary"><i class="fa fa-play">&nbsp;</i>Start new match</a>
-            <button class="btn btn-default"><i class="fa fa-book">&nbsp;</i>Rules</button>
+            <h4>{% blocktrans with user_name=user.get_full_name|default:user %}Hello, {{ user_name }}.{% endblocktrans %}</h4>
+            <a href="{% url 'game:start' %}" class="btn btn-primary"><i class="fa fa-play">&nbsp;</i>{% trans 'Start new game' %}</a>
+            <button class="btn btn-default"><i class="fa fa-book">&nbsp;</i>{% trans 'Rules' %}</button>
             <hr>
-            <h3 class="text-center">Your match history:</h3>
             {% if matches %}
                 <ul class="list-group">
                 {% for m in matches %}
                     {% if m.finished %}<li class="list-group-item">{{ m }}.</li>
-                    {% else %}<li class="list-group-item">{{ m }}. Game is on! <a href="{{ m.get_absolute_url }}">Continue</a></li>
+                    {% else %}<li class="list-group-item">{{ m }}. {% trans 'Game is on!' %} <a href="{{ m.get_absolute_url }}">{% trans 'Continue' %}</a></li>
                     {% endif %}
                 {% endfor %}
                 </ul>

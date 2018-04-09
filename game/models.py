@@ -2,7 +2,7 @@ from django.db import models
 from django.conf import settings
 from django.urls import reverse
 from django.utils import timezone
-from django.utils.translation import gettext_lazy as _
+from django.utils.translation import gettext as _
 from django.contrib.auth.models import User
 
 
@@ -124,7 +124,7 @@ class Match(models.Model):
         return '<{}>: {} [{}, {}]'.format(self.__class__.__name__, self.id, self.team1, self.team2)
 
     def __str__(self):
-        return 'Match: {} VS {}'.format(self.team1, self.team2)
+        return _('"{}" VS "{}"'.format(self.team1, self.team2))
 
 
 class Turn(models.Model):
