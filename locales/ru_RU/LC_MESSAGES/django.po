@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-28 16:32+0300\n"
-"PO-Revision-Date: 2018-03-28 16:35+0300\n"
+"POT-Creation-Date: 2018-04-09 12:03+0300\n"
+"PO-Revision-Date: 2018-04-09 12:09+0300\n"
 "Last-Translator: Vitaly Vlasov <vnigtha@gmail.com>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -34,82 +34,119 @@ msgstr "Ответ не начинается с буквы хода"
 msgid "City with name \"%(city)s\" does not exists"
 msgstr "Города с названием «%(city)s» не существует"
 
-#: game/forms.py:60
+#: game/forms.py:61
 msgid "Not ambiguous city name. Please try another"
 msgstr "Не очевидное название города. Попробуйте другое"
 
-#: game/forms.py:64
+#: game/forms.py:65
 msgid "Already called"
 msgstr "Уже называли"
 
-#: game/models.py:16 game/models.py:22
+#: game/models.py:17 game/models.py:23
 msgid "City"
 msgstr "Город"
 
-#: game/models.py:23
+#: game/models.py:24
 msgid "Cities"
 msgstr "Города"
 
-#: game/models.py:25 game/models.py:122
+#: game/models.py:26 game/models.py:135
 msgid "City name"
 msgstr "Название города"
 
-#: game/models.py:27
+#: game/models.py:28
 msgid "Type of geo object"
 msgstr "Географический тип объекта"
 
-#: game/models.py:38
+#: game/models.py:39
 msgid "Team 1 name"
 msgstr "Название команды 1"
 
-#: game/models.py:39
+#: game/models.py:40
 msgid "Team 2 name"
 msgstr "Название команды 2"
 
-#: game/models.py:42
+#: game/models.py:43
 msgid "Match judge"
 msgstr "Судья матча"
 
-#: game/models.py:46
+#: game/models.py:47
 msgid "Current letter"
 msgstr "Буква хода"
 
-#: game/models.py:47
+#: game/models.py:48
 msgid "Match finished"
 msgstr "Матч закончен"
 
-#: game/models.py:49
+#: game/models.py:50
 msgid "Match turns"
 msgstr "Ходы матча"
 
-#: game/models.py:50
+#: game/models.py:51
 msgid "Started time"
 msgstr "Время начала"
 
-#: game/models.py:51
+#: game/models.py:52
 msgid "Ended time"
 msgstr "Время окончания"
 
-#: game/models.py:53
+#: game/models.py:54
 msgid "Match exhaused letters"
 msgstr "Исключенные буквы матча"
 
-#: game/models.py:58
+#: game/models.py:59
 msgid "Match"
 msgstr "Матч"
 
-#: game/models.py:59
+#: game/models.py:60
 msgid "Matches"
 msgstr "Матчи"
 
-#: game/models.py:124
+#: game/models.py:127
+msgid "\"{}\" VS \"{}\""
+msgstr "«{}» против «{}»"
+
+#: game/models.py:137
 msgid "Turn number"
 msgstr "Номер хода"
 
-#: game/models.py:128
+#: game/models.py:141
 msgid "Turn"
 msgstr "Ход"
 
-#: game/models.py:129
+#: game/models.py:142
 msgid "Turns"
 msgstr "Ходы"
+
+#: game/templates/game/index.html:5
+msgid "Start new game or view results"
+msgstr "Начать новую игру или просмотреть результаты"
+
+#: game/templates/game/index.html:11
+#, python-format
+msgid "Hello, %(user_name)s."
+msgstr "Здравствуйте, %(user_name)s."
+
+#: game/templates/game/index.html:12
+msgid "Start new game"
+msgstr "Начать новую игру"
+
+#: game/templates/game/index.html:13
+msgid "Rules"
+msgstr "Правила"
+
+#: game/templates/game/index.html:20
+msgid "Game is on!"
+msgstr "Игра идет!"
+
+#: game/templates/game/index.html:20
+msgid "Continue"
+msgstr "Продолжить"
+
+#: game/templates/game/index.html:24
+msgid "You are not a judge of any match."
+msgstr "Вы не судите ни одного матча."
+
+#: game/templates/game/index.html:25
+msgid "Start new one"
+msgstr "Начать новый"
