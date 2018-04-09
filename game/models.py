@@ -124,7 +124,7 @@ class Match(models.Model):
         return '<{}>: {} [{}, {}]'.format(self.__class__.__name__, self.id, self.team1, self.team2)
 
     def __str__(self):
-        return _('"{}" VS "{}"'.format(self.team1, self.team2))
+        return _('"{}" VS "{}"').format(self.team1, self.team2)
 
 
 class Turn(models.Model):
