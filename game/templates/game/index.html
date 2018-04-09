@@ -12,17 +12,20 @@
             <a href="{% url 'game:start' %}" class="btn btn-primary"><i class="fa fa-play">&nbsp;</i>{% trans 'Start new game' %}</a>
             <button class="btn btn-default"><i class="fa fa-book">&nbsp;</i>{% trans 'Rules' %}</button>
             <hr>
-            {% if matches %}
-                <ul class="list-group">
-                {% for m in matches %}
-                    {% if m.finished %}<li class="list-group-item">{{ m }}.</li>
-                    {% else %}<li class="list-group-item">{{ m }}. {% trans 'Game is on!' %} <a href="{{ m.get_absolute_url }}">{% trans 'Continue' %}</a></li>
+            <ul class="list-group">
+                {% for match in matches2 %}
+                    {% if match.finished %}
+                        <li class="list-group-item">{{ match }}.</li>
+                    {% else %}
+                        <li class="list-group-item">{{ match }}. {% trans 'Game is on!' %} <a href="{{ match.get_absolute_url }}">{% trans 'Continue' %}</a></li>
                     {% endif %}
+                {% empty %}
+                    <li class="list-group-item text-center">
+                        <span>{% trans 'You are not a judge of any match.' %}</span>
+                        <a href="{% url 'game:start' %}">{% trans 'Start new one' %}</a>
+                    </li>
                 {% endfor %}
-                </ul>
-            {% else %}
-                <ul class="list-group"><li class="list-group-item text-center">Nothing was found. But you can <a href="{% url 'game:start' %}">start new one</a></li></ul>
-            {% endif %}
+            </ul>
         </div>
     </div>
 </div>
