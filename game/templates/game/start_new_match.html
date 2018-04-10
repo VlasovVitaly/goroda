@@ -1,10 +1,13 @@
 {% extends 'base.html' %}
-{% block html_title %}Start new match{% endblock %}
+
+{% load i18n %}
+
+{% block html_title %}{% trans 'Start new match' %}{% endblock %}
 {% block content %}
 <div class="container">
     <div class="col-md-8 col-md-offset-2">
     <div class="well">
-        <h3 class="text-center">Start new match as jugde</h3>
+        <h3 class="text-center">{% trans 'Start new match as jugde' %}</h3>
         <form id="start_new_match" method="POST">
             {% csrf_token %}
             <div class="form-group">
@@ -16,9 +19,9 @@
                 {{ form.team2 }}
             </div>
             <hr>
-            <button autofocus type="submit" class="btn btn-primary">Start match</button>
-            <button type="reset" class="btn btn-default">Reset</button>
-            <a href={% url 'index' %} class="btn btn-default">Go back</a>
+            <button autofocus type="submit" class="btn btn-primary">{% trans 'Start game' %}</button>
+            <button type="reset" class="btn btn-default">{% trans 'Reset' %}</button>
+            <a href={% url 'index' %} class="btn btn-default">{% trans 'Go back' %}</a>
         </form>
     </div>
     </div>
