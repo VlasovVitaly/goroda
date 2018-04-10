@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-09 12:03+0300\n"
-"PO-Revision-Date: 2018-04-09 12:09+0300\n"
+"POT-Creation-Date: 2018-04-10 17:17+0300\n"
+"PO-Revision-Date: 2018-04-10 17:20+0300\n"
 "Last-Translator: Vitaly Vlasov <vnigtha@gmail.com>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -150,3 +150,23 @@ msgstr "Вы не судите ни одного матча."
 #: game/templates/game/index.html:25
 msgid "Start new one"
 msgstr "Начать новый"
+
+#: game/templates/game/start_new_match.html:5
+msgid "Start new match"
+msgstr "Начать новый матч"
+
+#: game/templates/game/start_new_match.html:10
+msgid "Start new match as jugde"
+msgstr "Начать новую игру в качестве судьи"
+
+#: game/templates/game/start_new_match.html:22
+msgid "Start game"
+msgstr "Начать игру"
+
+#: game/templates/game/start_new_match.html:23
+msgid "Reset"
+msgstr "Сброс"
+
+#: game/templates/game/start_new_match.html:24
+msgid "Go back"
+msgstr "Вернуться назад"
