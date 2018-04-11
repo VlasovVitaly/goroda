@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-10 17:17+0300\n"
+"POT-Creation-Date: 2018-04-11 17:33+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -149,6 +149,18 @@ msgstr ""
 
 #: game/templates/game/index.html:25
 msgid "Start new one"
+msgstr ""
+
+#: game/templates/game/match_detail.html:5
+msgid "Match detail"
+msgstr ""
+
+#: game/templates/game/match_detail.html:21
+msgid "End game"
+msgstr ""
+
+#: game/templates/game/match_detail.html:34
+msgid "Answer"
 msgstr ""
 
 #: game/templates/game/start_new_match.html:5
