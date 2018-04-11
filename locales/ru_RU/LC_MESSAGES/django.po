@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-10 17:17+0300\n"
-"PO-Revision-Date: 2018-04-10 17:20+0300\n"
+"POT-Creation-Date: 2018-04-11 17:33+0300\n"
+"PO-Revision-Date: 2018-04-11 17:34+0300\n"
 "Last-Translator: Vitaly Vlasov <vnigtha@gmail.com>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -150,6 +150,18 @@ msgstr "Вы не судите ни одного матча."
 #: game/templates/game/index.html:25
 msgid "Start new one"
 msgstr "Начать новый"
+
+#: game/templates/game/match_detail.html:5
+msgid "Match detail"
+msgstr "Детали матча"
+
+#: game/templates/game/match_detail.html:21
+msgid "End game"
+msgstr "Закончить игру"
+
+#: game/templates/game/match_detail.html:34
+msgid "Answer"
+msgstr "Ответ"
 
 #: game/templates/game/start_new_match.html:5
 msgid "Start new match"
