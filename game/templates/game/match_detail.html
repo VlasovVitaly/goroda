@@ -1,5 +1,8 @@
 {% extends 'base.html' %}
-{% block html_title %}Match detail{% endblock %}
+
+{% load i18n %}
+
+{% block html_title %}{% trans 'Match detail' %}{% endblock %}
 {% block content %}
 <div class="container">
     <div class="row match-detail-row">
@@ -15,7 +18,7 @@
     <div class="row match-detail-row">
         <div class="col-md-6 col-md-offset-3">
             <a href={% url 'index' %} class="btn btn-default"><i class="fa fa-home"></i></a>
-            <a href={% url 'game:end' match.id %} class="btn btn-default">End game</a>
+            <a href={% url 'game:end' match.id %} class="btn btn-default">{% trans 'End game' %}</a>
         </div>
     </div>
     <div class="row match-detail-row">
@@ -28,7 +31,7 @@
                         <label id="current-letter" class="btn btn-success" type="button">{{ match.current_letter | default:'...' }}</label>
                     </span>
                     {{ turn_form.city }}
-                    <span class="input-group-btn"><button class="btn btn-primary" type="submit">Answer</button></span>
+                    <span class="input-group-btn"><button class="btn btn-primary" type="submit">{% trans 'Answer' %}</button></span>
                 </div>
                 {% if turn_form.city.errors %}{% for err in turn_form.city.errors %}<p class="form-error-text text-danger">{{ err }}</p>{% endfor %}{% endif %}
             </form>
