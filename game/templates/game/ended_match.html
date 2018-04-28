@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% load i18n %}
+
+{% block html_title %}{% trans 'Match detail' %}{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row match-detail-row">
+        <div class="col-md-6 col-md-offset-3">
+            <h2>Match finished. Winner: {{ match.winner_name }}</h2>
+            <h3>Match ended on letter "{{ match.current_letter }}"</h3>
+        </div>
+    </div>
+    <div class="row match-detail-row">
+        <div class="col-md-6 col-md-offset-3">
+            <ul class="list-group">
+                {% for turn in turns %}
+                    <li class="list-group-item">{{ turn.city }}</li>
+                {% empty %}
+                    <li class="list-group-item">&nbsp;</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -64,6 +64,10 @@ class Match(models.Model):
         pass
 
     @property
+    def winner_name(self):
+        return self.team1 if self.winner == 1 else self.team2
+
+    @property
     def current_team_name(self):
         return self.team1 if self.current_team == 1 else self.team2
 

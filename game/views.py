@@ -32,13 +32,13 @@ def start_new_match(request):
 
 @match_judge_required
 def match_detail(request, match):
-    context = {
-        'match': match,
-        'turns': match.turns.order_by('num').reverse(),
-        'turn_form': TurnForm(match, data=request.POST or None),
-    }
+    context = {'match': match, 'turns': match.turns.order_by('num').reverse()}
 
-    form = context['turn_form']
+    if match.finished:
+        return render(request, 'game/ended_match.html', context=context)
+
+    form = context['turn_form'] = TurnForm(match, data=request.POST or None)
+
     if form.is_valid():
         turn = form.cleaned_data['turn']
 
