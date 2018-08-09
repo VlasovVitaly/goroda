@@ -22,3 +22,6 @@ __pycache__/*
 # Game app migrations
 game/migrations/*
 !game/migrations/__init__.py
+
+# Virtual env
+.venv
