@@ -25,3 +25,6 @@ game/migrations/*
 
 # Virtual env
 .venv
+
+# Visual studio code settings
+.vscode
