@@ -1,0 +1,152 @@
+[MASTER]
+
+extension-pkg-whitelist=
+ignore=migrations
+ignore-patterns=test[_s].*?py
+load-plugins=pylint_django
+persistent=yes
+suggestion-mode=yes
+unsafe-load-any-extension=no
+
+[MESSAGES CONTROL]
+
+confidence=
+disable=missing-docstring, no-member
+enable=c-extension-no-member
+
+[REPORTS]
+
+evaluation=10.0 - ((float(5 * error + warning + refactor + convention) / statement) * 10)
+msg-template={path}:{line}: [{msg_id}({symbol}), {obj}] {msg}
+output-format=colorized
+reports=no
+score=yes
+
+[REFACTORING]
+
+max-nested-blocks=5
+never-returning-functions=optparse.Values,sys.exit
+
+[TYPECHECK]
+
+contextmanager-decorators=contextlib.contextmanager
+generated-members=
+ignore-mixin-members=yes
+ignore-on-opaque-inference=yes
+ignored-classes=optparse.Values,thread._local,_thread._local
+ignored-modules=
+missing-member-hint=no
+missing-member-hint-distance=1
+missing-member-max-choices=1
+
+[MISCELLANEOUS]
+
+#notes=FIXME, NOTE, TODO
+notes=
+
+[SPELLING]
+
+max-spelling-suggestions=4
+spelling-dict=
+spelling-ignore-words=
+spelling-private-dict-file=
+spelling-store-unknown-words=no
+
+[FORMAT]
+
+expected-line-ending-format=LF
+ignore-long-lines=^\s*(# )?<?https?://\S+>?$
+indent-after-paren=4
+indent-string='    '
+max-line-length=119
+max-module-lines=1000
+no-space-check=trailing-comma, dict-separator
+single-line-class-stmt=no
+single-line-if-stmt=no
+
+[LOGGING]
+
+logging-modules=logging
+
+[BASIC]
+
+argument-naming-style=snake_case
+#argument-rgx=
+attr-naming-style=snake_case
+#attr-rgx=
+bad-names=foo, bar, baz, toto, tutu, tata
+class-attribute-naming-style=any
+# class-attribute-rgx=
+class-naming-style=PascalCase
+# class-rgx=
+const-naming-style=UPPER_CASE
+# const-rgx=
+docstring-min-length=-1
+function-naming-style=snake_case
+#function-rgx=
+good-names=i, j, k, _, err, ret
+include-naming-hint=no
+inlinevar-naming-style=any
+# inlinevar-rgx=
+method-naming-style=snake_case
+# method-rgx=
+module-naming-style=snake_case
+# module-rgx=
+
+name-group=
+no-docstring-rgx=^_
+property-classes=abc.abstractproperty
+variable-naming-style=snake_case
+#variable-rgx=
+
+[VARIABLES]
+
+additional-builtins=
+allow-global-unused-variables=yes
+callbacks=cb_, _cb
+dummy-variables-rgx=_+$|(_[a-zA-Z0-9_]*[a-zA-Z0-9]+?$)|dummy|^ignored_|^unused_
+ignored-argument-names=_.*|^ignored_|^unused_
+init-import=yes
+redefining-builtins-modules=six.moves,past.builtins,future.builtins,io,builtins
+
+[SIMILARITIES]
+
+ignore-comments=yes
+ignore-docstrings=yes
+ignore-imports=no
+min-similarity-lines=4
+
+[DESIGN]
+
+max-args=8
+max-attributes=7
+max-bool-expr=5
+max-branches=12
+max-locals=15
+max-parents=15
+max-public-methods=20
+max-returns=10
+max-statements=50
+min-public-methods=0
+
+[IMPORTS]
+
+allow-wildcard-with-all=no
+analyse-fallback-blocks=no
+deprecated-modules=optparse,tkinter.tix
+ext-import-graph=
+import-graph=
+int-import-graph=
+known-standard-library=
+known-third-party=enchant
+
+[CLASSES]
+
+defining-attr-methods=__init__, __new__, setUp
+exclude-protected=_asdict, _fields, _replace, _source, _make
+valid-classmethod-first-arg=cls
+valid-metaclass-classmethod-first-arg=mcs
+
+[EXCEPTIONS]
+
+overgeneral-exceptions=Exception
