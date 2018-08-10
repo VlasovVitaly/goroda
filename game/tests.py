@@ -34,6 +34,8 @@ class MatchModelTest(TestCase):
         cls.test_username = 'judge'
         cls.test_user = User.objects.create_user(cls.test_username)
 
+        cls.test_team_name = 'blabflipblob'
+
     @classmethod
     def tearDownClass(cls):
         super().tearDownClass()
@@ -48,3 +50,34 @@ class MatchModelTest(TestCase):
 
         match.current_team = 2
         self.assertEqual(match.next_team, 1)
+
+    def test_current_team_name_property(self):
+        match = Match(judge=self.test_user, current_team=1, team1=self.test_team_name, team2='nope')
+
+        self.assertEqual(self.test_team_name, match.current_team_name)
+
+    def test_end_game(self):
+        match = Match.objects.create(
+            judge=self.test_user, current_team=1, finished=False, winner=None, ended=None
+        )
+
+        match.end()
+        match.refresh_from_db()
+        match.delete()
+
+        self.assertTrue(match.finished)
+        self.assertEqual(match.winner, 2)
+        self.assertIsNotNone(match.ended)
+
+
+    def test_winner_name_property(self):
+        test_winner_name = 'blabflipbob'
+        match = Match.objects.create(
+            judge=self.test_user, current_team=1, team1='nope', team2=self.test_team_name
+        )
+
+        match.end()
+        match.refresh_from_db()
+        match.delete()
+
+        self.assertEqual(self.test_team_name, match.winner_name)
