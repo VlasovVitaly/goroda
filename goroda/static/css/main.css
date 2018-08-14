@@ -8,6 +8,11 @@ div.match-detail-row {
     margin-top: 15px;
 }
 
+div.match-header {
+    margin-bottom: 5px;
+    font-size: 125%;
+}
+
 .letter-btn-label {
     cursor: default;
     margin: 0px 3px 5px 0px;

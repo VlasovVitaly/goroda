@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+ {% extends 'base.html' %}
 
 {% load i18n %}
 
@@ -12,20 +12,32 @@
             <a href="{% url 'game:start' %}" class="btn btn-primary"><i class="fa fa-play">&nbsp;</i>{% trans 'Start new game' %}</a>
             <button class="btn btn-default"><i class="fa fa-book">&nbsp;</i>{% trans 'Rules' %}</button>
             <hr>
-            <ul class="list-group">
-                {% for match in matches %}
-                    {% if match.finished %}
-                        <li class="list-group-item">{{ match }}.</li>
-                    {% else %}
-                        <li class="list-group-item">{{ match }}. {% trans 'Game is on!' %} <a href="{{ match.get_absolute_url }}">{% trans 'Continue' %}</a></li>
-                    {% endif %}
-                {% empty %}
-                    <li class="list-group-item text-center">
-                        <span>{% trans 'You are not a judge of any match.' %}</span>
-                        <a href="{% url 'game:start' %}">{% trans 'Start new one' %}</a>
-                    </li>
-                {% endfor %}
-            </ul>
+            <div class="panel panel-default">
+                <div class="panel-heading text-center"><span>{% trans 'Matches history' %}</span></div>
+                <ul class="list-group">
+                    {% for match in matches %}
+                        <li class="list-group-item">
+                            <div class="match-header">{{ match }}</div>
+                            <div>{% spaceless %}
+                            {% if match.finished %}
+                                <span>{% blocktrans with since=match.ended|timesince %}Finished {{ since }} ago.{% endblocktrans %}</span>
+                                <span>&nbsp;</span>
+                                <a href="{{ match.get_absolute_url }}">{% trans 'Details' %}</a>
+                            {% else %}
+                                    <span>{% trans 'Game is on!' %}</span>
+                                    <span>&nbsp;</span>
+                                    <a href="{{ match.get_absolute_url }}">{% trans 'Continue' %}</a>
+                            {% endif %}
+                            </div>{% endspaceless %}
+                        </li>
+                    {% empty %}
+                        <li class="list-group-item text-center">
+                            <span>{% trans 'You are not a judge of any match.' %}</span>
+                            <a href="{% url 'game:start' %}">{% trans 'Start new one' %}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
 </div>
